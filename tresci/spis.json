@@ -1,0 +1,135 @@
+{
+  "nazwa": "Co mówią księgi parafii Dobra i Jurków",
+  "opis": "Prawdziwe historie ludzi z parafii Dobra i Jurków, odczytane z ksiąg chrztów, ślubów i pogrzebów z lat 1678–1926.",
+  "adres": "https://lukasztram.github.io/ksiegi-dobra-jurkow",
+  "tematy": [
+    {"id": "zaraza", "nazwa": "Zaraza i głód"},
+    {"id": "zywioly", "nazwa": "Żywioły"},
+    {"id": "dwor", "nazwa": "Dwór i plebania"},
+    {"id": "daleko", "nazwa": "Daleko od domu"},
+    {"id": "slowa", "nazwa": "Słowa i księgi"},
+    {"id": "ludzie", "nazwa": "Ludzie i rodziny"}
+  ],
+  "historie": [
+    {
+      "id": "ksiega-po-pozarze", "rok": 1678, "rok_tekst": "1678", "miejsce": "Dobra",
+      "tytul": "Księga zaczyna się od pożaru",
+      "zajawka": "Kościół spłonął w nocy, a z nim zapewne starsze księgi. Pół wieku później wikary zabrał nocą kilka miesięcy chrztów.",
+      "tematy": ["slowa", "zywioly"], "zrodlo": "ksiazka", "gotowa": true,
+      "znacznik": "Dobra · 1678 i 1733 · z publikacji „Trzy stulecia Jurkowa”",
+      "lead": "Najstarsza księga parafii w Dobrej otwiera się notą o spalonym kościele. Pół wieku później kilka miesięcy chrztów zabrał ze sobą wikary, który odszedł nocą."
+    },
+    {
+      "id": "przysiolki", "rok": 1679, "rok_tekst": "od 1679", "miejsce": "Jurków",
+      "tytul": "Przysiółki od nazwisk",
+      "zajawka": "Siciarze, Czerniki, Szerszenie, Krawce: części wsi noszą nazwiska rodów zapisanych w księgach w XVII wieku.",
+      "tematy": ["slowa", "ludzie"], "zrodlo": "ksiazka", "gotowa": false
+    },
+    {
+      "id": "slub-po-latach", "rok": 1774, "rok_tekst": "1774", "miejsce": "Jurków",
+      "tytul": "Ślub po dwudziestu latach",
+      "zajawka": "Tomasz i Agnieszka mieli już dzieci, gdy wyszło na jaw, że są krewnymi. Biskup kazał im ślubować jeszcze raz.",
+      "tematy": ["ludzie", "dwor"], "zrodlo": "ksiazka", "gotowa": false
+    },
+    {
+      "id": "marszalek", "rok": 1788, "rok_tekst": "1788–1809", "miejsce": "Dobra",
+      "tytul": "Pan, który zniósł pańszczyznę",
+      "zajawka": "Marszałek Sejmu Czteroletniego Stanisław Małachowski rozdał poddanym ziemię i odbudował szkołę w Dobrej. Co z tego zostało w księgach?",
+      "tematy": ["dwor"], "zrodlo": "ksiazka", "gotowa": false
+    },
+    {
+      "id": "piorun", "rok": 1826, "rok_tekst": "1826", "miejsce": "Jurków",
+      "tytul": "Jeden piorun",
+      "zajawka": "7 lipca 1826 roku jeden piorun zabił trzydziestoletniego Józefa Pałkę i dziesięcioletnią Mariannę.",
+      "tematy": ["zywioly"], "zrodlo": "ksiazka", "gotowa": false
+    },
+    {
+      "id": "hrabia-przy-chrzcielnicy", "rok": 1831, "rok_tekst": "1831", "miejsce": "Jurków, dom nr 5",
+      "tytul": "Hrabia przy chrzcielnicy",
+      "zajawka": "Dziecko moich przodków z Jurkowa miało za chrzestnych hrabiego i hrabinę Małachowskich. Jedyny taki chrzest w całej parafii.",
+      "tematy": ["dwor", "ludzie"], "zrodlo": "rodzina", "gotowa": true,
+      "znacznik": "Jurków · dom nr 5 · 14 grudnia 1831 · z mojej książki „Ród Podgórnich z Jurkowa”",
+      "lead": "Chłopskie dzieci trzymali do chrztu sąsiedzi. Syn moich przodków z Jurkowa miał w grudniu 1831 roku za chrzestnych hrabiego i hrabinę."
+    },
+    {
+      "id": "polozne", "rok": 1832, "rok_tekst": "1832–1907", "miejsce": "Jurków",
+      "tytul": "Położne bez szkoły",
+      "zajawka": "Agnieszka Syrszeń przyjęła na świat co najmniej 238 dzieci, Anna Rapacz 186. W księdze przy ich nazwiskach: „non examinata”.",
+      "tematy": ["ludzie"], "zrodlo": "ksiazka", "gotowa": false
+    },
+    {
+      "id": "lesniczy", "rok": 1838, "rok_tekst": "1838", "miejsce": "Dobra, dom nr 74",
+      "tytul": "Leśniczy z Dobrej",
+      "zajawka": "Mój przodek Józef Przybytek był dworskim leśniczym. Od każdej kłody ściętej przez sąsiadów należało mu się siedem i pół grajcara.",
+      "tematy": ["dwor", "ludzie"], "zrodlo": "rodzina", "gotowa": false
+    },
+    {
+      "id": "rok-glodu", "rok": 1847, "rok_tekst": "1847", "miejsce": "Jurków, Chyszówki",
+      "tytul": "Rok głodu",
+      "zajawka": "W Jurkowie zmarło 111 osób, w Chyszówkach 118. Na polach umierały obce dzieci chodzące po prośbie.",
+      "tematy": ["zaraza"], "zrodlo": "ksiazka", "gotowa": false
+    },
+    {
+      "id": "rakamaz", "rok": 1853, "rok_tekst": "1853", "miejsce": "Chyszówki, dom nr 51",
+      "tytul": "Rakamaz, 1853",
+      "zajawka": "Komornik z Chyszówek zmarł na Węgrzech nad Cisą. Wiadomość szła do domu cztery miesiące.",
+      "tematy": ["daleko"], "zrodlo": "ksiazka", "gotowa": true,
+      "znacznik": "Chyszówki · dom nr 51 · 23 czerwca 1853 · z publikacji „Chyszówki w księgach zmarłych”",
+      "lead": "Błażej Smoleń z Chyszówek zmarł na Węgrzech, nad Cisą. Wiadomość o jego śmierci szła do domu cztery miesiące."
+    },
+    {
+      "id": "wielkie-sniegi", "rok": 1854, "rok_tekst": "1854/55", "miejsce": "Dobra, Chyszówki, Półrzeczki, Jurków",
+      "tytul": "Wielkie śniegi",
+      "zajawka": "Ludzie uduszeni śniegiem i chorzy, do których ksiądz nie mógł dojść przez zaspy. Zima w środku lat głodu.",
+      "tematy": ["zywioly", "zaraza"], "zrodlo": "nowa", "gotowa": true,
+      "znacznik": "Dobra, Chyszówki, Półrzeczki, Jurków · zima 1854/55 · nowa historia z ksiąg",
+      "lead": "Zima 1854 roku przyszła wcześnie i zastała ludzi głodnych. Żadna inna zima nie zostawiła w księgach zmarłych tylu śladów."
+    },
+    {
+      "id": "doktor-z-wiednia", "rok": 1855, "rok_tekst": "1855", "miejsce": "Dobra, dom nr 99",
+      "tytul": "Doktor z Wiednia",
+      "zajawka": "Lekarz przysłany do walki z cholerą zmarł w Dobrej w wieku 34 lat. Został po nim jeden wpis w księdze.",
+      "tematy": ["zaraza"], "zrodlo": "nowa", "gotowa": true,
+      "znacznik": "Dobra · dom nr 99 · 4 sierpnia 1855 · nowa historia z ksiąg",
+      "lead": "Latem 1855 roku władze przysłały do Dobrej lekarza z Wiednia, żeby walczył z cholerą. Zostało po nim kilka słów w księdze zmarłych."
+    },
+    {
+      "id": "sasiedzi", "rok": 1871, "rok_tekst": "1871–1877", "miejsce": "Dobra",
+      "tytul": "Sąsiedzi wyznania mojżeszowego",
+      "zajawka": "Proboszcz Dobrej wpisywał do księgi chrztów także urodzenia dzieci z rodzin żydowskich, między innymi dzierżawcy wyszynku.",
+      "tematy": ["ludzie"], "zrodlo": "nowa", "gotowa": false
+    },
+    {
+      "id": "kolej", "rok": 1885, "rok_tekst": "1885–1901", "miejsce": "Dobra, Półrzeczki",
+      "tytul": "Kolej i parowa piła",
+      "zajawka": "Budowniczy kolei z Czech, stróż toru, zawiadowca stacji i maszynista parowej piły: nowi ludzie w księgach.",
+      "tematy": ["ludzie"], "zrodlo": "nowa", "gotowa": false
+    },
+    {
+      "id": "ostrawa", "rok": 1896, "rok_tekst": "1896–1920", "miejsce": "cała parafia",
+      "tytul": "Do Ostrawy i za ocean",
+      "zajawka": "Dopiski na marginesach chrztów mówią o ślubach w Morawskiej i Polskiej Ostrawie, w Chicago i we Francji.",
+      "tematy": ["daleko"], "zrodlo": "nowa", "gotowa": false
+    },
+    {
+      "id": "sipka", "rok": 1901, "rok_tekst": "1901–1912", "miejsce": "Jurków, Chyszówki",
+      "tytul": "Sipka",
+      "zajawka": "Słowo z gwary, które ksiądz wpisywał przy zmarłych dzieciach. W 1901 roku sam wyjaśnił, co znaczy.",
+      "tematy": ["slowa", "zaraza"], "zrodlo": "ksiazka", "gotowa": true,
+      "znacznik": "Jurków i Chyszówki · 1901–1912 · z publikacji o Jurkowie i Chyszówkach",
+      "lead": "Na początku XX wieku ksiądz wpisywał przy zmarłych dzieciach słowo z miejscowej gwary. Dziś trzeba je tłumaczyć."
+    },
+    {
+      "id": "cmentarz", "rok": 1916, "rok_tekst": "1916", "miejsce": "Jurków, Chyszówki",
+      "tytul": "Nowy cmentarz bez zgody proboszcza",
+      "zajawka": "Kooperator z Jurkowa chował zmarłych z Chyszówek na niepoświęconym cmentarzu. W księdze Dobrej zapisano to przez całą stronę.",
+      "tematy": ["dwor", "slowa"], "zrodlo": "ksiazka", "gotowa": false
+    },
+    {
+      "id": "hiszpanka", "rok": 1918, "rok_tekst": "1918", "miejsce": "Półrzeczki, Dobra, Chyszówki",
+      "tytul": "Hiszpanka",
+      "zajawka": "Jesienią 1918 roku grypa zabiła w Półrzeczkach 26 osób, w Dobrej 18, a w Chyszówkach 10.",
+      "tematy": ["zaraza"], "zrodlo": "nowa", "gotowa": false
+    }
+  ]
+}

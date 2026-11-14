@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lukasztram.github.io/ksiegi-dobra-jurkow/sitemap.xml

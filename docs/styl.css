@@ -1,0 +1,174 @@
+/* Co mówią księgi parafii Dobra i Jurków — styl strony.
+   Układ: strona jak karta księgi metrykalnej. Historie to wiersze z rubrykami (rok, miejsce, historia, skąd);
+   pojedyncza historia czytana w jednej kolumnie ~66 znaków, cytaty z ksiąg jako wypisy: łacina + przekład + sygnatura. */
+:root{
+  --paper:#EDF0EB;     /* papier: chłodny, lekko zielonkawy */
+  --paper-2:#E1E6DF;   /* wypis z księgi, najechanie na wiersz */
+  --ink:#1D2320;       /* atrament */
+  --ink-2:#4E5751;     /* tekst drugiego planu */
+  --rule:#C3CBC2;      /* linie rubryk */
+  --spruce:#2C5A4B;    /* akcent: świerk z Mogielicy; też PEWNE */
+  --gall:#7A5430;      /* wyblakły atrament galasowy: łacina, sygnatury */
+  --ochre:#86610F;     /* PRAWDOPODOBNE */
+  --slate:#575D84;     /* MOŻLIWE */
+  --f-display:"Bodoni Moda","Bodoni 72","Didot",Georgia,serif;
+  --f-body:"Source Serif 4","Source Serif Pro",Georgia,"Times New Roman",serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#121614; --paper-2:#1A201D; --ink:#E1E5DF; --ink-2:#A2ABA4; --rule:#2F3833;
+    --spruce:#8CC2AD; --gall:#D4AC86; --ochre:#D9B460; --slate:#A9AEDB; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#121614; --paper-2:#1A201D; --ink:#E1E5DF; --ink-2:#A2ABA4; --rule:#2F3833;
+  --spruce:#8CC2AD; --gall:#D4AC86; --ochre:#D9B460; --slate:#A9AEDB; color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+[hidden]{display:none !important}
+img{max-width:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--f-body); font-size:17px; line-height:1.62;
+  font-optical-sizing:auto; -webkit-font-smoothing:antialiased;
+}
+a{color:var(--spruce); text-underline-offset:3px; text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--spruce); outline-offset:3px}
+.wrap{
+  max-width:1060px; margin:0 auto;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));
+  padding-right:max(16px, env(safe-area-inset-right, 0px));
+}
+.skip{position:absolute; left:-999px; top:8px; background:var(--ink); color:var(--paper); padding:6px 10px; z-index:5}
+.skip:focus{left:12px}
+
+/* pasek podglądu i nagłówek */
+.proto{
+  font-family:var(--f-mono); font-size:.72rem; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--ochre); border-bottom:1px dashed var(--rule); padding-block:8px;
+}
+.top{display:flex; flex-wrap:wrap; gap:8px 24px; align-items:baseline; justify-content:space-between;
+  padding-block:16px; border-bottom:1px solid var(--rule)}
+.brand{font-family:var(--f-display); font-size:1.25rem; font-weight:500; color:var(--ink); text-decoration:none; line-height:1.2}
+.brand i{color:var(--spruce)}
+.brand:hover{color:var(--spruce)}
+.nav{display:flex; gap:20px}
+.nav a{font-family:var(--f-mono); font-size:.74rem; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-2); text-decoration:none}
+.nav a:hover,.nav a[aria-current="page"]{color:var(--spruce)}
+
+/* strona główna */
+.hero{display:grid; grid-template-columns:minmax(0,1.3fr) minmax(0,1fr); gap:28px 56px; align-items:end; padding-block:52px 36px}
+.eyebrow{font-family:var(--f-mono); font-size:.74rem; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-2); margin:0 0 14px}
+.hero h1{font-family:var(--f-display); font-weight:500; font-size:clamp(2.5rem, 7.4vw, 4.6rem); line-height:1; letter-spacing:-.015em; margin:0 0 20px; text-wrap:balance}
+.hero h1 em{display:block; font-style:italic; color:var(--spruce); font-size:.62em; line-height:1.15; margin-top:.12em}
+.dek{font-size:1.18rem; line-height:1.5; max-width:36ch; margin:0}
+.epigraf{margin:0; border-top:1px solid var(--gall); border-bottom:1px solid var(--gall); padding-block:18px}
+.epigraf blockquote{margin:0 0 10px; font-family:var(--f-display); font-style:italic; font-size:1.5rem; line-height:1.3; color:var(--gall)}
+.epigraf p{margin:0 0 8px}
+.epigraf cite{font-style:normal; font-family:var(--f-mono); font-size:.72rem; letter-spacing:.04em; color:var(--ink-2)}
+.dane{font-family:var(--f-mono); font-size:.78rem; color:var(--ink-2); display:flex; flex-wrap:wrap; gap:6px 22px;
+  padding-block:14px; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule)}
+.dane b{color:var(--ink); font-weight:500}
+
+.sekcja-tyt{display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:10px 24px; margin:48px 0 16px}
+.sekcja-tyt h2{font-family:var(--f-display); font-weight:500; font-size:1.9rem; margin:0}
+.sekcja-tyt p{margin:0; color:var(--ink-2); font-size:.95rem; max-width:52ch}
+
+.filtry{display:flex; flex-wrap:wrap; gap:8px; margin:0 0 18px; padding:0; list-style:none}
+.filtry button{
+  font-family:var(--f-mono); font-size:.74rem; letter-spacing:.03em; cursor:pointer;
+  color:var(--ink); background:transparent; border:1px solid var(--rule); border-radius:999px; padding:6px 13px;
+}
+.filtry button:hover{border-color:var(--ink-2)}
+.filtry button[aria-pressed="true"]{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+.filtry .ile{opacity:.6; margin-left:4px}
+
+.rejestr{border-top:2px solid var(--ink)}
+.rubryki,.row{display:grid; grid-template-columns:7.2rem 10.5rem minmax(0,1fr) 9.5rem; gap:4px 22px}
+.rubryki{font-family:var(--f-mono); font-size:.68rem; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-2);
+  padding-block:9px; border-bottom:1px solid var(--ink)}
+.rubryki i{font-family:var(--f-display); text-transform:none; letter-spacing:0; font-size:.86rem; color:var(--gall); margin-left:4px}
+.rubryki span:last-child{text-align:right}
+.row{padding-block:18px; border-bottom:1px solid var(--rule); color:inherit; text-decoration:none; align-items:start}
+a.row:hover{background:var(--paper-2)}
+a.row:hover .ttl{color:var(--spruce)}
+.row .yr{font-family:var(--f-display); font-size:1.55rem; line-height:1.15; font-variant-numeric:lining-nums tabular-nums; padding-left:4px}
+.row .pl{font-family:var(--f-mono); font-size:.76rem; line-height:1.5; color:var(--ink-2); padding-top:6px}
+.row .ttl{display:block; font-family:var(--f-display); font-size:1.38rem; line-height:1.2; font-weight:500; margin:0 0 4px; text-wrap:balance}
+.row .tsr{margin:0; color:var(--ink-2); font-size:.97rem; line-height:1.5}
+.row .mt{display:flex; flex-direction:column; align-items:flex-end; gap:8px; padding-top:6px; padding-right:4px; text-align:right}
+.tag{font-family:var(--f-mono); font-size:.66rem; letter-spacing:.08em; text-transform:uppercase; border:1px solid currentColor; padding:2px 7px; white-space:nowrap}
+.t-nowa{color:var(--spruce)}
+.t-ksiazka{color:var(--gall)}
+.t-rodzina{color:var(--slate)}
+.go{font-family:var(--f-mono); font-size:.74rem; color:var(--spruce)}
+.row.soon .ttl,.row.soon .yr{color:var(--ink-2)}
+.soon-l{font-family:var(--f-mono); font-size:.7rem; color:var(--ink-2)}
+.pusto{padding-block:22px; color:var(--ink-2); margin:0}
+
+.dwie{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:28px 48px; margin-top:8px}
+.dwie h3{font-family:var(--f-display); font-weight:500; font-size:1.3rem; margin:0 0 8px}
+.dwie p,.dwie li{color:var(--ink-2); font-size:.97rem}
+.dwie ul{margin:0; padding-left:1.1em}
+.dwie li{margin-bottom:6px}
+
+/* znaczniki pewności */
+.chip{font-family:var(--f-mono); font-size:.66rem; letter-spacing:.08em; text-transform:uppercase; border:1px solid currentColor;
+  padding:1px 7px; white-space:nowrap; flex:none}
+.c-pewne{color:var(--spruce)}
+.c-prawd{color:var(--ochre)}
+.c-mozliwe{color:var(--slate)}
+.c-odczyt{color:var(--gall)}
+.legenda,.pewnosc{list-style:none; padding:0 !important; margin:0}
+.legenda li,.pewnosc li{display:flex; gap:12px; align-items:baseline; margin-bottom:8px}
+
+/* historia i strony z tekstem */
+.czyt{max-width:42rem; margin:0 auto; padding-block:30px 20px}
+.wstecz{font-family:var(--f-mono); font-size:.76rem; letter-spacing:.04em; text-decoration:none}
+.czyt .eyebrow{margin-top:28px}
+.czyt h1{font-family:var(--f-display); font-weight:500; font-size:clamp(2.3rem, 7vw, 3.7rem); line-height:1.04; letter-spacing:-.01em; margin:0 0 18px; text-wrap:balance}
+.czyt h1:focus{outline:none}
+.lead{font-size:1.24rem; line-height:1.5; font-style:italic; color:var(--ink); margin:0 0 26px}
+.czyt p{margin:0 0 1.05em}
+.czyt h2{font-family:var(--f-mono); font-weight:500; font-size:.74rem; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-2); margin:0 0 12px}
+.czyt h3{font-family:var(--f-display); font-weight:500; font-size:1.35rem; margin:34px 0 12px}
+.wypis{margin:28px 0; padding:16px 18px; background:var(--paper-2); border-top:1px solid var(--gall); border-bottom:1px solid var(--gall)}
+.wypis .k{font-family:var(--f-mono); font-size:.68rem; letter-spacing:.1em; text-transform:uppercase; color:var(--gall); margin:0 0 8px}
+.wypis blockquote{margin:0 0 10px; font-family:var(--f-display); font-style:italic; font-size:1.32rem; line-height:1.35; color:var(--gall)}
+.wypis .pl-t{margin:0 0 10px}
+.wypis .sy{font-family:var(--f-mono); font-size:.72rem; line-height:1.6; color:var(--ink-2); margin:0}
+.lista{list-style:none; padding:0; margin:0 0 8px}
+.lista li{padding-block:9px; border-bottom:1px solid var(--rule)}
+.lista li:last-child{border-bottom:0}
+.lista .d{font-family:var(--f-mono); font-size:.76rem; color:var(--ink-2); display:block}
+.blok{margin-top:34px; padding-top:16px; border-top:1px solid var(--ink)}
+.blok ul{margin:0; padding-left:1.1em}
+.blok li{margin-bottom:8px}
+.zrodla li{font-size:.92rem; color:var(--ink-2)}
+.kontakt{font-family:var(--f-mono); font-size:.8rem; color:var(--ink-2)}
+.dalej{display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px 24px; margin-top:40px; padding-block:18px; border-top:2px solid var(--ink)}
+.dalej a{font-family:var(--f-display); font-size:1.2rem; text-decoration:none}
+.dalej a:last-child{text-align:right; margin-left:auto}
+.dalej small{display:block; font-family:var(--f-mono); font-size:.68rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-2)}
+
+.stopka{margin-top:64px; border-top:1px solid var(--rule); padding-block:22px 34px; font-family:var(--f-mono); font-size:.72rem; color:var(--ink-2); line-height:1.7}
+
+@media (max-width: 760px){
+  .hero{grid-template-columns:minmax(0,1fr); padding-block:34px 26px}
+  .rubryki{display:none}
+  .row{grid-template-columns:auto minmax(0,1fr); gap:2px 14px; padding-block:16px}
+  .row .yr{grid-column:1; font-size:1.3rem; padding-left:0}
+  .row .pl{grid-column:2; padding-top:4px}
+  .row .tx{grid-column:1 / -1; margin-top:6px}
+  .row .mt{grid-column:1 / -1; flex-direction:row; justify-content:flex-start; align-items:center; padding:6px 0 0; text-align:left}
+  .dwie{grid-template-columns:minmax(0,1fr)}
+  .czyt{padding-block:22px 10px}
+}
+@media (prefers-reduced-motion: no-preference){
+  .czyt{animation:wejscie .28s ease-out}
+  @keyframes wejscie{from{opacity:.4; transform:translateY(6px)} to{opacity:1; transform:none}}
+}
