@@ -1125,7 +1125,7 @@
   {
    "klucz": "polrzeczki",
    "nazwa": "Półrzeczki",
-   "wpisy": 4986,
+   "wpisy": 6360,
    "ksiegi": [
     {
      "typy": [
@@ -1137,8 +1137,8 @@
      "opis": "U-1786-1844-Półrzeczki",
      "odpis": false,
      "skany": 73,
-     "wpisy": 43,
-     "status": "czesciowo",
+     "wpisy": 1103,
+     "status": "odczytana",
      "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=3525&kt=1&plik=001.jpg"
     },
     {
@@ -1165,8 +1165,8 @@
      "opis": "Z-1786-1848-Półrzeczki",
      "odpis": false,
      "skany": 50,
-     "wpisy": 649,
-     "status": "czesciowo",
+     "wpisy": 963,
+     "status": "odczytana",
      "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=5515&kt=1&plik=001.jpg"
     },
     {

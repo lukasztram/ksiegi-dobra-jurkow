@@ -307,6 +307,105 @@
       "gotowa": true,
       "znacznik": "Półrzeczki, Dobra, Chyszówki · październik–grudzień 1918 · nowa historia z ksiąg",
       "lead": "Jesienią 1918 roku, gdy kończyła się wojna, do wsi pod Mogielicą przyszła grypa, którą świat nazwał hiszpanką. W trzech wsiach zabiła w niespełna dwa miesiące 43 osoby."
+    },
+    {
+      "id": "korzec",
+      "rok": 1726,
+      "rok_tekst": "1726–1732",
+      "miejsce": "Dobra i cały klucz dobrski",
+      "tytul": "Korzec z obsypką",
+      "zajawka": "Proboszcz kazał zrobić większą miarę na meszne. Chłopi z całego klucza poszli z tym do sądu biskupiego w Krakowie i przywieźli stamtąd własny korzec.",
+      "tematy": [
+        "dwor"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Dobra i cały klucz dobrski · 1726–1732 · nowa historia z ksiąg i akt sądowych",
+      "lead": "Przez lata proboszcz Dobrej brał meszne miarą, w którą wchodziło półtora raza więcej zboża, niż należało. Chłopi z całego klucza dobrskiego poszli z tym do sądu i wygrali, a proboszcz stracił parafię.",
+      "cytat_obrazek": "in Dobra et Sulikowice Curatus"
+    },
+    {
+      "id": "rzadca",
+      "rok": 1734,
+      "rok_tekst": "1734–1739",
+      "miejsce": "Dobra, Jurków, Chyszówki, Zadziele",
+      "tytul": "Czterdzieści jeden zarzutów",
+      "zajawka": "Rządca dóbr dobrskich bił poddanych i nie płacił za pracę. W 1739 roku chłopi i dziedzic pozwali go razem. Wśród skrzywdzonych był mój przodek z Jurkowa.",
+      "tematy": [
+        "dwor",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Klucz dobrski · 1734–1739 · nowa historia z ksiąg i akt sądowych",
+      "lead": "W latach 1734–1739 dobrami Dobra rządził szlachcic Kazimierz Święcicki. Gdy odszedł, komisarz dziedzica spisał przeciw niemu 41 zarzutów. Jeden dotyczy łupu po pojmaniu słynnego harnasia.",
+      "cytat_obrazek": "Generosa Domina Marianna Swiecicka de Dobra"
+    },
+    {
+      "id": "zolnierze",
+      "rok": 1799,
+      "rok_tekst": "1799–1920",
+      "miejsce": "cała parafia",
+      "tytul": "Żołnierze cesarza",
+      "zajawka": "Ułan arcyksięcia Karola, szeregowy pułku nr 57, inwalida z patentem, poległy nad Nidą. Synowie wsi w armii austriackiej i ich ślady w księgach.",
+      "tematy": [
+        "daleko"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1799–1920 · nowa historia z ksiąg",
+      "lead": "Od końca XVIII wieku synowie chłopów z parafii służyli w armii cesarza austriackiego. Księgi zmarłych zapisały tych, którzy wrócili chorzy, tych, których śmierć dopadła daleko od domu, i obcych żołnierzy, którzy zmarli w drodze przez Dobrą.",
+      "cytat_obrazek": "in Nosocomio militari Vindobonae"
+    },
+    {
+      "id": "tyton",
+      "rok": 1842,
+      "rok_tekst": "1842",
+      "miejsce": "Półrzeczki, dom nr 50",
+      "tytul": "Węgierski tytoń",
+      "zajawka": "Dwudziestojednoletni Franciszek z Półrzeczek nie chciał oddać żołnierzom strzegącym granicy węgierskiego tytoniu. Zginął od kuli i pochowano go w Krościenku.",
+      "tematy": [
+        "daleko"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Półrzeczki, dom nr 50 · 1842 · nowa historia z ksiąg",
+      "lead": "W styczniu 1842 roku ojciec Franciszka Kucaja przyniósł księdzu smutną wiadomość z Krościenka. Jego syn zginął przy granicy z Węgrami, bo nie chciał oddać tytoniu.",
+      "cytat_obrazek": "occasione tubacae hungaricae seu herbae nicotianae"
+    },
+    {
+      "id": "ospa",
+      "rok": 1807,
+      "rok_tekst": "1807–1885",
+      "miejsce": "cała parafia",
+      "tytul": "Ospa i szczepienia",
+      "zajawka": "Pod chrztem Macieja z Chyszówek ktoś dopisał po niemiecku „Impfung pro 842”, szczepienie na rok 1842. W kwietniu chłopiec zmarł na ospę, nieszczepiony.",
+      "tematy": [
+        "zaraza",
+        "slowa"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1807–1885 · nowa historia z ksiąg",
+      "lead": "Ospa wracała co kilkanaście lat i zabijała głównie małe dzieci. Od lat 30. XIX wieku księgi pokazują też drugą stronę tej historii: szczepienia.",
+      "cytat_obrazek": "in variolis non vaccinatis"
+    },
+    {
+      "id": "las",
+      "rok": 1820,
+      "rok_tekst": "1818–1925",
+      "miejsce": "Półrzeczki, Chyszówki, Jurków, Dobra",
+      "tytul": "Ludzie lasu",
+      "zajawka": "Przygnieceni drzewem przy ścince, chłopcy, którzy spadli z drzewa, i leśnicy z Czech w leśniczówkach. Las w księgach parafii.",
+      "tematy": [
+        "ludzie",
+        "dwor"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Półrzeczki, Chyszówki, Jurków, Dobra · 1818–1925 · nowa historia z ksiąg",
+      "lead": "Lasy pod Mogielicą i Łopieniem dawały wsiom drewno i zarobek, ale praca w nich była niebezpieczna. Księgi zapisały tych, których zabiło drzewo, i ludzi, którzy tymi lasami zarządzali.",
+      "cytat_obrazek": "tempore desectionis arboris in silva"
     }
   ]
 }
