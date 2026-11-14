@@ -18,6 +18,21 @@ Wynik:
 - `docs/` — gotowa strona; GitHub Pages publikuje ją z gałęzi `main`, folder `/docs`;
 - `_podglad/podglad.html` — cała strona w jednym pliku, do podglądu (nie trafia do repozytorium).
 
+## Pozostałe skrypty
+
+- `eksport_dostepnosci.py` — czyta bazę Fototeki **tylko do odczytu** i zapisuje `tresci/dostepnosc.json`
+  (jakie księgi każdej wsi są w serwisie Metryki PTG i ile z nich odczytano). Z tego `dostepnosc.py`
+  rysuje na stronie głównej osie czasu „Jakie księgi się zachowały”. Uruchamiać, gdy przybędzie odczytów.
+- `obrazki.py` — obrazki 1200 × 630 do podglądu linków (Facebook, komunikatory) w `obrazki/`;
+  wymaga Pillow (systemowy `python3` go ma). Czcionki do obrazków: `narzedzia/czcionki/`.
+- `szablony/fonty/` — czcionki strony (SIL Open Font License), serwowane ze strony, bez Google.
+
+Pełna przebudowa:
+
+```
+python3 eksport_dostepnosci.py && python3 obrazki.py && python3 buduj.py
+```
+
 ## Zasady treści
 
 - Tylko ludzie zmarli dawno temu; historie do roku 1926; o żyjących nie piszemy.

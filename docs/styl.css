@@ -172,3 +172,39 @@ a.row:hover .ttl{color:var(--spruce)}
   .czyt{animation:wejscie .28s ease-out}
   @keyframes wejscie{from{opacity:.4; transform:translateY(6px)} to{opacity:1; transform:none}}
 }
+
+/* jakie księgi się zachowały: osie czasu dla każdej wsi */
+:root{--seg-nie:#D9CBB6; --siatka-kolor:rgba(29,35,32,.14)}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --seg-nie:#4B3E31; --siatka-kolor:rgba(225,229,223,.14) } }
+:root[data-theme="dark"]{ --seg-nie:#4B3E31; --siatka-kolor:rgba(225,229,223,.14) }
+.legenda-ks{list-style:none; display:flex; flex-wrap:wrap; gap:6px 20px; margin:0 0 14px; padding:0; font-family:var(--f-mono); font-size:.72rem; color:var(--ink-2)}
+.legenda-ks li{display:flex; align-items:center; gap:7px}
+.lg{display:inline-block; width:22px; height:10px; vertical-align:middle; margin-right:6px; flex:none}
+.legenda-ks .lg{margin-right:0}
+.s-odcz{background:var(--spruce)}
+.s-czes{background:repeating-linear-gradient(135deg, var(--spruce) 0 2px, transparent 2px 5px); box-shadow:inset 0 0 0 1px var(--spruce)}
+.s-nie{background:var(--seg-nie)}
+.s-brak{background:var(--paper-2); box-shadow:inset 0 0 0 1px var(--rule)}
+.wiesy{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:4px 44px}
+.wies{display:grid; gap:5px; padding-block:12px 14px; border-top:1px solid var(--rule)}
+.wies-n{display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:2px 12px}
+.wies-n h3{font-family:var(--f-display); font-weight:500; font-size:1.22rem; margin:0}
+.wies-n span{font-family:var(--f-mono); font-size:.68rem; color:var(--ink-2)}
+.os,.pas{display:grid; grid-template-columns:3.9rem minmax(0,1fr); gap:10px; align-items:center}
+.pas .tor{position:relative; height:13px; background-color:var(--paper-2); background-image:var(--siatka)}
+.os .tor{position:relative; height:15px}
+.tick{position:absolute; top:0; transform:translateX(-50%); font-family:var(--f-mono); font-size:.62rem; line-height:15px; color:var(--ink-2)}
+.pas-l{font-family:var(--f-mono); font-size:.66rem; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-2)}
+.seg{position:absolute; top:0; bottom:0; display:block}
+.seg:hover,.seg:focus-visible{outline:2px solid var(--ink); outline-offset:1px; z-index:2}
+.spis-ksiag{margin-top:14px; border-top:1px solid var(--rule); padding-top:10px}
+.spis-ksiag summary{cursor:pointer; font-family:var(--f-mono); font-size:.76rem; letter-spacing:.04em; color:var(--spruce)}
+.tab-wrap{overflow-x:auto; margin-top:10px}
+.spis-ksiag table{border-collapse:collapse; width:100%; font-size:.86rem; min-width:34rem}
+.spis-ksiag th{font-family:var(--f-mono); font-weight:500; font-size:.66rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-2); text-align:left; padding:6px 8px; border-bottom:1px solid var(--ink)}
+.spis-ksiag td{padding:5px 8px; border-bottom:1px solid var(--rule); vertical-align:baseline}
+.spis-ksiag td.num{font-variant-numeric:tabular-nums; white-space:nowrap}
+.stan-na{font-family:var(--f-mono); font-size:.7rem; color:var(--ink-2); margin:10px 0 0}
+@media (max-width: 760px){
+  .wiesy{grid-template-columns:minmax(0,1fr)}
+}

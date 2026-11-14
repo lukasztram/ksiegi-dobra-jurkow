@@ -1,0 +1,1872 @@
+{
+ "stan_na": "2026-11-14",
+ "wspolne": [
+  {
+   "typy": [
+    "U"
+   ],
+   "sygn": "4268/3500",
+   "od": 1678,
+   "do": 1703,
+   "opis": "U-1678-1703",
+   "odpis": false,
+   "skany": 97,
+   "wpisy": 1125,
+   "status": "odczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3500&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "M"
+   ],
+   "sygn": "4268/4500",
+   "od": 1682,
+   "do": 1699,
+   "opis": "M-1682-1699",
+   "odpis": false,
+   "skany": 30,
+   "wpisy": 242,
+   "status": "odczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=4500&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U"
+   ],
+   "sygn": "4268/3505",
+   "od": 1720,
+   "do": 1754,
+   "opis": "U-1720-1754",
+   "odpis": false,
+   "skany": 141,
+   "wpisy": 2677,
+   "status": "odczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3505&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "M"
+   ],
+   "sygn": "4268/4505",
+   "od": 1725,
+   "do": 1753,
+   "opis": "M-1725-1753",
+   "odpis": false,
+   "skany": 36,
+   "wpisy": 455,
+   "status": "odczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=4505&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U"
+   ],
+   "sygn": "4268/3510",
+   "od": 1755,
+   "do": 1764,
+   "opis": "U-1755-1764",
+   "odpis": false,
+   "skany": 79,
+   "wpisy": 907,
+   "status": "odczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3510&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U"
+   ],
+   "sygn": "4268/3515",
+   "od": 1764,
+   "do": 1784,
+   "opis": "U-1764-1784",
+   "odpis": false,
+   "skany": 212,
+   "wpisy": 2088,
+   "status": "odczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3515&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "M"
+   ],
+   "sygn": "4268/4510",
+   "od": 1772,
+   "do": 1785,
+   "opis": "M-1772-1785",
+   "odpis": false,
+   "skany": 21,
+   "wpisy": 141,
+   "status": "odczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=4510&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "Z"
+   ],
+   "sygn": "4268/5500",
+   "od": 1779,
+   "do": 1785,
+   "opis": "Z-1779-1785",
+   "odpis": false,
+   "skany": 25,
+   "wpisy": 352,
+   "status": "odczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=5500&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U"
+   ],
+   "sygn": "4268/3520",
+   "od": 1784,
+   "do": 1785,
+   "opis": "U-1784-1785",
+   "odpis": false,
+   "skany": 24,
+   "wpisy": 208,
+   "status": "odczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3520&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "4268/6500",
+   "od": 1785,
+   "do": 1786,
+   "opis": "UMZ-1785-1786",
+   "odpis": false,
+   "skany": 24,
+   "wpisy": 206,
+   "status": "odczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=6500&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1786",
+   "od": 1786,
+   "do": 1786,
+   "opis": "UMZ-1786",
+   "odpis": true,
+   "skany": 33,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1786&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "M"
+   ],
+   "sygn": "3402/1791",
+   "od": 1791,
+   "do": 1791,
+   "opis": "M-1791",
+   "odpis": true,
+   "skany": 1,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1791&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1793",
+   "od": 1793,
+   "do": 1793,
+   "opis": "UMZ-1793",
+   "odpis": true,
+   "skany": 33,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1793&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1796",
+   "od": 1796,
+   "do": 1796,
+   "opis": "UMZ-1796",
+   "odpis": true,
+   "skany": 33,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1796&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1802",
+   "od": 1802,
+   "do": 1808,
+   "opis": "UMZ-1802-1808",
+   "odpis": true,
+   "skany": 197,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1802&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1809",
+   "od": 1809,
+   "do": 1814,
+   "opis": "UMZ-1809-1814",
+   "odpis": true,
+   "skany": 175,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1809&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1817",
+   "od": 1817,
+   "do": 1817,
+   "opis": "UMZ-1817",
+   "odpis": true,
+   "skany": 34,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1817&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1820",
+   "od": 1820,
+   "do": 1825,
+   "opis": "UMZ-1820-1825",
+   "odpis": true,
+   "skany": 163,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1820&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1828",
+   "od": 1828,
+   "do": 1830,
+   "opis": "UMZ-1828-1830",
+   "odpis": true,
+   "skany": 45,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1828&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1833",
+   "od": 1833,
+   "do": 1833,
+   "opis": "UMZ-1833",
+   "odpis": true,
+   "skany": 19,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1833&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1836",
+   "od": 1836,
+   "do": 1836,
+   "opis": "UMZ-1836",
+   "odpis": true,
+   "skany": 18,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1836&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1839",
+   "od": 1839,
+   "do": 1841,
+   "opis": "UMZ-1839-1841",
+   "odpis": true,
+   "skany": 54,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1839&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1844",
+   "od": 1844,
+   "do": 1849,
+   "opis": "UMZ-1844-1849",
+   "odpis": true,
+   "skany": 210,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1844&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1851",
+   "od": 1851,
+   "do": 1852,
+   "opis": "UMZ-1851-1852",
+   "odpis": true,
+   "skany": 42,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1851&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1855",
+   "od": 1855,
+   "do": 1861,
+   "opis": "UMZ-1855-1861",
+   "odpis": true,
+   "skany": 221,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1855&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1862",
+   "od": 1862,
+   "do": 1867,
+   "opis": "UMZ-1862-1867",
+   "odpis": true,
+   "skany": 189,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1862&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1873",
+   "od": 1873,
+   "do": 1873,
+   "opis": "UMZ-1873",
+   "odpis": true,
+   "skany": 32,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1873&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1876",
+   "od": 1876,
+   "do": 1876,
+   "opis": "UMZ-1876",
+   "odpis": true,
+   "skany": 28,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1876&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1883",
+   "od": 1883,
+   "do": 1883,
+   "opis": "UMZ-1883",
+   "odpis": true,
+   "skany": 38,
+   "wpisy": 49,
+   "status": "czesciowo",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1883&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1884",
+   "od": 1884,
+   "do": 1884,
+   "opis": "UMZ-1884",
+   "odpis": true,
+   "skany": 43,
+   "wpisy": 72,
+   "status": "czesciowo",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1884&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1885",
+   "od": 1885,
+   "do": 1885,
+   "opis": "UMZ-1885",
+   "odpis": true,
+   "skany": 39,
+   "wpisy": 96,
+   "status": "czesciowo",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1885&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1888",
+   "od": 1888,
+   "do": 1888,
+   "opis": "UMZ-1888",
+   "odpis": true,
+   "skany": 37,
+   "wpisy": 76,
+   "status": "czesciowo",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1888&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1889",
+   "od": 1889,
+   "do": 1889,
+   "opis": "UMZ-1889",
+   "odpis": true,
+   "skany": 45,
+   "wpisy": 77,
+   "status": "czesciowo",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1889&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U",
+    "M",
+    "Z"
+   ],
+   "sygn": "3402/1890",
+   "od": 1890,
+   "do": 1890,
+   "opis": "UMZ-1890",
+   "odpis": true,
+   "skany": 46,
+   "wpisy": 185,
+   "status": "czesciowo",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1890&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "U"
+   ],
+   "sygn": "3402/1898a",
+   "od": 1898,
+   "do": 1898,
+   "opis": "U-1898",
+   "odpis": true,
+   "skany": 5,
+   "wpisy": 66,
+   "status": "odczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=1898a&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "M"
+   ],
+   "sygn": "3402/4515",
+   "od": 1901,
+   "do": 1942,
+   "opis": "M-1901-1942",
+   "odpis": true,
+   "skany": 9,
+   "wpisy": 11,
+   "status": "czesciowo",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4515&kt=1&plik=001.jpg"
+  },
+  {
+   "typy": [
+    "Z"
+   ],
+   "sygn": "3402/5525",
+   "od": 1941,
+   "do": 1943,
+   "opis": "Z-1941-1943",
+   "odpis": true,
+   "skany": 4,
+   "wpisy": 0,
+   "status": "nieodczytana",
+   "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5525&kt=1&plik=001.jpg"
+  }
+ ],
+ "wsie": [
+  {
+   "klucz": "dobra",
+   "nazwa": "Dobra",
+   "wpisy": 16094,
+   "ksiegi": [
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3525",
+     "od": 1786,
+     "do": 1805,
+     "opis": "U-1786-1805-Dobra",
+     "odpis": false,
+     "skany": 60,
+     "wpisy": 772,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3525&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4268/4515",
+     "od": 1786,
+     "do": 1847,
+     "opis": "M-1786-1847-Dobra",
+     "odpis": false,
+     "skany": 49,
+     "wpisy": 544,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=4515&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4268/5505",
+     "od": 1786,
+     "do": 1846,
+     "opis": "Z-1786-1846-Dobra",
+     "odpis": false,
+     "skany": 78,
+     "wpisy": 1779,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=5505&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3530",
+     "od": 1805,
+     "do": 1820,
+     "opis": "U-1805-1820-Dobra",
+     "odpis": false,
+     "skany": 43,
+     "wpisy": 602,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3530&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3535",
+     "od": 1820,
+     "do": 1840,
+     "opis": "U-1820-1840-Dobra",
+     "odpis": false,
+     "skany": 52,
+     "wpisy": 860,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3535&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3540",
+     "od": 1840,
+     "do": 1866,
+     "opis": "U-1840-1866-Dobra",
+     "odpis": false,
+     "skany": 60,
+     "wpisy": 1157,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3540&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4268/5510",
+     "od": 1846,
+     "do": 1879,
+     "opis": "Z-1846-1879-Dobra",
+     "odpis": false,
+     "skany": 47,
+     "wpisy": 1369,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=5510&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4268/4520",
+     "od": 1847,
+     "do": 1887,
+     "opis": "M-1847-1887-Dobra",
+     "odpis": false,
+     "skany": 47,
+     "wpisy": 406,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=4520&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3545",
+     "od": 1866,
+     "do": 1909,
+     "opis": "U-1866-1909-Dobra",
+     "odpis": false,
+     "skany": 144,
+     "wpisy": 2276,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3545&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "3402/3500",
+     "od": 1870,
+     "do": 1887,
+     "opis": "U-1870-1887-Dobra",
+     "odpis": true,
+     "skany": 29,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=3500&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "3402/4500",
+     "od": 1870,
+     "do": 1887,
+     "opis": "M-1870-1887-Dobra",
+     "odpis": true,
+     "skany": 17,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4500&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5500",
+     "od": 1870,
+     "do": 1880,
+     "opis": "Z-1870-1880-Dobra",
+     "odpis": true,
+     "skany": 11,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5500&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5501",
+     "od": 1870,
+     "do": 1887,
+     "opis": "Z-1870-1887-Dobra",
+     "odpis": true,
+     "skany": 14,
+     "wpisy": 200,
+     "status": "czesciowo",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5501&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "3402/4511",
+     "od": 1890,
+     "do": 1943,
+     "opis": "M-1890-1943-Dobra",
+     "odpis": true,
+     "skany": 48,
+     "wpisy": 607,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4511&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5510",
+     "od": 1890,
+     "do": 1943,
+     "opis": "Z-1890-1943-Dobra",
+     "odpis": true,
+     "skany": 57,
+     "wpisy": 1974,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5510&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5515",
+     "od": 1900,
+     "do": 1919,
+     "opis": "Z-1900-1919-Dobra",
+     "odpis": true,
+     "skany": 12,
+     "wpisy": 1,
+     "status": "czesciowo",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5515&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "3402/3515",
+     "od": 1901,
+     "do": 1923,
+     "opis": "U-1901-1923-Dobra",
+     "odpis": true,
+     "skany": 54,
+     "wpisy": 721,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=3515&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "3402/3516",
+     "od": 1903,
+     "do": 1923,
+     "opis": "U-1903-1923-Dobra",
+     "odpis": true,
+     "skany": 5,
+     "wpisy": 112,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=3516&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "3402/4520",
+     "od": 1903,
+     "do": 1943,
+     "opis": "M-1903-1943-Dobra",
+     "odpis": true,
+     "skany": 3,
+     "wpisy": 46,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4520&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5520",
+     "od": 1903,
+     "do": 1943,
+     "opis": "Z-1903-1943-Dobra",
+     "odpis": true,
+     "skany": 8,
+     "wpisy": 139,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5520&kt=1&plik=001.jpg"
+    }
+   ]
+  },
+  {
+   "klucz": "jurkow",
+   "nazwa": "Jurków",
+   "wpisy": 7496,
+   "ksiegi": [
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3560",
+     "od": 1786,
+     "do": 1824,
+     "opis": "U-1786-1824-Jurków",
+     "odpis": false,
+     "skany": 63,
+     "wpisy": 916,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3560&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4268/4530",
+     "od": 1786,
+     "do": 1884,
+     "opis": "M-1786-1884-Jurków",
+     "odpis": false,
+     "skany": 51,
+     "wpisy": 472,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=4530&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4268/5520",
+     "od": 1786,
+     "do": 1849,
+     "opis": "Z-1786-1849-Jurków",
+     "odpis": false,
+     "skany": 52,
+     "wpisy": 1206,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=5520&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3565",
+     "od": 1825,
+     "do": 1840,
+     "opis": "U-1825-1840-Jurków",
+     "odpis": false,
+     "skany": 27,
+     "wpisy": 458,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3565&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3570",
+     "od": 1840,
+     "do": 1892,
+     "opis": "U-1840-1892-Jurków",
+     "odpis": false,
+     "skany": 70,
+     "wpisy": 1298,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3570&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4268/5525",
+     "od": 1849,
+     "do": 1912,
+     "opis": "Z-1849-1912-Jurków",
+     "odpis": false,
+     "skany": 50,
+     "wpisy": 1339,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=5525&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "3402/3501",
+     "od": 1870,
+     "do": 1887,
+     "opis": "U-1870-1887-Jurków",
+     "odpis": true,
+     "skany": 16,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=3501&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "3402/4501",
+     "od": 1870,
+     "do": 1887,
+     "opis": "M-1870-1887-Jurków",
+     "odpis": true,
+     "skany": 8,
+     "wpisy": 65,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4501&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5503",
+     "od": 1870,
+     "do": 1887,
+     "opis": "Z-1870-1887-Jurków",
+     "odpis": true,
+     "skany": 13,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5503&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "3402/3511",
+     "od": 1890,
+     "do": 1923,
+     "opis": "U-1890-1923-Jurków",
+     "odpis": true,
+     "skany": 10,
+     "wpisy": 285,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=3511&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "3402/4513",
+     "od": 1890,
+     "do": 1943,
+     "opis": "M-1890-1943-Jurków",
+     "odpis": true,
+     "skany": 5,
+     "wpisy": 106,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4513&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5517",
+     "od": 1900,
+     "do": 1919,
+     "opis": "Z-1900-1919-Jurków",
+     "odpis": true,
+     "skany": 8,
+     "wpisy": 68,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5517&kt=1&plik=001.jpg"
+    }
+   ]
+  },
+  {
+   "klucz": "chyszowki",
+   "nazwa": "Chyszówki",
+   "wpisy": 6594,
+   "ksiegi": [
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4269/3500",
+     "od": 1786,
+     "do": 1826,
+     "opis": "U-1786-1826-Chyszówki",
+     "odpis": false,
+     "skany": 51,
+     "wpisy": 870,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=3500&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4269/4500",
+     "od": 1786,
+     "do": 1879,
+     "opis": "M-1786-1879-Chyszówki",
+     "odpis": false,
+     "skany": 48,
+     "wpisy": 453,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=4500&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4269/5500",
+     "od": 1786,
+     "do": 1852,
+     "opis": "Z-1786-1852-Chyszówki",
+     "odpis": false,
+     "skany": 54,
+     "wpisy": 1245,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=5500&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4269/3505",
+     "od": 1826,
+     "do": 1843,
+     "opis": "U-1826-1843-Chyszówki",
+     "odpis": false,
+     "skany": 26,
+     "wpisy": 460,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=3505&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4269/3510",
+     "od": 1843,
+     "do": 1890,
+     "opis": "U-1843-1890-Chyszówki",
+     "odpis": false,
+     "skany": 61,
+     "wpisy": 1148,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=3510&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4269/5505",
+     "od": 1853,
+     "do": 1926,
+     "opis": "Z-1853-1926-Chyszówki",
+     "odpis": false,
+     "skany": 50,
+     "wpisy": 1370,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=5505&kt=1&plik=001.jpg"
+    }
+   ]
+  },
+  {
+   "klucz": "polrzeczki",
+   "nazwa": "Półrzeczki",
+   "wpisy": 4986,
+   "ksiegi": [
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4269/3525",
+     "od": 1786,
+     "do": 1844,
+     "opis": "U-1786-1844-Półrzeczki",
+     "odpis": false,
+     "skany": 73,
+     "wpisy": 43,
+     "status": "czesciowo",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=3525&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4269/4510",
+     "od": 1786,
+     "do": 1881,
+     "opis": "M-1786-1881-Półrzeczki",
+     "odpis": false,
+     "skany": 50,
+     "wpisy": 437,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=4510&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4269/5515",
+     "od": 1786,
+     "do": 1848,
+     "opis": "Z-1786-1848-Półrzeczki",
+     "odpis": false,
+     "skany": 50,
+     "wpisy": 649,
+     "status": "czesciowo",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=5515&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4269/3520",
+     "od": 1844,
+     "do": 1896,
+     "opis": "U-1844-1896-Połrzeczki",
+     "odpis": false,
+     "skany": 62,
+     "wpisy": 1145,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=3520&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4269/5520",
+     "od": 1848,
+     "do": 1927,
+     "opis": "Z-1848-1927-Półrzeczki",
+     "odpis": false,
+     "skany": 55,
+     "wpisy": 1418,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=5520&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4269/4515",
+     "od": 1881,
+     "do": 1944,
+     "opis": "M-1881-1944-Półrzeczki",
+     "odpis": false,
+     "skany": 44,
+     "wpisy": 341,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=4515&kt=1&plik=001.jpg"
+    }
+   ]
+  },
+  {
+   "klucz": "gruszowiec",
+   "nazwa": "Gruszowiec",
+   "wpisy": 901,
+   "ksiegi": [
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3550",
+     "od": 1786,
+     "do": 1838,
+     "opis": "U-1786-1838-Gruszowiec",
+     "odpis": false,
+     "skany": 47,
+     "wpisy": 39,
+     "status": "czesciowo",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3550&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4268/4525",
+     "od": 1786,
+     "do": 1924,
+     "opis": "M-1786-1924-Gruszowiec",
+     "odpis": false,
+     "skany": 52,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=4525&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4268/5515",
+     "od": 1786,
+     "do": 1875,
+     "opis": "Z-1786-1875-Gruszowiec",
+     "odpis": false,
+     "skany": 48,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=5515&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3555",
+     "od": 1839,
+     "do": 1898,
+     "opis": "U-1839-1898-Gruszowiec",
+     "odpis": false,
+     "skany": 49,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3555&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "3402/3505",
+     "od": 1870,
+     "do": 1887,
+     "opis": "U-1870-1887-Gruszowiec",
+     "odpis": true,
+     "skany": 9,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=3505&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "3402/4505",
+     "od": 1870,
+     "do": 1897,
+     "opis": "M-1870-1897-Gruszowiec",
+     "odpis": true,
+     "skany": 8,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4505&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5502",
+     "od": 1870,
+     "do": 1887,
+     "opis": "Z-1870-1887-Gruszowiec",
+     "odpis": true,
+     "skany": 11,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5502&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "3402/3510",
+     "od": 1890,
+     "do": 1923,
+     "opis": "U-1890-1923-Gruszowiec",
+     "odpis": true,
+     "skany": 15,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=3510&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "3402/4512",
+     "od": 1890,
+     "do": 1943,
+     "opis": "M-1890-1943-Gruszowiec",
+     "odpis": true,
+     "skany": 12,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4512&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5511",
+     "od": 1890,
+     "do": 1943,
+     "opis": "Z-1890-1943-Gruszowiec",
+     "odpis": true,
+     "skany": 16,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5511&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5516",
+     "od": 1900,
+     "do": 1919,
+     "opis": "Z-1900-1919-Gruszowiec",
+     "odpis": true,
+     "skany": 9,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5516&kt=1&plik=001.jpg"
+    }
+   ]
+  },
+  {
+   "klucz": "porabka",
+   "nazwa": "Porąbka",
+   "wpisy": 838,
+   "ksiegi": [
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3575",
+     "od": 1786,
+     "do": 1835,
+     "opis": "U-1786-1835-Porąbka",
+     "odpis": false,
+     "skany": 43,
+     "wpisy": 37,
+     "status": "czesciowo",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3575&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4268/4535",
+     "od": 1786,
+     "do": 1909,
+     "opis": "M-1786-1909-Porąbka",
+     "odpis": false,
+     "skany": 53,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=4535&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4268/5530",
+     "od": 1786,
+     "do": 1882,
+     "opis": "Z-1786-1882-Porąbka",
+     "odpis": false,
+     "skany": 48,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=5530&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3580",
+     "od": 1836,
+     "do": 1894,
+     "opis": "U-1836-1894-Porąbka",
+     "odpis": false,
+     "skany": 49,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3580&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "3402/3504",
+     "od": 1870,
+     "do": 1887,
+     "opis": "U-1870-1887-Porąbka",
+     "odpis": true,
+     "skany": 9,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=3504&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "3402/4502",
+     "od": 1870,
+     "do": 1887,
+     "opis": "M-1870-1887-Porąbka",
+     "odpis": true,
+     "skany": 6,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4502&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5504",
+     "od": 1870,
+     "do": 1887,
+     "opis": "Z-1870-1887-Porąbka",
+     "odpis": true,
+     "skany": 9,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5504&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "3402/3512",
+     "od": 1890,
+     "do": 1923,
+     "opis": "U-1890-1923-Porąbka",
+     "odpis": true,
+     "skany": 19,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=3512&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "3402/4514",
+     "od": 1890,
+     "do": 1943,
+     "opis": "M-1890-1943-Porąbka",
+     "odpis": true,
+     "skany": 9,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4514&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5512",
+     "od": 1890,
+     "do": 1943,
+     "opis": "Z-1890-1943-Porąbka",
+     "odpis": true,
+     "skany": 19,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5512&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5518",
+     "od": 1900,
+     "do": 1919,
+     "opis": "Z-1900-1919-Porąbka",
+     "odpis": true,
+     "skany": 5,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5518&kt=1&plik=001.jpg"
+    }
+   ]
+  },
+  {
+   "klucz": "wilczyce",
+   "nazwa": "Wilczyce",
+   "wpisy": 533,
+   "ksiegi": [
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4269/3530",
+     "od": 1786,
+     "do": 1859,
+     "opis": "U-1786-1859-Wilczyce",
+     "odpis": false,
+     "skany": 53,
+     "wpisy": 19,
+     "status": "czesciowo",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=3530&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4269/4520",
+     "od": 1786,
+     "do": 1921,
+     "opis": "M-1786-1921-Wilczyce",
+     "odpis": false,
+     "skany": 47,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=4520&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4269/5525",
+     "od": 1786,
+     "do": 1886,
+     "opis": "Z-1786-1886-Wilczyce",
+     "odpis": false,
+     "skany": 57,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=5525&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4269/3535",
+     "od": 1859,
+     "do": 1921,
+     "opis": "U-1859-1921-Wilczyce",
+     "odpis": false,
+     "skany": 51,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=3535&kt=1&plik=001.jpg"
+    }
+   ]
+  },
+  {
+   "klucz": "zadziele",
+   "nazwa": "Zadziele",
+   "wpisy": 194,
+   "ksiegi": [
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3585",
+     "od": 1786,
+     "do": 1860,
+     "opis": "U-1786-1860-Zadziele",
+     "odpis": false,
+     "skany": 47,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3585&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4268/5535",
+     "od": 1786,
+     "do": 1917,
+     "opis": "Z-1786-1917-Zadziele Łostówka",
+     "odpis": false,
+     "skany": 61,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=5535&kt=1&plik=001.jpg",
+     "wspolna_z": "Zadziele i Łostówka"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4268/4540",
+     "od": 1787,
+     "do": 1934,
+     "opis": "M-1787-1934-Zadziele Łostówka",
+     "odpis": false,
+     "skany": 49,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=4540&kt=1&plik=001.jpg",
+     "wspolna_z": "Zadziele i Łostówka"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4268/3590",
+     "od": 1860,
+     "do": 1911,
+     "opis": "U-1860-1911-Zadziele",
+     "odpis": false,
+     "skany": 49,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3590&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "3402/3502",
+     "od": 1870,
+     "do": 1887,
+     "opis": "U-1870-1887-Zadziele",
+     "odpis": true,
+     "skany": 4,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=3502&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "3402/4503",
+     "od": 1870,
+     "do": 1887,
+     "opis": "M-1870-1887-Zadziele",
+     "odpis": true,
+     "skany": 3,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4503&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5505",
+     "od": 1870,
+     "do": 1887,
+     "opis": "Z-1870-1887-Zadziele",
+     "odpis": true,
+     "skany": 5,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5505&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "3402/3513",
+     "od": 1890,
+     "do": 1923,
+     "opis": "U-1890-1923-Zadziele",
+     "odpis": true,
+     "skany": 9,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=3513&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "3402/4510",
+     "od": 1890,
+     "do": 1934,
+     "opis": "M-1890-1934-Zadziele",
+     "odpis": true,
+     "skany": 6,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4510&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5519",
+     "od": 1900,
+     "do": 1919,
+     "opis": "Z-1900-1919-Zadziele",
+     "odpis": true,
+     "skany": 6,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5519&kt=1&plik=001.jpg"
+    }
+   ]
+  },
+  {
+   "klucz": "lostowka",
+   "nazwa": "Łostówka",
+   "wpisy": 348,
+   "ksiegi": [
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4268/5535",
+     "od": 1786,
+     "do": 1917,
+     "opis": "Z-1786-1917-Zadziele Łostówka",
+     "odpis": false,
+     "skany": 61,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=5535&kt=1&plik=001.jpg",
+     "wspolna_z": "Zadziele i Łostówka"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4268/4540",
+     "od": 1787,
+     "do": 1934,
+     "opis": "M-1787-1934-Zadziele Łostówka",
+     "odpis": false,
+     "skany": 49,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=4540&kt=1&plik=001.jpg",
+     "wspolna_z": "Zadziele i Łostówka"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "3402/3503",
+     "od": 1870,
+     "do": 1887,
+     "opis": "U-1870-1887-Łostówka",
+     "odpis": true,
+     "skany": 4,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=3503&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "3402/4504",
+     "od": 1870,
+     "do": 1887,
+     "opis": "M-1870-1887-Łostówka",
+     "odpis": true,
+     "skany": 4,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=4504&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "3402/5506",
+     "od": 1870,
+     "do": 1887,
+     "opis": "Z-1870-1887-Łostówka",
+     "odpis": true,
+     "skany": 4,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=3402&sy=5506&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4269/5510",
+     "od": 1880,
+     "do": 1944,
+     "opis": "Z-1880-1944-Łostówka",
+     "odpis": false,
+     "skany": 17,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=5510&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4269/3515",
+     "od": 1890,
+     "do": 1924,
+     "opis": "U-1890-1924-Łostówka",
+     "odpis": false,
+     "skany": 14,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=3515&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4269/4505",
+     "od": 1890,
+     "do": 1944,
+     "opis": "M-1890-1944-Łostówka",
+     "odpis": false,
+     "skany": 9,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=4505&kt=1&plik=001.jpg"
+    }
+   ]
+  }
+ ]
+}

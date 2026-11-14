@@ -1,0 +1,7 @@
+Czcionki na tej stronie:
+- Bodoni Moda — Copyright 2020 The Bodoni Moda Project Authors
+- Source Serif 4 — Copyright 2014–2021 Adobe (http://www.adobe.com/), z zastrzeżoną nazwą „Source”
+- IBM Plex Mono — Copyright 2017 IBM Corp.
+
+Wszystkie na licencji SIL Open Font License, wersja 1.1: https://openfontlicense.org
+Pobrane z Google Fonts i serwowane bezpośrednio z tej strony, bez łączenia się z serwerami Google.

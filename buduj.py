@@ -12,9 +12,12 @@ Tylko biblioteka standardowa Pythona.  Użycie:  python3 buduj.py
 """
 import html
 import json
+import re
 import shutil
 import sys
 from pathlib import Path
+
+from dostepnosc import dostepnosc_html
 
 KAT = Path(__file__).resolve().parent
 TRESCI = KAT / 'tresci'
@@ -160,6 +163,7 @@ def tresc_start(L):
     <span>historie do roku <b>1926</b></span>
     <span>każda z <b>sygnaturą i skanem</b></span>
   </div>
+  {dostepnosc_html()}
   <div class="sekcja-tyt">
     <h2>Historie</h2>
     <p>Po kolei, jak w księdze. Kliknij historię, żeby przeczytać. Szare czekają na opracowanie.</p>
@@ -197,6 +201,8 @@ def tresc_start(L):
 
 def artykul(h, L, kotwica=True):
     tresc = (TRESCI / 'historie' / f'{h["id"]}.html').read_text(encoding='utf-8')
+    # odnośniki między historiami: {{historia:id}} -> adres zależny od wersji (strona / podgląd)
+    tresc = re.sub(r'\{\{historia:([a-z0-9-]+)\}\}', lambda m: L.historia(m.group(1)), tresc)
     i = PELNE.index(h)
     pop, nast = PELNE[i - 1], PELNE[(i + 1) % len(PELNE)]
     id_attr = ' id="tresc"' if kotwica else ''
@@ -224,7 +230,7 @@ def artykul_o(L, kotwica=True):
 </article>'''
 
 
-def glowa(tytul, opis, root, sciezka, typ='website'):
+def glowa(tytul, opis, root, sciezka, typ='website', obraz='obrazki/start.png'):
     w = ['<meta charset="utf-8">',
          '<meta name="viewport" content="width=device-width, initial-scale=1">',
          f'<title>{e(tytul)}</title>',
@@ -240,16 +246,22 @@ def glowa(tytul, opis, root, sciezka, typ='website'):
     if ADRES:
         u = f'{ADRES}/{sciezka}'
         w += [f'<link rel="canonical" href="{e(u)}">', f'<meta property="og:url" content="{e(u)}">']
-    w += [FONTY, f'<link rel="stylesheet" href="{root}styl.css">']
+    if ADRES and (KAT / obraz).exists():
+        u = f'{ADRES}/{obraz}'
+        w += [f'<meta property="og:image" content="{e(u)}">', '<meta property="og:image:width" content="1200">',
+              '<meta property="og:image:height" content="630">', f'<meta property="og:image:alt" content="{e(tytul)}">',
+              '<meta name="twitter:card" content="summary_large_image">']
+    # czcionki z własnego serwera strony (bez łączenia czytelników z Google)
+    w += [f'<link rel="stylesheet" href="{root}fonty/fonty.css">', f'<link rel="stylesheet" href="{root}styl.css">']
     return '\n'.join(w)
 
 
-def strona(tytul, opis, root, sciezka, aktywna, tresc, skrypt='', typ='website'):
+def strona(tytul, opis, root, sciezka, aktywna, tresc, skrypt='', typ='website', obraz='obrazki/start.png'):
     L = LinkiStrona(root)
     return f'''<!doctype html>
 <html lang="pl">
 <head>
-{glowa(tytul, opis, root, sciezka, typ)}
+{glowa(tytul, opis, root, sciezka, typ, obraz)}
 </head>
 <body>
 {naglowek(L, aktywna)}
@@ -274,6 +286,9 @@ def buduj_strone():
     DOCS.mkdir()
     shutil.copy(SZABLONY / 'styl.css', DOCS / 'styl.css')
     shutil.copy(SZABLONY / 'lista.js', DOCS / 'lista.js')
+    shutil.copytree(SZABLONY / 'fonty', DOCS / 'fonty')
+    if (KAT / 'obrazki').exists():
+        shutil.copytree(KAT / 'obrazki', DOCS / 'obrazki')
     zapisz(DOCS / 'ikona.svg', IKONA)
     zapisz(DOCS / '.nojekyll', '')
     L0 = LinkiStrona('')
@@ -282,7 +297,7 @@ def buduj_strone():
     for h in PELNE:
         zapisz(DOCS / 'historie' / f'{h["id"]}.html',
                strona(f'{h["tytul"]} · {NAZWA}', h['zajawka'], '../', f'historie/{h["id"]}.html', 'historie',
-                      artykul(h, LinkiStrona('../')), typ='article'))
+                      artykul(h, LinkiStrona('../')), typ='article', obraz=f'obrazki/{h["id"]}.png'))
     zapisz(DOCS / 'o-stronie.html',
            strona(f'O stronie · {NAZWA}', 'Skąd biorą się historie z ksiąg parafii Dobra i Jurków, kto je pisze i na ile są pewne.',
                   '', 'o-stronie.html', 'o', artykul_o(L0), KONTAKT_JS))
