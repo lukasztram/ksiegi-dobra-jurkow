@@ -127,7 +127,8 @@ a.row:hover .ttl{color:var(--spruce)}
 .legenda li,.pewnosc li{display:flex; gap:12px; align-items:baseline; margin-bottom:8px}
 
 /* historia i strony z tekstem */
-.czyt{max-width:42rem; margin:0 auto; padding-block:30px 20px}
+.czyt{max-width:42rem; margin:0 auto; padding-block:30px 20px;
+  padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px))}
 .wstecz{font-family:var(--f-mono); font-size:.76rem; letter-spacing:.04em; text-decoration:none}
 .czyt .eyebrow{margin-top:28px}
 .czyt h1{font-family:var(--f-display); font-weight:500; font-size:clamp(2.3rem, 7vw, 3.7rem); line-height:1.04; letter-spacing:-.01em; margin:0 0 18px; text-wrap:balance}

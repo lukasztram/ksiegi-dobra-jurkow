@@ -406,6 +406,23 @@
       "znacznik": "Półrzeczki, Chyszówki, Jurków, Dobra · 1818–1925 · nowa historia z ksiąg",
       "lead": "Lasy pod Mogielicą i Łopieniem dawały wsiom drewno i zarobek, ale praca w nich była niebezpieczna. Księgi zapisały tych, których zabiło drzewo, i ludzi, którzy tymi lasami zarządzali.",
       "cytat_obrazek": "tempore desectionis arboris in silva"
+    },
+    {
+      "id": "harnas",
+      "rok": 1735,
+      "rok_tekst": "1735",
+      "miejsce": "Dobra i Jurków, Szerszenie",
+      "tytul": "Ostatnia hulanka harnasia",
+      "zajawka": "Jesienią 1735 roku w dobrach Dobra pojmano harnasia Józefa Baczyńskiego. W Jurkowie mówi się, że karczma stała na Szerszeniach, kilkadziesiąt metrów od dzisiejszej kaplicy.",
+      "tematy": [
+        "ludzie",
+        "dwor"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Dobra i Jurków · 1735 · nowa historia ze źródeł i przekazów mieszkańców",
+      "lead": "Józef Baczyński ze Skawicy był jednym z najsłynniejszych zbójników Beskidów. Jego wędrówka skończyła się późną jesienią 1735 roku na zabawie w dobrach Dobra. Gdzie dokładnie, o tym spierają się opracowania i pamięć mieszkańców.",
+      "cytat_obrazek": "po ujęciu harnasia Baczyńskiego"
     }
   ]
 }
