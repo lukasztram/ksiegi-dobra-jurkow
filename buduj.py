@@ -166,7 +166,7 @@ def tresc_start(L):
   {dostepnosc_html()}
   <div class="sekcja-tyt">
     <h2>Historie</h2>
-    <p>Po kolei, jak w księdze. Kliknij historię, żeby przeczytać. Szare czekają na opracowanie.</p>
+    <p>Po kolei, jak w księdze. Kliknij historię, żeby przeczytać.</p>
   </div>
   <ul class="filtry" id="filtry" aria-label="Tematy" data-tematy="{tematy_json}"></ul>
   <div class="rejestr">

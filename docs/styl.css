@@ -208,3 +208,11 @@ a.row:hover .ttl{color:var(--spruce)}
 @media (max-width: 760px){
   .wiesy{grid-template-columns:minmax(0,1fr)}
 }
+
+/* tabele w historiach */
+.czyt .tab-wrap{overflow-x:auto; margin:18px 0 6px}
+.tabela{border-collapse:collapse; width:100%; font-size:.92rem; min-width:26rem}
+.tabela th{font-family:var(--f-mono); font-weight:500; font-size:.66rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-2); text-align:left; padding:6px 8px; border-bottom:1px solid var(--ink)}
+.tabela td{padding:5px 8px; border-bottom:1px solid var(--rule)}
+.tabela td.num{font-variant-numeric:tabular-nums; text-align:right}
+.podpis-tab{font-size:.84rem; color:var(--ink-2)}

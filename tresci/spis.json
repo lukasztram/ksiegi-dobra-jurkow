@@ -57,7 +57,9 @@
         "ludzie"
       ],
       "zrodlo": "ksiazka",
-      "gotowa": false
+      "gotowa": true,
+      "znacznik": "Jurków · od 1679 · z publikacji „Trzy stulecia Jurkowa”",
+      "lead": "Siciarze, Czerniki, Szerszenie, Krawce, Trzopki. Części Jurkowa noszą nazwiska rodów, które księgi zapisały już w XVII wieku."
     },
     {
       "id": "slub-po-latach",
@@ -77,29 +79,33 @@
     },
     {
       "id": "marszalek",
-      "rok": 1788,
-      "rok_tekst": "1788–1809",
+      "rok": 1678,
+      "rok_tekst": "1678–1839",
       "miejsce": "Dobra",
-      "tytul": "Pan, który zniósł pańszczyznę",
-      "zajawka": "Marszałek Sejmu Czteroletniego Stanisław Małachowski rozdał poddanym ziemię i odbudował szkołę w Dobrej. Co z tego zostało w księgach?",
+      "tytul": "Marszałek, morgi i szkoła",
+      "zajawka": "Szkoła w Dobrej była starsza niż reformy marszałka Małachowskiego. Jej rektor w 1685 roku trzymał do chrztu dzieci z całej parafii.",
       "tematy": [
         "dwor"
       ],
       "zrodlo": "ksiazka",
-      "gotowa": false
+      "gotowa": true,
+      "znacznik": "Dobra · 1678–1839 · z publikacji i ksiąg",
+      "lead": "Stanisław Małachowski, marszałek Sejmu Czteroletniego, był panem na Dobrej. W księgach parafii go nie ma, ale widać w nich szkołę, którą odbudował."
     },
     {
       "id": "piorun",
       "rok": 1826,
-      "rok_tekst": "1826",
-      "miejsce": "Jurków",
+      "rok_tekst": "1826–1920",
+      "miejsce": "Jurków, Dobra",
       "tytul": "Jeden piorun",
-      "zajawka": "7 lipca 1826 roku jeden piorun zabił trzydziestoletniego Józefa Pałkę i dziesięcioletnią Mariannę.",
+      "zajawka": "Jeden piorun zabił w 1826 roku mężczyznę i dziecko z dwóch domów. A w 1920 roku w Dobrej ksiądz zapisał śmierć od pioruna w lutym.",
       "tematy": [
         "zywioly"
       ],
       "zrodlo": "ksiazka",
-      "gotowa": false
+      "gotowa": true,
+      "znacznik": "Jurków i Dobra · 1826, 1906, 1920 · z publikacji i ksiąg",
+      "lead": "7 lipca 1826 roku nad Jurkowem przeszła burza. Jeden piorun zabił dwie osoby z dwóch różnych domów."
     },
     {
       "id": "hrabia-przy-chrzcielnicy",
@@ -121,14 +127,16 @@
       "id": "polozne",
       "rok": 1832,
       "rok_tekst": "1832–1907",
-      "miejsce": "Jurków",
+      "miejsce": "cała parafia",
       "tytul": "Położne bez szkoły",
-      "zajawka": "Agnieszka Syrszeń przyjęła na świat co najmniej 238 dzieci, Anna Rapacz 186. W księdze przy ich nazwiskach: „non examinata”.",
+      "zajawka": "Agnieszka Chalcarz przyjęła na świat 739 dzieci, Anna Rapacz ponad 300. W księdze przy ich nazwiskach przez dziesięciolecia: „non examinata”.",
       "tematy": [
         "ludzie"
       ],
       "zrodlo": "ksiazka",
-      "gotowa": false
+      "gotowa": true,
+      "znacznik": "cała parafia · 1829–1923 · z publikacji i ksiąg",
+      "lead": "Przez większą część XIX wieku dzieci przyjmowały na świat sąsiadki. Księgi zapisały ich imiona i dwa słowa: non examinata, nieegzaminowana."
     },
     {
       "id": "lesniczy",
@@ -209,8 +217,8 @@
     },
     {
       "id": "sasiedzi",
-      "rok": 1871,
-      "rok_tekst": "1871–1877",
+      "rok": 1860,
+      "rok_tekst": "1860–1893",
       "miejsce": "Dobra",
       "tytul": "Sąsiedzi wyznania mojżeszowego",
       "zajawka": "Proboszcz Dobrej wpisywał do księgi chrztów także urodzenia dzieci z rodzin żydowskich, między innymi dzierżawcy wyszynku.",
@@ -218,20 +226,24 @@
         "ludzie"
       ],
       "zrodlo": "nowa",
-      "gotowa": false
+      "gotowa": true,
+      "znacznik": "Dobra · 1860–1893 · nowa historia z ksiąg",
+      "lead": "W latach 1871–1877 proboszcz Dobrej wpisywał do księgi chrztów także dzieci, których nie chrzcił: urodzenia w rodzinach żydowskich."
     },
     {
       "id": "kolej",
-      "rok": 1885,
-      "rok_tekst": "1885–1901",
-      "miejsce": "Dobra, Półrzeczki",
+      "rok": 1883,
+      "rok_tekst": "1883–1901",
+      "miejsce": "Dobra, Porąbka, Półrzeczki",
       "tytul": "Kolej i parowa piła",
-      "zajawka": "Budowniczy kolei z Czech, stróż toru, zawiadowca stacji i maszynista parowej piły: nowi ludzie w księgach.",
+      "zajawka": "Kamieniarz z Belluno, dozorca z Tyrolu, budowniczy z Czech i architekci jako świadkowie na wiejskim weselu. Tak przyszła do Dobrej kolej.",
       "tematy": [
         "ludzie"
       ],
       "zrodlo": "nowa",
-      "gotowa": false
+      "gotowa": true,
+      "znacznik": "Dobra, Porąbka, Półrzeczki · 1883–1901 · nowa historia z ksiąg",
+      "lead": "W latach 1882–1884 przez Dobrą budowano Galicyjską Kolej Transwersalną. Do parafii przyjechali ludzie z całej monarchii, a księgi zapisały ich ślady."
     },
     {
       "id": "ostrawa",
@@ -269,7 +281,7 @@
       "id": "cmentarz",
       "rok": 1916,
       "rok_tekst": "1916",
-      "miejsce": "Jurków, Chyszówki",
+      "miejsce": "Chyszówki, Półrzeczki, Jurków",
       "tytul": "Nowy cmentarz bez zgody proboszcza",
       "zajawka": "Kooperator z Jurkowa chował zmarłych z Chyszówek na niepoświęconym cmentarzu. W księdze Dobrej zapisano to przez całą stronę.",
       "tematy": [
@@ -277,7 +289,9 @@
         "slowa"
       ],
       "zrodlo": "ksiazka",
-      "gotowa": false
+      "gotowa": true,
+      "znacznik": "Chyszówki i Półrzeczki · 1916 · z publikacji „Chyszówki w księgach zmarłych”",
+      "lead": "W 1916 roku zmarłych z Chyszówek zaczął chować ksiądz z Jurkowa, na nowym, niepoświęconym cmentarzu. W księdze został po tym protest z wykrzyknikiem."
     },
     {
       "id": "hiszpanka",
