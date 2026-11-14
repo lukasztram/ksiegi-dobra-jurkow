@@ -423,6 +423,90 @@
       "znacznik": "Dobra i Jurków · 1735 · nowa historia ze źródeł i przekazów mieszkańców",
       "lead": "Józef Baczyński ze Skawicy był jednym z najsłynniejszych zbójników Beskidów. Jego wędrówka skończyła się późną jesienią 1735 roku na zabawie w dobrach Dobra. Gdzie dokładnie, o tym spierają się opracowania i pamięć mieszkańców.",
       "cytat_obrazek": "po ujęciu harnasia Baczyńskiego"
+    },
+    {
+      "id": "kaplica",
+      "rok": 1826,
+      "rok_tekst": "1826",
+      "miejsce": "Jurków, Szyrszenie",
+      "tytul": "Kaplica na Szyrszeniu",
+      "zajawka": "Naprzeciw domu moich przodków stoi kaplica z 1826 roku. Tradycja mówi, że postawił ją ojciec z rodu Podgórnich, gdy syn został księdzem. Szukałem tego księdza w księgach.",
+      "tematy": [
+        "ludzie",
+        "dwor"
+      ],
+      "zrodlo": "rodzina",
+      "gotowa": true,
+      "znacznik": "Jurków, Szyrszenie · 1826 · z mojej książki „Ród Podgórnich z Jurkowa”",
+      "lead": "Na Szyrszeniu w Jurkowie Dolnym, naprzeciw domu nr 5, stoi murowana kaplica Świętej Rodziny z 1826 roku. W maju 2026 roku parafia świętowała jej dwusetlecie. Kto ją zbudował?",
+      "cytat_obrazek": "Repraesentans Dominii Dobra"
+    },
+    {
+      "id": "bliznieta",
+      "rok": 1724,
+      "rok_tekst": "1703–1910",
+      "miejsce": "cała parafia",
+      "tytul": "Bliźnięta",
+      "zajawka": "Agnieszka i Sebastian, Piotr i Paweł, Tomasz i Wiktoria: bliźnięta dostawały imiona sąsiednich świętych. W pierwszym roku życia umierało prawie co drugie.",
+      "tematy": [
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1703–1910 · nowa historia z ksiąg",
+      "lead": "Mniej więcej co sześćdziesiąty piąty poród w parafii był porodem bliźniąt. Księgi mówią, jak je nazywano i ile z nich przeżyło pierwszy rok.",
+      "cytat_obrazek": "Joachimum et Josephum geminos"
+    },
+    {
+      "id": "imiona",
+      "rok": 1678,
+      "rok_tekst": "1678–1923",
+      "miejsce": "cała parafia",
+      "tytul": "Imię z kalendarza",
+      "zajawka": "Dziewięciu na dziesięciu Melchiorów urodziło się koło Trzech Króli. Regina była kiedyś najpopularniejszym imieniem dziewczynek, a po 1900 roku nie ma ani jednej.",
+      "tematy": [
+        "slowa",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1678–1923 · nowa historia z ksiąg",
+      "lead": "Ponad dwadzieścia tysięcy chrztów pozwala sprawdzić, skąd brano imiona dla dzieci i jak zmieniały się na nie mody.",
+      "cytat_obrazek": "quatuor nominum"
+    },
+    {
+      "id": "karczmy",
+      "rok": 1697,
+      "rok_tekst": "1697–1902",
+      "miejsce": "Dobra, Wilczyce",
+      "tytul": "Karczmy i karczmarze",
+      "zajawka": "Karczmarz z Wilczyc poskarżył się dziedziczce, bo proboszcz wziął mu woły za pogrzeb matki. Karczmarze w księgach parafii, od chłopów z Dobrej po przybyszów z Moraw.",
+      "tematy": [
+        "dwor",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Dobra i Wilczyce · 1697–1902 · nowa historia z ksiąg i akt sądowych",
+      "lead": "Karczma należała do dworu, a karczmarz był we wsi kimś. Księgi i akta sądowe pokazują karczmarzy od czasów saskich do początku XX wieku.",
+      "cytat_obrazek": "Adalbertus Judka Caupo in Dobra"
+    },
+    {
+      "id": "vanek",
+      "rok": 1895,
+      "rok_tekst": "1895–1965",
+      "miejsce": "Dobra, dom nr 202",
+      "tytul": "Wnuk karczmarza",
+      "zajawka": "W domu karczmarza w Dobrej urodził się w 1895 roku chłopiec, który został czechosłowackim legionistą, oficerem wywiadu i posłem we Włoszech. W księdze dopisano, gdzie zmarł.",
+      "tematy": [
+        "daleko",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Dobra, dom nr 202 · 1895 · nowa historia z ksiąg i archiwum czeskiego MSZ",
+      "lead": "Przy chrzcie z czerwca 1895 roku ktoś po latach dopisał ślub w Pradze i śmierć w Rzymie. To ślad życia, które zaczęło się przy dworskiej karczmie w Dobrej.",
+      "cytat_obrazek": "6.10.1965 Romae"
     }
   ]
 }
