@@ -285,7 +285,7 @@ def buduj_strone():
                       artykul(h, LinkiStrona('../')), typ='article'))
     zapisz(DOCS / 'o-stronie.html',
            strona(f'O stronie · {NAZWA}', 'Skąd biorą się historie z ksiąg parafii Dobra i Jurków, kto je pisze i na ile są pewne.',
-                  '', 'o-stronie.html', 'o', artykul_o(L0)))
+                  '', 'o-stronie.html', 'o', artykul_o(L0), KONTAKT_JS))
     zapisz(DOCS / '404.html',
            strona(f'Nie ma takiej strony · {NAZWA}', 'Nie ma takiej strony.', '', '404.html', '',
                   '<section class="wrap czyt" id="tresc"><h1 tabindex="-1">Nie ma takiej strony</h1>'
@@ -298,6 +298,18 @@ def buduj_strone():
                '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                + ''.join(f'  <url><loc>{e(a)}</loc></url>\n' for a in adresy) + '</urlset>\n')
     zapisz(DOCS / 'robots.txt', roboty)
+
+
+KONTAKT_JS = '''<script>
+/* adres e-mail składany dopiero w przeglądarce, żeby automaty zbierające adresy go nie znalazły */
+document.querySelectorAll('.adres[data-u]').forEach(function (s) {
+  var a = s.getAttribute('data-u') + '@' + s.getAttribute('data-d');
+  var l = document.createElement('a');
+  l.href = 'mailto:' + a;
+  l.textContent = a;
+  s.replaceChildren(l);
+});
+</script>'''
 
 
 ROUTER = '''<script>
@@ -357,6 +369,7 @@ def buduj_podglad():
 {lista_js}
 </script>
 {ROUTER % json.dumps([h['id'] for h in PELNE])}
+{KONTAKT_JS}
 '''
     zapisz(PODGLAD / 'podglad.html', tekst)
 

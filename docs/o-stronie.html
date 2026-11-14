@@ -74,7 +74,7 @@
 <div class="blok">
   <h2>Znasz te rodziny? Widzisz błąd?</h2>
   <p>W tak wielkiej liczbie odczytów zdarzają się pomyłki w nazwiskach i datach. Jeśli znasz historię swojej rodziny, masz stare zdjęcie albo pamiętasz słowa z gwary, napisz do mnie. Każdą poprawkę nanoszę do bazy.</p>
-  <p class="kontakt">Adres kontaktowy podam wkrótce.</p>
+  <p class="kontakt">Mój adres: <span class="adres" data-u="lukasz.tram" data-d="gmail.com">lukasz.tram (małpa) gmail.com</span></p>
 </div>
 
 </article>
@@ -83,6 +83,15 @@
   Co mówią księgi parafii Dobra i Jurków · historie z ksiąg metrykalnych z lat 1678–1926<br>
   Skany ksiąg: serwis Metryki Polskiego Towarzystwa Genealogicznego, wyłącznie przez linki. Księgi czytam z pomocą Claude, asystenta sztucznej inteligencji.
 </footer>
-
+<script>
+/* adres e-mail składany dopiero w przeglądarce, żeby automaty zbierające adresy go nie znalazły */
+document.querySelectorAll('.adres[data-u]').forEach(function (s) {
+  var a = s.getAttribute('data-u') + '@' + s.getAttribute('data-d');
+  var l = document.createElement('a');
+  l.href = 'mailto:' + a;
+  l.textContent = a;
+  s.replaceChildren(l);
+});
+</script>
 </body>
 </html>
