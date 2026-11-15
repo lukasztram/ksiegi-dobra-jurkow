@@ -447,7 +447,7 @@
       "rok_tekst": "1703–1910",
       "miejsce": "cała parafia",
       "tytul": "Bliźnięta",
-      "zajawka": "Agnieszka i Sebastian, Piotr i Paweł, Tomasz i Wiktoria: bliźnięta dostawały imiona sąsiednich świętych. W pierwszym roku życia umierało prawie co drugie.",
+      "zajawka": "Agnieszka i Sebastian, Piotr i Paweł, Tomasz i Wiktoria: bliźnięta dostawały imiona sąsiednich świętych. W pierwszym roku życia umierało ponad jedno na trzy.",
       "tematy": [
         "ludzie"
       ],
@@ -641,6 +641,39 @@
       "znacznik": "Jurków, dom nr 78 · 1873–1941 · nowa historia z ksiąg i archiwów",
       "lead": "Dwaj synowie Sebastiana i Rozalii Łaskudów z domu nr 78 w Jurkowie zapisali się w dziejach całej okolicy. Jeden zasiadał w sejmach we Lwowie i w Warszawie, drugi kierował gminą Dobra w najtrudniejszych latach.",
       "cytat_obrazek": "Michael · Sebastianus fil. legit. Joannis"
+    },
+    {
+      "id": "pierwszy-rok",
+      "rok": 1840,
+      "rok_tekst": "1840–1889",
+      "miejsce": "cztery wsie parafii",
+      "tytul": "Pierwszy rok życia",
+      "zajawka": "Co piąte dziecko nie doczekało pierwszych urodzin. Najgroźniejszy był pierwszy miesiąc, a ksiądz najczęściej wpisywał jedno słowo: słabość.",
+      "tematy": [
+        "ludzie",
+        "zaraza"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cztery wsie parafii · 1840–1889 · nowa historia z ksiąg",
+      "lead": "Ponad pięć tysięcy chrztów i tysiąc zgonów niemowląt z ksiąg Dobrej, Jurkowa, Chyszówek i Półrzeczek pokazuje, ile dzieci nie dożywało roku, kiedy było najgroźniej i co ksiądz wpisywał jako przyczynę.",
+      "cytat_obrazek": "Jacobus · 11 dier. · debilitas"
+    },
+    {
+      "id": "narodziny",
+      "rok": 1678,
+      "rok_tekst": "1678–1923",
+      "miejsce": "cała parafia",
+      "tytul": "Kalendarz narodzin",
+      "zajawka": "Najwięcej dzieci przychodziło na świat w styczniu i lutym, najmniej w lipcu. Do połowy XIX wieku prawie każde chrzczono w dniu urodzenia albo nazajutrz.",
+      "tematy": [
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1678–1923 · nowa historia z ksiąg",
+      "lead": "Prawie dwadzieścia tysięcy chrztów z ksiąg parafii pokazuje, w których miesiącach rodziły się dzieci i jak szybko niesiono je do chrztu.",
+      "cytat_obrazek": "Januarius · Februarius · Martius"
     }
   ]
 }

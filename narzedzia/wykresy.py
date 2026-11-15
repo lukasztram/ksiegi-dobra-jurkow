@@ -21,8 +21,9 @@ def _tabela(nagl, wiersze):
 
 
 def kolumny(nazwa, tytul, etykiety, wartosci, kroki, opis, nagl, pokaz_x=None, podpisz=(), sufiks='',
-            fokus=True):
-    """Wykres kolumnowy. kroki: wartości linii siatki (ostatnia = góra skali)."""
+            fokus=True, os_x=None, wiersze=None):
+    """Wykres kolumnowy. kroki: wartości linii siatki (ostatnia = góra skali).
+    os_x: krótsze podpisy pod osią (np. rzymskie miesiące); wiersze: własne wiersze tabeli."""
     gora = kroki[-1]
     siatka = ''.join(f'<span style="bottom:{100 * k / gora:.2f}%"><em>{k}</em></span>' for k in kroki)
     sl = []
@@ -35,13 +36,27 @@ def kolumny(nazwa, tytul, etykiety, wartosci, kroki, opis, nagl, pokaz_x=None, p
         sl.append(f'<span class="{kl}"{tab} style="--h:{100 * v / gora:.2f}%" data-v="{html.escape(opis_v)}" '
                   f'aria-label="{html.escape(opis_v)}"><i></i>{b}</span>')
     osx = ''.join(f'<span>{html.escape(e) if (pokaz_x is None or i in pokaz_x) else ""}</span>'
-                  for i, e in enumerate(etykiety))
+                  for i, e in enumerate(os_x or etykiety))
     tresc = (f'<figure class="wykres">\n<p class="wk-tyt">{html.escape(tytul)}</p>\n'
              f'<div class="wk-plot"><div class="wk-siatka" aria-hidden="true">{siatka}</div>'
              f'<div class="wk-slupki">{"".join(sl)}</div></div>\n'
              f'<div class="wk-osx" aria-hidden="true">{osx}</div>\n'
              f'<figcaption>{opis}</figcaption>\n'
-             f'{_tabela(nagl, zip(etykiety, wartosci))}\n</figure>\n')
+             f'{_tabela(nagl, wiersze or zip(etykiety, wartosci))}\n</figure>\n')
+    (WYJ / f'{nazwa}.html').write_text(tresc, encoding='utf-8')
+
+
+def kratki(nazwa, tytul, grupy, opis, nagl, wiersze):
+    """Sto kratek (10 × 10) dla „ze stu dzieci…”. grupy: [(liczba, klasa, podpis)], razem 100."""
+    assert sum(g[0] for g in grupy) == 100
+    kr = ''.join(f'<i class="{k}"></i>' * n for n, k, _ in grupy)
+    opis_aria = '; '.join(f'{n} {p}' for n, _, p in grupy)
+    leg = ''.join(f'<li><i class="{k}"></i><b>{n}</b><span>{html.escape(p)}</span></li>' for n, k, p in grupy)
+    tresc = (f'<figure class="wykres">\n<p class="wk-tyt">{html.escape(tytul)}</p>\n'
+             f'<div class="wk-kr-uklad"><div class="wk-kratki" role="img" aria-label="{html.escape(opis_aria)}">{kr}</div>'
+             f'<ul class="wk-leg">{leg}</ul></div>\n'
+             f'<figcaption>{opis}</figcaption>\n'
+             f'{_tabela(nagl, wiersze)}\n</figure>\n')
     (WYJ / f'{nazwa}.html').write_text(tresc, encoding='utf-8')
 
 
@@ -96,6 +111,35 @@ def main():
             [63.7, 13.6, 9.3, 8.1, 2.6, 1.2, 1.1, 0.3], [3102, 661, 452, 394, 128, 60, 54, 17],
             'Jak ksiądz zapisał stan ojca przy chrzcie (4868 chrztów z takim dopiskiem).',
             ['Stan ojca', 'Chrzty', 'Udział'])
+
+    # Pierwszy rok życia: Dobra 1840–1879, Jurków, Chyszówki, Półrzeczki 1840–1889; księgi główne.
+    # 5110 chrztów (bez martwo urodzonych), 1043 zgony przed 1. urodzinami, 618 w wieku 1–4 lat.
+    kratki('pierwszy-rok-sto-dzieci', 'Ze stu dzieci urodzonych w latach 1840–1889',
+           [(20, 'k1', 'zmarło przed pierwszymi urodzinami'), (12, 'k2', 'zmarło w wieku od roku do pięciu lat'),
+            (68, 'k3', 'dożyło piątych urodzin')],
+           'Dobra, Jurków, Chyszówki i Półrzeczki: 5110 ochrzczonych dzieci i zgony dzieci zapisane w tych samych '
+           'latach w księgach zmarłych tych wsi.',
+           ['Grupa', 'Dzieci', 'Na 100 urodzonych'],
+           [('ochrzczone (urodzone żywe)', 5110, '100'), ('zmarłe przed 1. urodzinami', 1043, '20,4'),
+            ('zmarłe w wieku od roku do 5 lat', 618, '12,1'), ('martwo urodzone (osobno)', 237, '4,6')])
+    poziome('pierwszy-rok-wiek', 'W jakim wieku umierały niemowlęta, 1840–1889',
+            ['1. tydzień', '2.–4. tydzień', '2.–3. miesiąc', '4.–6. miesiąc', '7.–12. miesiąc'],
+            [15.4, 27.2, 21.3, 14.5, 21.5], [160, 283, 222, 151, 224],
+            'Na 100 zmarłych niemowląt (1040 zgonów z zapisanym wiekiem). Przedziały są różnej długości: '
+            'pierwszy tydzień to siedem dni, ostatni przedział to pół roku.',
+            ['Wiek', 'Zgony', 'Udział'])
+
+    # Kalendarz narodzin: chrzty z ksiąg głównych 1678–1909 (19 295), data urodzenia, a gdy jej brak, data chrztu.
+    ur = [1992, 1833, 1875, 1767, 1723, 1435, 1314, 1366, 1372, 1546, 1513, 1559]
+    dni = [31, 28.25, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    srednio = sum(ur) / 365.25
+    ind = [round(100 * u / d / srednio) for u, d in zip(ur, dni)]
+    kolumny('narodziny-miesiace', 'Urodzenia według miesięcy, 1678–1909', nazwy, ind, [0, 50, 100, 150],
+            'Ile dzieci rodziło się w danym miesiącu w porównaniu z przeciętnym miesiącem (100 = przeciętnie). '
+            'Przeliczone na jednakową długość miesiąca; 19 295 dzieci z odczytanych ksiąg chrztów. '
+            'Najedź na słupek albo go dotknij, żeby zobaczyć wartość.',
+            ['Miesiąc', 'Urodzenia', 'Na 100 przeciętnie'], podpisz=(0, 1, 6), os_x=mies,
+            wiersze=list(zip(nazwy, ur, ind)))
     print('Zapisano wykresy w', WYJ)
 
 
