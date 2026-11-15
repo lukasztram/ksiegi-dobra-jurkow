@@ -757,6 +757,22 @@
       "znacznik": "Dobra · 1689–1929 · nowa historia z ksiąg",
       "lead": "Organista grał w kościele, prowadził śpiew, często uczył dzieci i stawał jako świadek przy ślubach. Księgi znają organistów Dobrej z imienia od końca XVII wieku.",
       "cytat_obrazek": "Joannes Mielecki Organarius Dobrensis"
+    },
+    {
+      "id": "porod",
+      "rok": 1875,
+      "rok_tekst": "1786–1896",
+      "miejsce": "cztery wsie parafii",
+      "tytul": "Śmierć przy porodzie",
+      "zajawka": "Prawie co piąta zamężna kobieta, która zmarła przed czterdziestką piątką, zmarła przy porodzie albo tuż po nim. Ksiądz pisał krótko: propter partum.",
+      "tematy": [
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cztery wsie parafii · 1786–1896 · nowa historia z ksiąg",
+      "lead": "Księgi zmarłych pokazują, jak często poród kończył się śmiercią matki i co działo się potem z dzieckiem i rodziną.",
+      "cytat_obrazek": "Marianna Tomera · propter partum"
     }
   ]
 }

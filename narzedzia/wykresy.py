@@ -147,6 +147,14 @@ def main():
             [61.5, 18.8, 12.6, 7.1], [1747, 535, 357, 201],
             'Na 100 ślubów (2840 ślubów, przy których ksiądz zaznaczył stan cywilny obojga nowożeńców).',
             ['Para', 'Śluby', 'Udział'])
+
+    # Śmierć przy porodzie: zamężne kobiety 20–44 lat, cztery wsie, lata objęte księgami chrztów i zmarłych, 1786–1896.
+    kratki('porod-sto-kobiet', 'Ze stu zamężnych kobiet, które zmarły w wieku 20–44 lat',
+           [(18, 'k1', 'zmarło przy porodzie albo w połogu'), (82, 'k3', 'zmarło z innych przyczyn')],
+           'Dobra, Jurków, Chyszówki i Półrzeczki, 1786–1896: 314 zgonów zamężnych kobiet w tym wieku, '
+           'z tego 56 przy porodzie albo w ciągu sześciu tygodni po nim.',
+           ['Zgony', 'Liczba', 'Na 100'],
+           [('zamężne kobiety, 20–44 lat', 314, '100'), ('przy porodzie albo w połogu', 56, '17,8')])
     print('Zapisano wykresy w', WYJ)
 
 
