@@ -93,6 +93,9 @@ class LinkiStrona:
     def historia(self, hid):
         return f'{self.root}historie/{hid}.html'
 
+    def plik(self, sciezka):
+        return f'{self.root}{sciezka}'
+
 
 class LinkiPodglad:
     """Linki w podglądzie jednoplikowym (widoki przełączane po #)."""
@@ -106,6 +109,10 @@ class LinkiPodglad:
 
     def historia(self, hid):
         return f'#{hid}'
+
+    def plik(self, sciezka):
+        # podgląd jednoplikowy nie ma folderów — obrazki z opublikowanej strony
+        return f'{ADRES}/{sciezka}' if ADRES else sciezka
 
 
 def naglowek(L, aktywna, skok=True):
@@ -203,6 +210,8 @@ def artykul(h, L, kotwica=True):
     tresc = (TRESCI / 'historie' / f'{h["id"]}.html').read_text(encoding='utf-8')
     # odnośniki między historiami: {{historia:id}} -> adres zależny od wersji (strona / podgląd)
     tresc = re.sub(r'\{\{historia:([a-z0-9-]+)\}\}', lambda m: L.historia(m.group(1)), tresc)
+    # pliki strony (ilustracje): {{plik:ilustracje/x.jpg}} -> ścieżka zależna od wersji
+    tresc = re.sub(r'\{\{plik:([A-Za-z0-9_./-]+)\}\}', lambda m: L.plik(m.group(1)), tresc)
     # wykresy: <!--WYKRES:nazwa--> → tresci/wykresy/nazwa.html (generuje narzedzia/wykresy.py)
     tresc = re.sub(r'<!--WYKRES:([a-z0-9-]+)-->',
                    lambda m: (TRESCI / 'wykresy' / f'{m.group(1)}.html').read_text(encoding='utf-8'), tresc)
@@ -292,6 +301,8 @@ def buduj_strone():
     shutil.copytree(SZABLONY / 'fonty', DOCS / 'fonty')
     if (KAT / 'obrazki').exists():
         shutil.copytree(KAT / 'obrazki', DOCS / 'obrazki')
+    if (KAT / 'ilustracje').exists():
+        shutil.copytree(KAT / 'ilustracje', DOCS / 'ilustracje')
     zapisz(DOCS / 'ikona.svg', IKONA)
     zapisz(DOCS / '.nojekyll', '')
     L0 = LinkiStrona('')

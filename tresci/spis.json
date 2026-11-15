@@ -624,6 +624,23 @@
       "znacznik": "Dobra i Chyszówki · 1730–1922 · nowa historia z ksiąg",
       "lead": "Księgi parafii zapisały też Romów, wędrownych i osiadłych. Ksiądz nazywał ich „Cinganami” i „Cyganami”, a przy chrzcie ich dzieci stawali zarówno sąsiedzi, jak i ludzie dworu.",
       "cytat_obrazek": "ex relatione consocii Cinganorum"
+    },
+    {
+      "id": "laskudowie",
+      "rok": 1873,
+      "rok_tekst": "1873–1941",
+      "miejsce": "Jurków, dom nr 78",
+      "tytul": "Poseł i wójt z Jurkowa",
+      "zajawka": "Michał Łaskuda był wójtem Jurkowa i posłem trzech sejmów, a jego brat Szymon pierwszym wójtem gminy Dobra. Zginął w Buchenwaldzie w 1941 roku.",
+      "tematy": [
+        "ludzie",
+        "daleko"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Jurków, dom nr 78 · 1873–1941 · nowa historia z ksiąg i archiwów",
+      "lead": "Dwaj synowie Sebastiana i Rozalii Łaskudów z domu nr 78 w Jurkowie zapisali się w dziejach całej okolicy. Jeden zasiadał w sejmach we Lwowie i w Warszawie, drugi kierował gminą Dobra w najtrudniejszych latach.",
+      "cytat_obrazek": "Michael · Sebastianus fil. legit. Joannis"
     }
   ]
 }

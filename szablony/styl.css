@@ -139,7 +139,8 @@ a.row:hover .ttl{color:var(--spruce)}
 .czyt h3{font-family:var(--f-display); font-weight:500; font-size:1.35rem; margin:34px 0 12px}
 .wypis{margin:28px 0; padding:16px 18px; background:var(--paper-2); border-top:1px solid var(--gall); border-bottom:1px solid var(--gall)}
 .wypis .k{font-family:var(--f-mono); font-size:.68rem; letter-spacing:.1em; text-transform:uppercase; color:var(--gall); margin:0 0 8px}
-.wypis blockquote{margin:0 0 10px; font-family:var(--f-display); font-style:italic; font-size:1.32rem; line-height:1.35; color:var(--gall)}
+.wypis blockquote{margin:0 0 10px; font-family:var(--f-display); font-style:italic; font-size:1.32rem; line-height:1.35; color:var(--gall);
+  font-variation-settings:'opsz' 11}   /* grubsze włoskowe kreski: przy opsz=22 kreska w „Ł” znika na ekranach 1x */
 .wypis .pl-t{margin:0 0 10px}
 .wypis .sy{font-family:var(--f-mono); font-size:.72rem; line-height:1.6; color:var(--ink-2); margin:0}
 .lista{list-style:none; padding:0; margin:0 0 8px}
@@ -249,3 +250,10 @@ a.row:hover .ttl{color:var(--spruce)}
 .wk-b b{font:600 .74rem var(--f-mono); color:var(--ink)}
 .wk-tab .tabela{min-width:0; max-width:24rem}
 .wk-k:hover b,.wk-k:focus-visible b{opacity:0}
+
+/* Ilustracje z wolnych źródeł (folder ilustracje/, w treści {{plik:ilustracje/...}}) */
+.ilustracja{margin:30px 0 26px}
+.ilustracja img{display:block; max-width:100%; height:auto; margin:0 auto; border:1px solid var(--rule); background:var(--paper-2)}
+.ilustracja.portret img{max-width:min(100%, 300px)}
+.ilustracja figcaption{font-size:.86rem; line-height:1.5; color:var(--ink-2); margin-top:9px}
+.ilustracja figcaption a{color:inherit}
