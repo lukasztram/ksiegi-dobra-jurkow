@@ -217,3 +217,35 @@ a.row:hover .ttl{color:var(--spruce)}
 .tabela td{padding:5px 8px; border-bottom:1px solid var(--rule)}
 .tabela td.num{font-variant-numeric:tabular-nums; text-align:right}
 .podpis-tab{font-size:.84rem; color:var(--ink-2)}
+
+/* Wykresy (narzedzia/wykresy.py): słupki w HTML/CSS, kolory z tokenów strony, tryb ciemny bez zmian */
+.wykres{margin:30px 0 26px}
+.wk-tyt{font-family:var(--f-mono); font-size:.72rem; letter-spacing:.05em; text-transform:uppercase; color:var(--ink-2); margin:0 0 14px}
+.wk-plot{position:relative; height:190px; margin-left:2.6rem; border-bottom:1px solid var(--ink-2)}
+.wk-siatka span{position:absolute; left:0; right:0; border-top:1px solid var(--rule)}
+.wk-siatka em{position:absolute; right:calc(100% + 7px); transform:translateY(-50%); font:normal .66rem/1 var(--f-mono); color:var(--ink-2)}
+.wk-slupki{position:absolute; inset:0; display:flex; align-items:flex-end; gap:2px}
+.wk-k{flex:1 1 0; min-width:0; height:100%; position:relative; display:flex; align-items:flex-end; justify-content:center; outline:none}
+.wk-k i{display:block; width:100%; max-width:24px; height:var(--h); background:var(--spruce); border-radius:4px 4px 0 0}
+.wk-k:hover i,.wk-k:focus-visible i{background:var(--ink)}
+.wk-k b{position:absolute; bottom:calc(var(--h) + 5px); left:50%; transform:translateX(-50%); font:600 .7rem/1 var(--f-mono); color:var(--ink); white-space:nowrap}
+.wk-k::after{content:attr(data-v); position:absolute; bottom:calc(min(var(--h), 76%) + 24px); left:50%; transform:translateX(-50%);
+  white-space:nowrap; font:.72rem/1.3 var(--f-mono); color:var(--ink); background:var(--paper); border:1px solid var(--rule);
+  padding:3px 7px; opacity:0; pointer-events:none; z-index:3; transition:opacity .12s}
+.wk-k:hover::after,.wk-k:focus-visible::after{opacity:1}
+.wk-k.l::after{left:0; transform:none}
+.wk-k.p::after{left:auto; right:0; transform:none}
+.wk-osx{display:flex; gap:2px; margin:6px 0 0 2.6rem}
+.wk-osx span{flex:1 1 0; min-width:0; text-align:center; font:.66rem/1.2 var(--f-mono); color:var(--ink-2); white-space:nowrap}
+.wk-osx span:last-child{text-align:right}
+.wykres figcaption{font-size:.92rem; line-height:1.5; color:var(--ink-2); margin-top:12px}
+.wk-tab{margin-top:8px}
+.wk-tab summary{cursor:pointer; font:.74rem var(--f-mono); color:var(--spruce)}
+.wk-poz{display:grid; gap:7px}
+.wk-w{display:grid; grid-template-columns:minmax(6.5rem,9rem) minmax(0,1fr); gap:12px; align-items:center}
+.wk-n{font-size:.95rem}
+.wk-b{display:flex; align-items:center; gap:8px; min-width:0}
+.wk-b i{display:block; flex:none; height:14px; width:calc((100% - 3.6rem) * var(--w)); min-width:2px; background:var(--spruce); border-radius:0 4px 4px 0}
+.wk-b b{font:600 .74rem var(--f-mono); color:var(--ink)}
+.wk-tab .tabela{min-width:0; max-width:24rem}
+.wk-k:hover b,.wk-k:focus-visible b{opacity:0}

@@ -507,6 +507,106 @@
       "znacznik": "Dobra, dom nr 202 · 1895 · nowa historia z ksiąg i archiwum czeskiego MSZ",
       "lead": "Przy chrzcie z czerwca 1895 roku ktoś po latach dopisał ślub w Pradze i śmierć w Rzymie. To ślad życia, które zaczęło się przy dworskiej karczmie w Dobrej.",
       "cytat_obrazek": "6.10.1965 Romae"
+    },
+    {
+      "id": "wesela",
+      "rok": 1682,
+      "rok_tekst": "1682–1943",
+      "miejsce": "cała parafia",
+      "tytul": "Kalendarz wesel",
+      "zajawka": "Ponad jedna trzecia ślubów odbyła się w lutym, a w grudniu przez 260 lat tylko siedem. W piątek prawie nikt się nie żenił.",
+      "tematy": [
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1682–1943 · nowa historia z ksiąg",
+      "lead": "Ponad cztery tysiące ślubów z ksiąg parafii pokazuje, kiedy wyprawiano wesela: w jakim miesiącu, w jaki dzień tygodnia i w jakim wieku stawano przed ołtarzem.",
+      "cytat_obrazek": "Matrimonium contractum"
+    },
+    {
+      "id": "cwierc-roli",
+      "rok": 1820,
+      "rok_tekst": "1820–1900",
+      "miejsce": "cała parafia",
+      "tytul": "Ćwierć roli",
+      "zajawka": "„¼ Cm.” przy nazwisku ojca znaczyło ćwierć dawnego kmiecego gospodarstwa. W połowie XIX wieku tak zapisano prawie dwóch na trzech ojców.",
+      "tematy": [
+        "ludzie",
+        "slowa"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1820–1900 · nowa historia z ksiąg",
+      "lead": "Ułamki przy nazwiskach w księgach chrztów mówią, ile ziemi miał ojciec. Razem pokazują wieś podzieloną na ćwierci i ósemki.",
+      "cytat_obrazek": "¼ Cmetonis"
+    },
+    {
+      "id": "przydomki",
+      "rok": 1690,
+      "rok_tekst": "1690–1911",
+      "miejsce": "cała parafia",
+      "tytul": "Przydomki",
+      "zajawka": "Wojciech Przybytek alias Wójt, Galas alias Fleszar, Węgrzyn recte Gąsior. Ludzie z dwoma nazwiskami w księgach parafii.",
+      "tematy": [
+        "slowa",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1690–1911 · nowa historia z ksiąg",
+      "lead": "„Alias”, „vel”, „recte”: tymi słowami ksiądz dopisywał drugie nazwisko. Czasem był to urząd, czasem przezwisko, a czasem nazwisko domu.",
+      "cytat_obrazek": "Adalbertus Przybytek alias Woyt"
+    },
+    {
+      "id": "woda",
+      "rok": 1712,
+      "rok_tekst": "1712–1923",
+      "miejsce": "Dobra, Chyszówki, Półrzeczki, Jurków",
+      "tytul": "Woda",
+      "zajawka": "Powódź z 1712 roku zniosła z Jurkowa ikonę, a w 1825 roku zabrała szesnastoletnią Annę z Chyszówek. W potokach i studniach ginęły przede wszystkim dzieci.",
+      "tematy": [
+        "zywioly"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Dobra, Chyszówki, Półrzeczki, Jurków · 1712–1923 · nowa historia z ksiąg",
+      "lead": "Potoki spod Mogielicy i Łopienia poruszały młyny i tartaki. Księgi zapisały też ludzi, których zabrała woda.",
+      "cytat_obrazek": "In inundatione Aquae"
+    },
+    {
+      "id": "czesi",
+      "rok": 1854,
+      "rok_tekst": "1854–1904",
+      "miejsce": "Dobra, Jurków, Chyszówki",
+      "tytul": "Czesi i Morawianie",
+      "zajawka": "Drogomistrz z Červenego Kostelca, ogrodnik z Czech, gajowy z Moraw i wędrowny trzebiciel, który zmarł na drodze w Jurkowie.",
+      "tematy": [
+        "daleko",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Dobra, Jurków, Chyszówki · 1854–1904 · nowa historia z ksiąg",
+      "lead": "W drugiej połowie XIX wieku do parafii przyjeżdżali do pracy ludzie z Czech i z Moraw: urzędnicy, leśnicy, ogrodnicy, budowniczowie kolei.",
+      "cytat_obrazek": "advena castrator e Alt-Hrozinkau"
+    },
+    {
+      "id": "najstarsi",
+      "rok": 1779,
+      "rok_tekst": "1779–1899",
+      "miejsce": "cała parafia",
+      "tytul": "Sto lat na oko",
+      "zajawka": "Według ksiąg Stanisław Stokłosa dożył 113 lat, a Katarzyna Gdowicz 110. Jej akt ślubu mówi co innego.",
+      "tematy": [
+        "slowa",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1779–1899 · nowa historia z ksiąg",
+      "lead": "Najstarsi ludzie w księgach parafii mieli ponad sto lat. Ale wiek zmarłych zapisywano na oko i często zawyżano.",
+      "cytat_obrazek": "Stanislaus Stoklosa · 113"
     }
   ]
 }

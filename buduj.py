@@ -203,6 +203,9 @@ def artykul(h, L, kotwica=True):
     tresc = (TRESCI / 'historie' / f'{h["id"]}.html').read_text(encoding='utf-8')
     # odnośniki między historiami: {{historia:id}} -> adres zależny od wersji (strona / podgląd)
     tresc = re.sub(r'\{\{historia:([a-z0-9-]+)\}\}', lambda m: L.historia(m.group(1)), tresc)
+    # wykresy: <!--WYKRES:nazwa--> → tresci/wykresy/nazwa.html (generuje narzedzia/wykresy.py)
+    tresc = re.sub(r'<!--WYKRES:([a-z0-9-]+)-->',
+                   lambda m: (TRESCI / 'wykresy' / f'{m.group(1)}.html').read_text(encoding='utf-8'), tresc)
     i = PELNE.index(h)
     pop, nast = PELNE[i - 1], PELNE[(i + 1) % len(PELNE)]
     id_attr = ' id="tresc"' if kotwica else ''
