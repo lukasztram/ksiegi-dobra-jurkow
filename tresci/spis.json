@@ -707,6 +707,23 @@
       "znacznik": "cała parafia · 1786–1899 · nowa historia z ksiąg",
       "lead": "Śmierć często rozrywała małżeństwa w połowie drogi. Księgi ślubów pokazują, jak szybko i z kim wdowcy i wdowy zakładali nowe rodziny.",
       "cytat_obrazek": "Tomas Blasii et Sofiae Chudziak fil."
+    },
+    {
+      "id": "ojciec-leon",
+      "rok": 1892,
+      "rok_tekst": "1892–1953",
+      "miejsce": "Jurków, dom nr 108",
+      "tytul": "Ojciec Leon z Jurkowa",
+      "zajawka": "Ksiądz z mojego rodu był, tylko sto lat po kaplicy. Andrzej Podgórni z Jurkowa został dominikaninem, a w 1944 roku cudem ocalał z napadu na klasztor w Podkamieniu.",
+      "tematy": [
+        "ludzie",
+        "daleko"
+      ],
+      "zrodlo": "rodzina",
+      "gotowa": true,
+      "znacznik": "Jurków, dom nr 108 · 1892–1953 · z mojej książki „Ród Podgórnich z Jurkowa”",
+      "lead": "Andrzej Podgórni z domu nr 108 był legionistą, dominikaninem i studentem w Belgii. Wojna zastała go w klasztorach na Kresach.",
+      "cytat_obrazek": "Andreas · Antonius Podgórni fil. Joannis"
     }
   ]
 }
