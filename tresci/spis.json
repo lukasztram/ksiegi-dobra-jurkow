@@ -773,6 +773,23 @@
       "znacznik": "cztery wsie parafii · 1786–1896 · nowa historia z ksiąg",
       "lead": "Księgi zmarłych pokazują, jak często poród kończył się śmiercią matki i co działo się potem z dzieckiem i rodziną.",
       "cytat_obrazek": "Marianna Tomera · propter partum"
+    },
+    {
+      "id": "granica",
+      "rok": 1913,
+      "rok_tekst": "1913–1925",
+      "miejsce": "Jurków",
+      "tytul": "Granica parafii przez Jurków",
+      "zajawka": "W 1913 roku Jurków dostał własnego księdza wbrew woli proboszcza Dobrej, który w księdze zmarłych zapisał pogrzeby „bez zgody proboszcza”. Dolny Jurków do dziś należy do Dobrej.",
+      "tematy": [
+        "ludzie",
+        "dwor"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Jurków · 1913–1925 · nowa historia z ksiąg i opracowań",
+      "lead": "Przez ponad pięćset lat Jurków należał do parafii Dobra. Gdy w 1913 roku zaczął się od niej odłączać, proboszcz walczył o każdy pogrzeb, a granica nowej parafii przecięła wieś.",
+      "cytat_obrazek": "Sepelivit sine consensu parochi"
     }
   ]
 }
