@@ -691,6 +691,22 @@
       "znacznik": "Dobra, dwór · 1829–1850 · nowa historia z ksiąg",
       "lead": "Księgi parafii znają ludzi dworu z imienia: posesora, jego żonę, kolejnych mandatariuszy. Jeden z nich zginął zimą 1846 roku, gdy chłopi w zachodniej Galicji napadali na dwory.",
       "cytat_obrazek": "Mandatarius Dobrensis · maleficii causa"
+    },
+    {
+      "id": "wdowy",
+      "rok": 1837,
+      "rok_tekst": "1786–1899",
+      "miejsce": "cała parafia",
+      "tytul": "Wdowy i wdowcy",
+      "zajawka": "Prawie dwa śluby na pięć brał wdowiec albo wdowa. Wdowiec żenił się czasem tydzień po pogrzebie, wdowa musiała czekać, tak chciało prawo.",
+      "tematy": [
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1786–1899 · nowa historia z ksiąg",
+      "lead": "Śmierć często rozrywała małżeństwa w połowie drogi. Księgi ślubów pokazują, jak szybko i z kim wdowcy i wdowy zakładali nowe rodziny.",
+      "cytat_obrazek": "Tomas Blasii et Sofiae Chudziak fil."
     }
   ]
 }

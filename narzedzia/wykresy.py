@@ -140,6 +140,13 @@ def main():
             'Najedź na słupek albo go dotknij, żeby zobaczyć wartość.',
             ['Miesiąc', 'Urodzenia', 'Na 100 przeciętnie'], podpisz=(0, 1, 6), os_x=mies,
             wiersze=list(zip(nazwy, ur, ind)))
+
+    # Wdowy i wdowcy: śluby z lat 1786–1899 ze znanym stanem cywilnym obojga (2840), księgi bez duplikatów.
+    poziome('wdowy-pary', 'Kto brał ślub, 1786–1899',
+            ['kawaler i panna', 'wdowiec i panna', 'kawaler i wdowa', 'wdowiec i wdowa'],
+            [61.5, 18.8, 12.6, 7.1], [1747, 535, 357, 201],
+            'Na 100 ślubów (2840 ślubów, przy których ksiądz zaznaczył stan cywilny obojga nowożeńców).',
+            ['Para', 'Śluby', 'Udział'])
     print('Zapisano wykresy w', WYJ)
 
 
