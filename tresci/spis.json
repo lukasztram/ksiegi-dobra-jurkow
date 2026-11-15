@@ -724,6 +724,23 @@
       "znacznik": "Jurków, dom nr 108 · 1892–1953 · z mojej książki „Ród Podgórnich z Jurkowa”",
       "lead": "Andrzej Podgórni z domu nr 108 był legionistą, dominikaninem i studentem w Belgii. Wojna zastała go w klasztorach na Kresach.",
       "cytat_obrazek": "Andreas · Antonius Podgórni fil. Joannis"
+    },
+    {
+      "id": "ikona",
+      "rok": 1690,
+      "rok_tekst": "XVI wiek – 1973",
+      "miejsce": "Dobra i Jurków",
+      "tytul": "Ikona z Jurkowa",
+      "zajawka": "W ołtarzu starego kościoła w Dobrej wisi obraz, który według tradycji przyniosła woda. Pochodził z cerkwi wołoskich pasterzy spod Mogielicy.",
+      "tematy": [
+        "zywioly",
+        "slowa"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Dobra i Jurków · XVI wiek – 1973 · nowa historia z ksiąg i opracowań",
+      "lead": "Mały owalny obraz Przemienienia Pańskiego wisi w ołtarzu głównym starego kościoła w Dobrej. Jego historia łączy wołoskich pasterzy, powódź i proboszcza, który postawił mu osobny ołtarz.",
+      "cytat_obrazek": "Hedvigis Cerkowa de Jurkow"
     }
   ]
 }
