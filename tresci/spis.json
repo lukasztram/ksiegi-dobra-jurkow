@@ -607,6 +607,23 @@
       "znacznik": "cała parafia · 1779–1899 · nowa historia z ksiąg",
       "lead": "Najstarsi ludzie w księgach parafii mieli ponad sto lat. Ale wiek zmarłych zapisywano na oko i często zawyżano.",
       "cytat_obrazek": "Stanislaus Stoklosa · 113"
+    },
+    {
+      "id": "romowie",
+      "rok": 1730,
+      "rok_tekst": "1730–1922",
+      "miejsce": "Dobra, Chyszówki",
+      "tytul": "Romowie w księgach",
+      "zajawka": "W 1730 roku ksiądz ochrzcił syna romskiej pary, uznając ich małżeństwo na słowo innego Roma. Chrzestnym był administrator dóbr.",
+      "tematy": [
+        "ludzie",
+        "daleko"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Dobra i Chyszówki · 1730–1922 · nowa historia z ksiąg",
+      "lead": "Księgi parafii zapisały też Romów, wędrownych i osiadłych. Ksiądz nazywał ich „Cinganami” i „Cyganami”, a przy chrzcie ich dzieci stawali zarówno sąsiedzi, jak i ludzie dworu.",
+      "cytat_obrazek": "ex relatione consocii Cinganorum"
     }
   ]
 }
