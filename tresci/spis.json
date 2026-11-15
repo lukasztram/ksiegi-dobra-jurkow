@@ -674,6 +674,23 @@
       "znacznik": "cała parafia · 1678–1923 · nowa historia z ksiąg",
       "lead": "Prawie dwadzieścia tysięcy chrztów z ksiąg parafii pokazuje, w których miesiącach rodziły się dzieci i jak szybko niesiono je do chrztu.",
       "cytat_obrazek": "Januarius · Februarius · Martius"
+    },
+    {
+      "id": "mandatariusz",
+      "rok": 1846,
+      "rok_tekst": "1829–1850",
+      "miejsce": "Dobra, dwór",
+      "tytul": "Mandatariusz z Dobrej",
+      "zajawka": "1 marca 1846 roku, w dniach rabacji, zginął urzędnik dworu w Dobrej. Ksiądz zapisał tylko: z powodu zbrodni. Pochowano go w Bochni.",
+      "tematy": [
+        "dwor",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Dobra, dwór · 1829–1850 · nowa historia z ksiąg",
+      "lead": "Księgi parafii znają ludzi dworu z imienia: posesora, jego żonę, kolejnych mandatariuszy. Jeden z nich zginął zimą 1846 roku, gdy chłopi w zachodniej Galicji napadali na dwory.",
+      "cytat_obrazek": "Mandatarius Dobrensis · maleficii causa"
     }
   ]
 }
