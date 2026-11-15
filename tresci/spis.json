@@ -741,6 +741,22 @@
       "znacznik": "Dobra i Jurków · XVI wiek – 1973 · nowa historia z ksiąg i opracowań",
       "lead": "Mały owalny obraz Przemienienia Pańskiego wisi w ołtarzu głównym starego kościoła w Dobrej. Jego historia łączy wołoskich pasterzy, powódź i proboszcza, który postawił mu osobny ołtarz.",
       "cytat_obrazek": "Hedvigis Cerkowa de Jurkow"
+    },
+    {
+      "id": "organisci",
+      "rok": 1689,
+      "rok_tekst": "1689–1929",
+      "miejsce": "Dobra",
+      "tytul": "Organiści z Dobrej",
+      "zajawka": "Przez ponad dwieście lat księgi zapisują organistów Dobrej. Najdłużej grał Mateusz Rudnicki, organista i nauczyciel, ojciec siedemnaściorga dzieci i księdza.",
+      "tematy": [
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Dobra · 1689–1929 · nowa historia z ksiąg",
+      "lead": "Organista grał w kościele, prowadził śpiew, często uczył dzieci i stawał jako świadek przy ślubach. Księgi znają organistów Dobrej z imienia od końca XVII wieku.",
+      "cytat_obrazek": "Joannes Mielecki Organarius Dobrensis"
     }
   ]
 }
