@@ -790,6 +790,23 @@
       "znacznik": "Jurków · 1913–1925 · nowa historia z ksiąg i opracowań",
       "lead": "Przez ponad pięćset lat Jurków należał do parafii Dobra. Gdy w 1913 roku zaczął się od niej odłączać, proboszcz walczył o każdy pogrzeb, a granica nowej parafii przecięła wieś.",
       "cytat_obrazek": "Sepelivit sine consensu parochi"
+    },
+    {
+      "id": "gruszowiec",
+      "rok": 1789,
+      "rok_tekst": "1786–1924",
+      "miejsce": "Gruszowiec",
+      "tytul": "Wilki w Gruszowcu",
+      "zajawka": "W 1789 roku trzynastoletnią Mariannę rozszarpały wilki. To jedyny taki wpis w księgach parafii. Świeżo odczytane księgi Gruszowca mówią też o głodzie, drzewie i moście.",
+      "tematy": [
+        "zywioly",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Gruszowiec · 1786–1924 · nowa historia z ksiąg",
+      "lead": "Księgi Gruszowca odczytano w listopadzie 2026 roku. Najstarsza księga zmarłych tej wsi zawiera wpis, jakiego nie ma nigdzie indziej w parafii.",
+      "cytat_obrazek": "Marianna Gąsiorzonka · a lupis lacerata"
     }
   ]
 }

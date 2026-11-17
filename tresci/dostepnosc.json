@@ -1,5 +1,5 @@
 {
- "stan_na": "2026-11-14",
+ "stan_na": "2026-11-17",
  "wspolne": [
   {
    "typy": [
@@ -572,7 +572,7 @@
   {
    "klucz": "dobra",
    "nazwa": "Dobra",
-   "wpisy": 16094,
+   "wpisy": 16095,
    "ksiegi": [
     {
      "typy": [
@@ -859,7 +859,7 @@
   {
    "klucz": "jurkow",
    "nazwa": "Jurków",
-   "wpisy": 7496,
+   "wpisy": 7498,
    "ksiegi": [
     {
      "typy": [
@@ -1034,7 +1034,7 @@
   {
    "klucz": "chyszowki",
    "nazwa": "Chyszówki",
-   "wpisy": 6594,
+   "wpisy": 6595,
    "ksiegi": [
     {
      "typy": [
@@ -1216,7 +1216,7 @@
   {
    "klucz": "gruszowiec",
    "nazwa": "Gruszowiec",
-   "wpisy": 901,
+   "wpisy": 3838,
    "ksiegi": [
     {
      "typy": [
@@ -1228,8 +1228,8 @@
      "opis": "U-1786-1838-Gruszowiec",
      "odpis": false,
      "skany": 47,
-     "wpisy": 39,
-     "status": "czesciowo",
+     "wpisy": 702,
+     "status": "odczytana",
      "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3550&kt=1&plik=001.jpg"
     },
     {
@@ -1242,8 +1242,8 @@
      "opis": "M-1786-1924-Gruszowiec",
      "odpis": false,
      "skany": 52,
-     "wpisy": 0,
-     "status": "nieodczytana",
+     "wpisy": 403,
+     "status": "odczytana",
      "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=4525&kt=1&plik=001.jpg"
     },
     {
@@ -1256,8 +1256,8 @@
      "opis": "Z-1786-1875-Gruszowiec",
      "odpis": false,
      "skany": 48,
-     "wpisy": 0,
-     "status": "nieodczytana",
+     "wpisy": 973,
+     "status": "odczytana",
      "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=5515&kt=1&plik=001.jpg"
     },
     {
@@ -1270,8 +1270,8 @@
      "opis": "U-1839-1898-Gruszowiec",
      "odpis": false,
      "skany": 49,
-     "wpisy": 0,
-     "status": "nieodczytana",
+     "wpisy": 904,
+     "status": "odczytana",
      "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4268&sy=3555&kt=1&plik=001.jpg"
     },
     {
@@ -1377,7 +1377,7 @@
   {
    "klucz": "porabka",
    "nazwa": "Porąbka",
-   "wpisy": 838,
+   "wpisy": 839,
    "ksiegi": [
     {
      "typy": [
@@ -1538,7 +1538,7 @@
   {
    "klucz": "wilczyce",
    "nazwa": "Wilczyce",
-   "wpisy": 533,
+   "wpisy": 534,
    "ksiegi": [
     {
      "typy": [
