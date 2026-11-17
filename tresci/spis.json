@@ -807,6 +807,56 @@
       "znacznik": "Gruszowiec · 1786–1924 · nowa historia z ksiąg",
       "lead": "Księgi Gruszowca odczytano w listopadzie 2026 roku. Najstarsza księga zmarłych tej wsi zawiera wpis, jakiego nie ma nigdzie indziej w parafii.",
       "cytat_obrazek": "Marianna Gąsiorzonka · a lupis lacerata"
+    },
+    {
+      "id": "cystersi",
+      "rok": 1683,
+      "rok_tekst": "1683–1927",
+      "miejsce": "cała parafia",
+      "tytul": "Zakonnicy ze Szczyrzyca",
+      "zajawka": "Cysters zastępował proboszcza już w 1683 roku. W roku głodu i w lecie cholery zmarłych chowali zakonnicy ze Szczyrzyca, a w 1871 roku przeor przygotował na śmierć proboszcza.",
+      "tematy": [
+        "dwor",
+        "zaraza"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1683–1927 · nowa historia z ksiąg",
+      "lead": "Kilkanaście kilometrów od Dobrej stoi opactwo cystersów w Szczyrzycu. Przez ponad dwieście lat jego zakonnicy przychodzili do parafii, gdy brakowało księży, gdy panował głód i gdy przyszła cholera.",
+      "cytat_obrazek": "Ordinis Cisterciensis Monachus Baptizavit"
+    },
+    {
+      "id": "zgoda-pulku",
+      "rok": 1847,
+      "rok_tekst": "1823–1925",
+      "miejsce": "cała parafia",
+      "tytul": "Za zgodą pułku",
+      "zajawka": "Żołnierz z Półrzeczek miał zgodę wojska, jego narzeczona zgodę dworu. Zgody na ślub przychodziły ze Lwowa, z Węgier, ze starostwa w Limanowej, a po wojnie z polskiej komendy uzupełnień.",
+      "tematy": [
+        "daleko",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1823–1925 · nowa historia z ksiąg",
+      "lead": "Żołnierz cesarza nie mógł się ożenić, kiedy chciał. Przy ślubach ksiądz zapisywał, czyja zgoda leży w aktach parafii: pułku, dowództwa we Lwowie, starostwa albo komendy uzupełnień.",
+      "cytat_obrazek": "Sponsus erga Consensum instantiae militaris"
+    },
+    {
+      "id": "mlynarze",
+      "rok": 1788,
+      "rok_tekst": "1683–1917",
+      "miejsce": "cała parafia",
+      "tytul": "Młynarze",
+      "zajawka": "Stokłosowie byli młynarzami w Dobrej, Jurkowie i Gruszowcu. Młynarz Piotr Majchrzak podpisał zgodę na ślub syna krzyżykiem, a półtoraroczna Agnieszka utonęła w młynówce.",
+      "tematy": [
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1683–1917 · nowa historia z ksiąg",
+      "lead": "Od Tomasza Młynarza w XVII wieku do Jana Radziszewskiego w 1917 roku księgi zapisały młynarzy parafii, ich żony i dzieci.",
+      "cytat_obrazek": "Andreas Gasior · Molitor de Dobra"
     }
   ]
 }
