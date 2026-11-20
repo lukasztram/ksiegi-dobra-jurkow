@@ -217,6 +217,8 @@ a.row:hover .ttl{color:var(--spruce)}
 .tabela th{font-family:var(--f-mono); font-weight:500; font-size:.66rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-2); text-align:left; padding:6px 8px; border-bottom:1px solid var(--ink)}
 .tabela td{padding:5px 8px; border-bottom:1px solid var(--rule)}
 .tabela td.num{font-variant-numeric:tabular-nums; text-align:right}
+.tabela.waska{min-width:0}
+.tabela.waska th, .tabela.waska td{padding-left:5px; padding-right:5px}
 .podpis-tab{font-size:.84rem; color:var(--ink-2)}
 
 /* Wykresy (narzedzia/wykresy.py): słupki w HTML/CSS, kolory z tokenów strony, tryb ciemny bez zmian */

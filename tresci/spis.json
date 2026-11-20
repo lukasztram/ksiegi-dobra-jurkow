@@ -160,7 +160,7 @@
       "rok_tekst": "1847",
       "miejsce": "cała parafia",
       "tytul": "Rok głodu",
-      "zajawka": "W Jurkowie zmarło 111 osób, w Chyszówkach 118. Na polach umierały obce dzieci chodzące po prośbie.",
+      "zajawka": "W Jurkowie zmarło 111 osób, w Chyszówkach 118, a w Wilczycach dziewięć razy więcej niż zwykle. Na polach umierały obce dzieci chodzące po prośbie.",
       "tematy": [
         "zaraza"
       ],
@@ -299,7 +299,7 @@
       "rok_tekst": "1918",
       "miejsce": "sześć wsi parafii",
       "tytul": "Hiszpanka",
-      "zajawka": "Jesienią 1918 roku grypa zabiła w Dobrej 18 osób, w Półrzeczkach 15, a w Chyszówkach 10. Umierali głównie młodzi dorośli.",
+      "zajawka": "Jesienią 1918 roku grypa zabiła w Dobrej 18 osób, w Półrzeczkach 15, w Chyszówkach 10, a w Porąbce 9. Umierali głównie młodzi dorośli.",
       "tematy": [
         "zaraza"
       ],
@@ -463,7 +463,7 @@
       "rok_tekst": "1678–1923",
       "miejsce": "cała parafia",
       "tytul": "Imię z kalendarza",
-      "zajawka": "Dziewięciu na dziesięciu Melchiorów urodziło się koło Trzech Króli. Regina była kiedyś najpopularniejszym imieniem dziewczynek, a po 1900 roku nie ma ani jednej.",
+      "zajawka": "Dziewięciu na dziesięciu Melchiorów urodziło się koło Trzech Króli. Regina była kiedyś najpopularniejszym imieniem dziewczynek, a po 1900 roku księgi znają tylko dwie.",
       "tematy": [
         "slowa",
         "ludzie"
@@ -514,7 +514,7 @@
       "rok_tekst": "1682–1943",
       "miejsce": "cała parafia",
       "tytul": "Kalendarz wesel",
-      "zajawka": "Ponad jedna trzecia ślubów odbyła się w lutym, a w grudniu przez 260 lat tylko siedem. W piątek prawie nikt się nie żenił.",
+      "zajawka": "Ponad jedna trzecia ślubów odbyła się w lutym, a w grudniu przez 260 lat tylko dziewięć. W piątek prawie nikt się nie żenił.",
       "tematy": [
         "ludzie"
       ],
@@ -530,7 +530,7 @@
       "rok_tekst": "1820–1900",
       "miejsce": "cała parafia",
       "tytul": "Ćwierć roli",
-      "zajawka": "„¼ Cm.” przy nazwisku ojca znaczyło ćwierć dawnego kmiecego gospodarstwa. W połowie XIX wieku tak zapisano prawie dwóch na trzech ojców.",
+      "zajawka": "„¼ Cm.” przy nazwisku ojca znaczyło ćwierć dawnego kmiecego gospodarstwa. W połowie XIX wieku tak zapisano ponad połowę ojców. Tylko Porąbka miała jeszcze pełnych kmieci.",
       "tematy": [
         "ludzie",
         "slowa"
@@ -597,7 +597,7 @@
       "rok_tekst": "1779–1899",
       "miejsce": "cała parafia",
       "tytul": "Sto lat na oko",
-      "zajawka": "Według ksiąg Stanisław Stokłosa dożył 113 lat, a Katarzyna Gdowicz 110. Jej akt ślubu mówi co innego.",
+      "zajawka": "Według ksiąg Zofia Stokłosionka z Porąbki dożyła 115 lat, Stanisław Stokłosa 113, a Katarzyna Gdowicz 110. Jej akt ślubu mówi co innego.",
       "tematy": [
         "slowa",
         "ludzie"
@@ -606,7 +606,7 @@
       "gotowa": true,
       "znacznik": "cała parafia · 1779–1899 · nowa historia z ksiąg",
       "lead": "Najstarsi ludzie w księgach parafii mieli ponad sto lat. Ale wiek zmarłych zapisywano na oko i często zawyżano.",
-      "cytat_obrazek": "Stanislaus Stoklosa · 113"
+      "cytat_obrazek": "Sophia Stoklosionka · 115"
     },
     {
       "id": "romowie",
@@ -665,7 +665,7 @@
       "rok_tekst": "1678–1923",
       "miejsce": "cała parafia",
       "tytul": "Kalendarz narodzin",
-      "zajawka": "Najwięcej dzieci przychodziło na świat w styczniu i lutym, najmniej w lipcu. Do połowy XIX wieku prawie każde chrzczono w dniu urodzenia albo nazajutrz.",
+      "zajawka": "Najwięcej dzieci przychodziło na świat w styczniu i lutym, najmniej w lipcu i sierpniu. Do połowy XIX wieku prawie każde chrzczono w dniu urodzenia albo nazajutrz.",
       "tematy": [
         "ludzie"
       ],
@@ -698,7 +698,7 @@
       "rok_tekst": "1786–1899",
       "miejsce": "cała parafia",
       "tytul": "Wdowy i wdowcy",
-      "zajawka": "Prawie dwa śluby na pięć brał wdowiec albo wdowa. Wdowiec żenił się czasem tydzień po pogrzebie, wdowa musiała czekać, tak chciało prawo.",
+      "zajawka": "Ponad jeden ślub na trzy brał wdowiec albo wdowa. Wdowiec żenił się czasem tydzień po pogrzebie, wdowa musiała czekać, tak chciało prawo.",
       "tematy": [
         "ludzie"
       ],
@@ -797,7 +797,7 @@
       "rok_tekst": "1786–1924",
       "miejsce": "Gruszowiec",
       "tytul": "Wilki w Gruszowcu",
-      "zajawka": "W 1789 roku trzynastoletnią Mariannę rozszarpały wilki. To jedyny taki wpis w księgach parafii. Świeżo odczytane księgi Gruszowca mówią też o głodzie, drzewie i moście.",
+      "zajawka": "W 1789 roku trzynastoletnią Mariannę rozszarpały wilki, a pięć dni wcześniej w sąsiedniej Porąbce zginął tak siedmioletni Paweł. Świeżo odczytane księgi Gruszowca mówią też o głodzie, drzewie i moście.",
       "tematy": [
         "zywioly",
         "ludzie"
@@ -874,6 +874,74 @@
       "znacznik": "cała parafia · 1779–1913 · nowa historia z ksiąg",
       "lead": "Od 1779 roku przy każdym chrzcie, ślubie i pogrzebie ksiądz zapisywał numer domu. Te numery opowiadają, jak rosła wieś, jak dzielono chałupy i co działo się z numerem, gdy dom znikał.",
       "cytat_obrazek": "Matrica vel Consignatio Baptisatorum · Num. Domus"
+    },
+    {
+      "id": "porabka",
+      "rok": 1694,
+      "rok_tekst": "1694–1868",
+      "miejsce": "Porąbka",
+      "tytul": "Porąbka, wieś innego dworu",
+      "zajawka": "Gdy w Dobrej zgody na ślub dawał dwór w Dobrej, w Porąbce dawały je dwory w Szczyrzycu i w Janowicach. Ćwierćrolników było tu niewielu, za to byli kmiecie z całą rolą.",
+      "tematy": [
+        "dwor",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Porąbka · 1694–1868 · nowa historia z ksiąg i opracowań",
+      "lead": "Porąbka od wieków należy do parafii Dobra, ale nie należała do dworu w Dobrej. Księgi pokazują to w zgodach na śluby, w ułamkach przy nazwiskach i w domu nr 1.",
+      "cytat_obrazek": "Consensus ad Matrimonium a Dnio Scyrzyc"
+    },
+    {
+      "id": "ksiadz-rapacz",
+      "rok": 1855,
+      "rok_tekst": "1855–1863",
+      "miejsce": "cała parafia",
+      "tytul": "Ksiądz Józef Rapacz",
+      "zajawka": "Nowy wikary zaczął chować zmarłych pod koniec lata cholery 1855 roku. Kilka tygodni wcześniej zmarł na cholerę chłopski syn o tym samym imieniu i nazwisku.",
+      "tematy": [
+        "dwor",
+        "zaraza"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1855–1863 · nowa historia z ksiąg",
+      "lead": "Przez dwa i pół roku wikary Józef Rapacz chrzcił, żenił i chował we wszystkich wsiach parafii. Skąd przyszedł, księgi nie mówią, ale wiadomo, dokąd poszedł.",
+      "cytat_obrazek": "Sepelivit Josephus Rapacz Cooperator"
+    },
+    {
+      "id": "zamarznieci",
+      "rok": 1848,
+      "rok_tekst": "1845–1850",
+      "miejsce": "Dobra, Chyszówki, Wilczyce, Porąbka",
+      "tytul": "Zamarznięci",
+      "zajawka": "W styczniu 1848 roku, po roku głodu, mróz zabił w ciągu czterech dni troje ludzi. Dwoje z nich było żebrakami, których imion ksiądz nie znał.",
+      "tematy": [
+        "zywioly",
+        "zaraza"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Dobra, Chyszówki, Wilczyce, Porąbka · 1845–1850 · nowa historia z ksiąg",
+      "lead": "Zimą w głodnych latach ksiądz kilka razy wpisał przy zmarłych tę samą przyczynę: „ob nimium frigus”, od zbyt wielkiego mrozu. Najczęściej umierali ci, którzy byli w drodze.",
+      "cytat_obrazek": "N. N. mendica · ob nimium frigus"
+    },
+    {
+      "id": "rok-1873",
+      "rok": 1873,
+      "rok_tekst": "1873",
+      "miejsce": "Zadziele i cała parafia",
+      "tytul": "Rok 1873 w Zadzielu",
+      "zajawka": "W najmniejszej wsi parafii zmarło w jednym roku czternaście osób. Ospa zabierała dzieci, matka zmarła po porodzie, a w Dobrej w jednym domu cholera zabiła troje ludzi w trzy dni.",
+      "tematy": [
+        "zaraza",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Zadziele i cała parafia · 1873 · nowa historia z ksiąg",
+      "lead": "W zwykłym roku w Zadzielu odbywały się cztery, pięć pogrzebów. W 1873 roku było ich czternaście. Ospa, czerwonka i cholera przyszły tego roku do całej parafii.",
+      "cytat_obrazek": "Simon Stoklosa · 9 mens. · variolis"
     }
   ]
 }
