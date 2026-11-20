@@ -857,6 +857,23 @@
       "znacznik": "cała parafia · 1683–1917 · nowa historia z ksiąg",
       "lead": "Od Tomasza Młynarza w XVII wieku do Jana Radziszewskiego w 1917 roku księgi zapisały młynarzy parafii, ich żony i dzieci.",
       "cytat_obrazek": "Andreas Gasior · Molitor de Dobra"
+    },
+    {
+      "id": "numery-domow",
+      "rok": 1779,
+      "rok_tekst": "1779–1913",
+      "miejsce": "cała parafia",
+      "tytul": "Co mówi numer domu",
+      "zajawka": "Numer w księdze to nie adres, tylko kolejność, w jakiej stawiano domy. W 1845 roku nowe numery dostała cała parafia, a numer 123 w Jurkowie nosiły dwa różne domy.",
+      "tematy": [
+        "slowa",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "cała parafia · 1779–1913 · nowa historia z ksiąg",
+      "lead": "Od 1779 roku przy każdym chrzcie, ślubie i pogrzebie ksiądz zapisywał numer domu. Te numery opowiadają, jak rosła wieś, jak dzielono chałupy i co działo się z numerem, gdy dom znikał.",
+      "cytat_obrazek": "Matrica vel Consignatio Baptisatorum · Num. Domus"
     }
   ]
 }

@@ -155,6 +155,16 @@ def main():
            'z tego 56 przy porodzie albo w ciągu sześciu tygodni po nim.',
            ['Zgony', 'Liczba', 'Na 100'],
            [('zamężne kobiety, 20–44 lat', 314, '100'), ('przy porodzie albo w połogu', 56, '17,8')])
+    # Numery domów w Jurkowie: najwyższy numer zapisany co najmniej dwa razy w dekadzie (wszystkie księgi Jurkowa
+    # poza 3402/4513, gdzie pole domu to numer pana młodego z Dobrej), 1780–1919.
+    dek = list(range(1780, 1920, 10))
+    num = [83, 81, 78, 76, 76, 76, 110, 114, 124, 132, 134, 141, 141, 142]
+    kolumny('numery-jurkow', 'Najwyższe numery domów w Jurkowie, 1780–1919', [f'{d}–{d + 9}' for d in dek], num,
+            [0, 40, 80, 120, 160],
+            'Najwyższy numer domu w Jurkowie, który w danej dekadzie zapisano w księgach co najmniej dwa razy. '
+            'Najedź na słupek albo go dotknij, żeby zobaczyć wartość.',
+            ['Lata', 'Najwyższy numer'], podpisz=(5, 6, 12), os_x=[str(d) for d in dek],
+            pokaz_x={0, 2, 4, 6, 8, 10, 12})
     print('Zapisano wykresy w', WYJ)
 
 
