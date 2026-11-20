@@ -59,8 +59,13 @@ def main():
                 wsie[w].append(dict(ksiega, wspolna_z='Zadziele i Łostówka'))
         else:
             wspolne.append(ksiega)
-    # ile wpisów z każdej wsi jest w bazie (wszystkie księgi, także wspólne sprzed 1786)
-    ile = dict(c.execute("select wies_klucz, count(*) from metryki_wpisy where wies_klucz is not null group by wies_klucz"))
+    # ile wpisów z każdej wsi jest w bazie — tylko księgi parafii Dobra (także wspólne sprzed 1786);
+    # bez duplikatów i akt cywilnych sąsiednich parafii (np. Mszana Dolna, gdzie należała część Łostówki)
+    ile = dict(c.execute(f"""
+        select w.wies_klucz, count(*) from metryki_wpisy w join metryki_skany s on s.id=w.skan_id
+        join metryki_katalogi k on k.id=s.katalog_id join metryki_jednostki j on j.id=k.jednostka_id
+        where w.wies_klucz is not null and j.zespol_id in ({','.join(map(str, ZESPOLY))})
+        group by w.wies_klucz"""))
     wynik = {
         'stan_na': date.today().isoformat(),
         'wspolne': wspolne,

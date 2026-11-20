@@ -154,7 +154,7 @@ def tresc_start(L):
     return f'''<section class="wrap" id="tresc">
   <div class="hero">
     <div>
-      <p class="eyebrow">Dobra · Jurków · Chyszówki · Półrzeczki · Gruszowiec · Porąbka</p>
+      <p class="eyebrow">Dobra · Jurków · Chyszówki · Półrzeczki · Gruszowiec · Porąbka · Wilczyce · Zadziele · Łostówka</p>
       <h1>Co mówią księgi <em>parafii Dobra i Jurków</em></h1>
       <p class="dek">Prawdziwe historie ludzi z naszych wsi, odczytane z ksiąg chrztów, ślubów i pogrzebów z lat 1678–1926. Także to, co księża dopisywali na marginesach.</p>
     </div>
@@ -165,7 +165,7 @@ def tresc_start(L):
     </figure>
   </div>
   <div class="dane">
-    <span><b>prawie 40 tysięcy</b> wpisów w bazie</span>
+    <span><b>ponad 54 tysiące</b> wpisów z ksiąg parafii</span>
     <span>księgi z lat <b>1678–1944</b></span>
     <span>historie do roku <b>1926</b></span>
     <span>każda z <b>sygnaturą i skanem</b></span>

@@ -158,7 +158,7 @@
       "id": "rok-glodu",
       "rok": 1847,
       "rok_tekst": "1847",
-      "miejsce": "Jurków, Chyszówki",
+      "miejsce": "cała parafia",
       "tytul": "Rok głodu",
       "zajawka": "W Jurkowie zmarło 111 osób, w Chyszówkach 118. Na polach umierały obce dzieci chodzące po prośbie.",
       "tematy": [
@@ -166,8 +166,8 @@
       ],
       "zrodlo": "ksiazka",
       "gotowa": true,
-      "znacznik": "Jurków i Chyszówki · 1847 · z publikacji o Jurkowie i Chyszówkach",
-      "lead": "Po nieurodzaju 1846 roku w całej Galicji zapanował głód. W Jurkowie i Chyszówkach umierało pięć do siedmiu razy więcej ludzi niż zwykle."
+      "znacznik": "cała parafia · 1847 · z publikacji o Jurkowie i Chyszówkach",
+      "lead": "Po nieurodzaju 1846 roku w całej Galicji zapanował głód. We wsiach parafii umierało pięć do dziewięciu razy więcej ludzi niż zwykle, a najciężej było w Wilczycach."
     },
     {
       "id": "rakamaz",
@@ -297,7 +297,7 @@
       "id": "hiszpanka",
       "rok": 1918,
       "rok_tekst": "1918",
-      "miejsce": "Półrzeczki, Dobra, Chyszówki",
+      "miejsce": "sześć wsi parafii",
       "tytul": "Hiszpanka",
       "zajawka": "Jesienią 1918 roku grypa zabiła w Dobrej 18 osób, w Półrzeczkach 15, a w Chyszówkach 10. Umierali głównie młodzi dorośli.",
       "tematy": [
@@ -305,8 +305,8 @@
       ],
       "zrodlo": "nowa",
       "gotowa": true,
-      "znacznik": "Półrzeczki, Dobra, Chyszówki · październik–grudzień 1918 · nowa historia z ksiąg",
-      "lead": "Jesienią 1918 roku, gdy kończyła się wojna, do wsi pod Mogielicą przyszła grypa, którą świat nazwał hiszpanką. W trzech wsiach zabiła w niespełna dwa miesiące 43 osoby."
+      "znacznik": "sześć wsi parafii · październik–grudzień 1918 · nowa historia z ksiąg",
+      "lead": "Jesienią 1918 roku, gdy kończyła się wojna, do wsi pod Mogielicą przyszła grypa, którą świat nazwał hiszpanką. W sześciu wsiach, których księgi z tych miesięcy znamy, zabiła 55 osób."
     },
     {
       "id": "korzec",
@@ -471,7 +471,7 @@
       "zrodlo": "nowa",
       "gotowa": true,
       "znacznik": "cała parafia · 1678–1923 · nowa historia z ksiąg",
-      "lead": "Ponad dwadzieścia tysięcy chrztów pozwala sprawdzić, skąd brano imiona dla dzieci i jak zmieniały się na nie mody.",
+      "lead": "Ponad dwadzieścia pięć tysięcy chrztów pozwala sprawdzić, skąd brano imiona dla dzieci i jak zmieniały się na nie mody.",
       "cytat_obrazek": "quatuor nominum"
     },
     {
@@ -521,7 +521,7 @@
       "zrodlo": "nowa",
       "gotowa": true,
       "znacznik": "cała parafia · 1682–1943 · nowa historia z ksiąg",
-      "lead": "Ponad cztery tysiące ślubów z ksiąg parafii pokazuje, kiedy wyprawiano wesela: w jakim miesiącu, w jaki dzień tygodnia i w jakim wieku stawano przed ołtarzem.",
+      "lead": "Ponad pięć i pół tysiąca ślubów z ksiąg parafii pokazuje, kiedy wyprawiano wesela: w jakim miesiącu, w jaki dzień tygodnia i w jakim wieku stawano przed ołtarzem.",
       "cytat_obrazek": "Matrimonium contractum"
     },
     {
@@ -672,7 +672,7 @@
       "zrodlo": "nowa",
       "gotowa": true,
       "znacznik": "cała parafia · 1678–1923 · nowa historia z ksiąg",
-      "lead": "Prawie dwadzieścia tysięcy chrztów z ksiąg parafii pokazuje, w których miesiącach rodziły się dzieci i jak szybko niesiono je do chrztu.",
+      "lead": "Ponad dwadzieścia pięć tysięcy chrztów z ksiąg parafii pokazuje, w których miesiącach rodziły się dzieci i jak szybko niesiono je do chrztu.",
       "cytat_obrazek": "Januarius · Februarius · Martius"
     },
     {
@@ -762,7 +762,7 @@
       "id": "porod",
       "rok": 1875,
       "rok_tekst": "1786–1896",
-      "miejsce": "cztery wsie parafii",
+      "miejsce": "cała parafia",
       "tytul": "Śmierć przy porodzie",
       "zajawka": "Prawie co piąta zamężna kobieta, która zmarła przed czterdziestką piątką, zmarła przy porodzie albo tuż po nim. Ksiądz pisał krótko: propter partum.",
       "tematy": [
@@ -770,8 +770,8 @@
       ],
       "zrodlo": "nowa",
       "gotowa": true,
-      "znacznik": "cztery wsie parafii · 1786–1896 · nowa historia z ksiąg",
-      "lead": "Księgi zmarłych pokazują, jak często poród kończył się śmiercią matki i co działo się potem z dzieckiem i rodziną.",
+      "znacznik": "cała parafia · 1786–1896 · nowa historia z ksiąg",
+      "lead": "Księgi zmarłych dziewięciu wsi parafii pokazują, jak często poród kończył się śmiercią matki i co działo się potem z dzieckiem i rodziną.",
       "cytat_obrazek": "Marianna Tomera · propter partum"
     },
     {
@@ -805,7 +805,7 @@
       "zrodlo": "nowa",
       "gotowa": true,
       "znacznik": "Gruszowiec · 1786–1924 · nowa historia z ksiąg",
-      "lead": "Księgi Gruszowca odczytano w listopadzie 2026 roku. Najstarsza księga zmarłych tej wsi zawiera wpis, jakiego nie ma nigdzie indziej w parafii.",
+      "lead": "Księgi Gruszowca odczytano w listopadzie 2026 roku. Najstarsza księga zmarłych tej wsi zapisała dziewczynkę rozszarpaną przez wilki. Pięć dni wcześniej to samo spotkało chłopca z sąsiedniej Porąbki.",
       "cytat_obrazek": "Marianna Gąsiorzonka · a lupis lacerata"
     },
     {
