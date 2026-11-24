@@ -942,6 +942,22 @@
       "znacznik": "Zadziele i cała parafia · 1873 · nowa historia z ksiąg",
       "lead": "W zwykłym roku w Zadzielu odbywały się cztery, pięć pogrzebów. W 1873 roku było ich czternaście. Ospa, czerwonka i cholera przyszły tego roku do całej parafii.",
       "cytat_obrazek": "Simon Stoklosa · 9 mens. · variolis"
+    },
+    {
+      "id": "peszt-chicago",
+      "rok": 1892,
+      "rok_tekst": "1892–1916",
+      "miejsce": "sąsiednia parafia Mszana Dolna",
+      "tytul": "Do Pesztu i do Chicago",
+      "zajawka": "U sąsiadów, w parafii Mszana Dolna, dziewiętnastu mężczyzn zmarło w ciągu dwudziestu lat na Węgrzech, a ponad dwadzieścioro dzieci urodziło się w Budapeszcie. Po 1907 roku w księgach pojawia się Chicago.",
+      "tematy": [
+        "daleko"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Parafia Mszana Dolna · 1892–1916 · nowa historia z ksiąg sąsiedniej parafii",
+      "lead": "W księgach sąsiedniej parafii Mszana Dolna z lat 1890–1916 blisko siedemdziesiąt wpisów prowadzi daleko od domu. Najpierw do Budapesztu, potem do Chicago.",
+      "cytat_obrazek": "Bolisęga Josephus uxoratus operarius · ex alto cecidit · Budapestini"
     }
   ]
 }
