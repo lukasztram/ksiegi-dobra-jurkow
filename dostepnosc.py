@@ -1,21 +1,18 @@
-"""Sekcja „Jakie księgi się zachowały”: osie czasu ksiąg dla każdej wsi.
+"""Zakładka „Księgi”: osie czasu ksiąg dla każdej wsi parafii Dobra i Jurków oraz dla sąsiednich parafii.
 
 Dane: tresci/dostepnosc.json (tworzy go eksport_dostepnosci.py z bazy Fototeki).
-Używa go buduj.py. Tylko biblioteka standardowa.
+Napisy: słownik ui z tresci/ui.json albo tresci/<język>/ui.json. Używa go buduj.py. Tylko biblioteka standardowa.
 """
 import html
 import json
 from pathlib import Path
 
 PLIK = Path(__file__).resolve().parent / 'tresci' / 'dostepnosc.json'
-OS_OD, OS_DO = 1675, 1945
-ZNACZNIKI_LAT = (1700, 1750, 1800, 1850, 1900)
-TYPY = [('U', 'Chrzty'), ('M', 'Śluby'), ('Z', 'Zgony')]
-STAN = {'odczytana': ('s-odcz', 'odczytana'), 'czesciowo': ('s-czes', 'odczytana częściowo'),
-        'nieodczytana': ('s-nie', 'czeka na odczyt')}
+OS_OD, OS_DO = 1610, 1945          # od najstarszej księgi Słopnic (1618) do najmłodszych ksiąg Dobrej (1944)
+ZNACZNIKI_LAT = (1650, 1700, 1750, 1800, 1850, 1900)
+TYPY = ('U', 'M', 'Z')
+KLASA = {'odczytana': 's-odcz', 'czesciowo': 's-czes', 'nieodczytana': 's-nie'}
 KOLEJ = {'nieodczytana': 0, 'czesciowo': 1, 'odczytana': 2}     # odczytane rysowane na wierzchu
-MIESIACE = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca', 'lipca', 'sierpnia',
-            'września', 'października', 'listopada', 'grudnia']
 
 
 def e(s):
@@ -26,36 +23,45 @@ def _x(rok):
     return (rok - OS_OD) / (OS_DO - OS_OD) * 100
 
 
-def _liczba(n):
-    return f'{n:,}'.replace(',', ' ')
+def liczba(n, ui):
+    return f'{n:,}'.replace(',', ui['separator_tysiecy'])
+
+
+def data(iso, ui):
+    r, m, d = (int(x) for x in iso.split('-'))
+    return ui['data'].format(d=d, m=ui['miesiace'][m - 1], r=r)
 
 
 def _lata(k):
     return f'{k["od"]}–{k["do"]}' if k['do'] != k['od'] else str(k['od'])
 
 
-def _pasek(ksiegi, typ, nazwa_typu):
+def _stan(status, ui):
+    return ui[{'odczytana': 'stan_odczytana', 'czesciowo': 'stan_czesciowo', 'nieodczytana': 'stan_nieodczytana'}[status]]
+
+
+def _pasek(ksiegi, typ, ui):
     out = []
+    nazwa_typu = ui[f'typ_{typ}']
     for k in sorted((k for k in ksiegi if typ in k['typy']), key=lambda k: KOLEJ[k['status']]):
         lewa = _x(k['od'])
         szer = max(_x(k['do'] + 1) - lewa, 0.7)
-        kl, opis = STAN[k['status']]
-        tyt = f'{nazwa_typu} {_lata(k)} · sygn. {k["sygn"]}'
+        tyt = f'{nazwa_typu} {_lata(k)} · {ui["sygn"]} {k["sygn"]}'
         if k['odpis']:
-            tyt += ' (odpis)'
-        tyt += f' · {opis}'
+            tyt += f' ({ui["odpis"]})'
+        tyt += f' · {_stan(k["status"], ui)}'
         if k['wpisy']:
-            tyt += f', {_liczba(k["wpisy"])} wpisów'
+            tyt += ', ' + ui['wpisow'].format(n=liczba(k['wpisy'], ui))
         href = k['url'] or 'https://metryki.genealodzy.pl/'
-        out.append(f'<a class="seg {kl}" style="left:{lewa:.2f}%;width:{szer:.2f}%" href="{e(href)}" '
+        out.append(f'<a class="seg {KLASA[k["status"]]}" style="left:{lewa:.2f}%;width:{szer:.2f}%" href="{e(href)}" '
                    f'target="_blank" rel="noopener" title="{e(tyt)}" aria-label="{e(tyt)}"></a>')
     return ''.join(out)
 
 
-def _blok(nazwa, podpis, ksiegi):
+def _blok(nazwa, podpis, ksiegi, ui):
     ticks = ''.join(f'<span class="tick" style="left:{_x(r):.2f}%">{r}</span>' for r in ZNACZNIKI_LAT)
-    pasy = ''.join(f'<div class="pas"><span class="pas-l">{n}</span><div class="tor">{_pasek(ksiegi, t, n)}</div></div>'
-                   for t, n in TYPY)
+    pasy = ''.join(f'<div class="pas"><span class="pas-l">{e(ui[f"typ_{t}"])}</span><div class="tor">{_pasek(ksiegi, t, ui)}</div></div>'
+                   for t in TYPY)
     return (f'<div class="wies"><div class="wies-n"><h3>{e(nazwa)}</h3><span>{e(podpis)}</span></div>'
             f'<div class="os" aria-hidden="true"><span></span><div class="tor">{ticks}</div></div>{pasy}</div>')
 
@@ -69,47 +75,59 @@ def _siatka():
     return ', '.join(czesci)
 
 
-def dostepnosc_html():
-    if not PLIK.exists():
-        return ''
-    d = json.loads(PLIK.read_text(encoding='utf-8'))
-    r, m, dz = (int(x) for x in d['stan_na'].split('-'))
-    stan = f'{dz} {MIESIACE[m - 1]} {r}'
-    grupy = [('Cała parafia', 'księgi wspólne do 1786 i odpisy roczne', d['wspolne'])]
-    grupy += [(w['nazwa'], f'{_liczba(w["wpisy"])} wpisów w bazie', w['ksiegi']) for w in d['wsie']]
-    bloki = ''.join(_blok(n, p, k) for n, p, k in grupy)
-    wiersze = []
+def _wiersze(grupy, ui, dopisek=''):
+    out = []
     for nazwa, _, ksiegi in grupy:
+        miejsce = f'{nazwa} ({dopisek})' if dopisek else nazwa
         for k in sorted(ksiegi, key=lambda k: (k['od'], k['sygn'])):
-            rodzaj = ', '.join(n.lower() for t, n in TYPY if t in k['typy'])
+            # po niemiecku rzeczowniki zostają wielką literą
+            rodzaj = ', '.join(ui[f'typ_{t}'] if ui.get('jezyk') == 'de' else ui[f'typ_{t}'].lower() for t in TYPY if t in k['typy'])
             if k['odpis']:
-                rodzaj += ' (odpis)'
-            kl, opis = STAN[k['status']]
+                rodzaj += f' ({ui["odpis"]})'
             syg = (f'<a href="{e(k["url"])}" target="_blank" rel="noopener">{e(k["sygn"])}</a>'
                    if k['url'] else e(k['sygn']))
-            wiersze.append(f'<tr><td>{e(nazwa)}</td><td>{e(rodzaj)}</td><td class="num">{_lata(k)}</td>'
-                           f'<td>{syg}</td><td><span class="lg {kl}"></span>{opis}</td></tr>')
+            out.append(f'<tr><td>{e(miejsce)}</td><td>{e(rodzaj)}</td><td class="num">{_lata(k)}</td>'
+                       f'<td>{syg}</td><td><span class="lg {KLASA[k["status"]]}"></span>{e(_stan(k["status"], ui))}</td></tr>')
+    return out
+
+
+def dane():
+    return json.loads(PLIK.read_text(encoding='utf-8')) if PLIK.exists() else None
+
+
+def dostepnosc_html(ui):
+    d = dane()
+    if not d:
+        return ''
+    dobra = [(ui['cala_parafia'], ui['cala_parafia_podpis'], d['wspolne'])]
+    dobra += [(w['nazwa'], ui['wpisow_w_bazie'].format(n=liczba(w['wpisy'], ui)), w['ksiegi']) for w in d['wsie']]
+    sas = [(p['nazwa'], ui['wpisow_w_bazie'].format(n=liczba(p['wpisy'], ui)), p['ksiegi']) for p in d.get('sasiednie', [])]
+    wiersze = _wiersze(dobra, ui) + _wiersze(sas, ui, ui['sasiednia_parafia'])
+    th = ''.join(f'<th>{e(t)}</th>' for t in ui['th'])
+    sas_html = ''
+    if sas:
+        sas_html = (f'  <h2 class="ks-h2">{e(ui["ksiegi_sasiednie_h2"])}</h2>\n'
+                    f'  <p class="ks-p">{e(ui["ksiegi_sasiednie_p"])}</p>\n'
+                    f'  <div class="wiesy">{"".join(_blok(n, p, k, ui) for n, p, k in sas)}</div>\n')
     return (
         f'<section class="dost" id="ksiegi" style="--siatka: {_siatka()}">\n'
-        '  <div class="sekcja-tyt">\n'
-        '    <h2>Jakie księgi się zachowały</h2>\n'
-        '    <p>Księgi chrztów, ślubów i zgonów każdej wsi w serwisie Metryki PTG i to, ile z nich jest już odczytane. '
-        'Puste miejsca na osi to lata bez skanów w sieci. Takie księgi mogą jeszcze leżeć w kancelarii parafii albo w archiwum.</p>\n'
-        '  </div>\n'
+        f'  <p class="ks-p">{e(ui["ksiegi_wstep"])}</p>\n'
         '  <ul class="legenda-ks">\n'
-        '    <li><span class="lg s-odcz"></span>odczytane</li>\n'
-        '    <li><span class="lg s-czes"></span>odczytane częściowo</li>\n'
-        '    <li><span class="lg s-nie"></span>skany w sieci, czekają na odczyt</li>\n'
-        '    <li><span class="lg s-brak"></span>brak skanów w sieci</li>\n'
+        f'    <li><span class="lg s-odcz"></span>{e(ui["leg_odczytane"])}</li>\n'
+        f'    <li><span class="lg s-czes"></span>{e(ui["leg_czesciowo"])}</li>\n'
+        f'    <li><span class="lg s-nie"></span>{e(ui["leg_czeka"])}</li>\n'
+        f'    <li><span class="lg s-brak"></span>{e(ui["leg_brak"])}</li>\n'
         '  </ul>\n'
-        f'  <div class="wiesy">{bloki}</div>\n'
+        f'  <h2 class="ks-h2">{e(ui["ksiegi_dobra_h2"])}</h2>\n'
+        f'  <div class="wiesy">{"".join(_blok(n, p, k, ui) for n, p, k in dobra)}</div>\n'
+        f'{sas_html}'
         '  <details class="spis-ksiag">\n'
-        '    <summary>Spis wszystkich ksiąg z sygnaturami</summary>\n'
+        f'    <summary>{e(ui["spis_summary"])}</summary>\n'
         '    <div class="tab-wrap"><table>\n'
-        '      <thead><tr><th>Miejscowość</th><th>Księga</th><th>Lata</th><th>Sygnatura i skany</th><th>Stan</th></tr></thead>\n'
+        f'      <thead><tr>{th}</tr></thead>\n'
         f'      <tbody>{"".join(wiersze)}</tbody>\n'
         '    </table></div>\n'
         '  </details>\n'
-        f'  <p class="stan-na">Stan na {stan}. Kliknij odcinek na osi albo sygnaturę w spisie, żeby otworzyć skany księgi.</p>\n'
+        f'  <p class="stan-na">{e(ui["stan_na"].format(data=data(d["stan_na"], ui)))}</p>\n'
         '</section>'
     )

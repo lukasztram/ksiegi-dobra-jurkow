@@ -1,5 +1,5 @@
 {
- "stan_na": "2026-11-20",
+ "stan_na": "2026-11-25",
  "wspolne": [
   {
    "typy": [
@@ -1865,6 +1865,767 @@
      "wpisy": 28,
      "status": "odczytana",
      "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4269&sy=4505&kt=1&plik=001.jpg"
+    }
+   ]
+  }
+ ],
+ "sasiednie": [
+  {
+   "klucz": "mszana",
+   "nazwa": "Mszana Dolna",
+   "zespoly": [
+    2582,
+    4888
+   ],
+   "wpisy": 15860,
+   "ksiegi": [
+    {
+     "typy": [
+      "U",
+      "M",
+      "Z"
+     ],
+     "sygn": "4888/1825",
+     "od": 1825,
+     "do": 1825,
+     "opis": "UMZ-1825",
+     "odpis": true,
+     "skany": 29,
+     "wpisy": 367,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4888&sy=1825&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U",
+      "M"
+     ],
+     "sygn": "4888/1839",
+     "od": 1839,
+     "do": 1839,
+     "opis": "UM-1839",
+     "odpis": true,
+     "skany": 26,
+     "wpisy": 303,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4888&sy=1839&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U",
+      "M",
+      "Z"
+     ],
+     "sygn": "4888/1844",
+     "od": 1844,
+     "do": 1844,
+     "opis": "UMZ-1844",
+     "odpis": true,
+     "skany": 38,
+     "wpisy": 504,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4888&sy=1844&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "2582/3500",
+     "od": 1890,
+     "do": 1900,
+     "opis": "U-1890-1900",
+     "odpis": true,
+     "skany": 247,
+     "wpisy": 3895,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=2582&sy=3500&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "2582/4500",
+     "od": 1890,
+     "do": 1916,
+     "opis": "M-1890-1916",
+     "odpis": true,
+     "skany": 228,
+     "wpisy": 1572,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=2582&sy=4500&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "2582/5500",
+     "od": 1890,
+     "do": 1912,
+     "opis": "Z-1890-1912",
+     "odpis": true,
+     "skany": 230,
+     "wpisy": 5297,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=2582&sy=5500&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "2582/3505",
+     "od": 1901,
+     "do": 1911,
+     "opis": "U-1901-1911",
+     "odpis": true,
+     "skany": 258,
+     "wpisy": 3922,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=2582&sy=3505&kt=1&plik=001.jpg"
+    }
+   ]
+  },
+  {
+   "klucz": "niedzwiedz",
+   "nazwa": "Niedźwiedź",
+   "zespoly": [
+    4889
+   ],
+   "wpisy": 674,
+   "ksiegi": [
+    {
+     "typy": [
+      "M",
+      "Z"
+     ],
+     "sygn": "4889/1823",
+     "od": 1823,
+     "do": 1823,
+     "opis": "MZ-1823",
+     "odpis": true,
+     "skany": 18,
+     "wpisy": 149,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4889&sy=1823&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4889/1826",
+     "od": 1826,
+     "do": 1826,
+     "opis": "U-1826",
+     "odpis": true,
+     "skany": 15,
+     "wpisy": 199,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4889&sy=1826&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4889/1843",
+     "od": 1843,
+     "do": 1843,
+     "opis": "U-1843",
+     "odpis": true,
+     "skany": 15,
+     "wpisy": 179,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4889&sy=1843&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M",
+      "Z"
+     ],
+     "sygn": "4889/1846",
+     "od": 1846,
+     "do": 1846,
+     "opis": "MZ-1846",
+     "odpis": true,
+     "skany": 17,
+     "wpisy": 147,
+     "status": "odczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4889&sy=1846&kt=1&plik=001.jpg"
+    }
+   ]
+  },
+  {
+   "klucz": "slopnice",
+   "nazwa": "Słopnice",
+   "zespoly": [
+    4275,
+    5321
+   ],
+   "wpisy": 247,
+   "ksiegi": [
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3500",
+     "od": 1618,
+     "do": 1728,
+     "opis": "U-1618-1728",
+     "odpis": false,
+     "skany": 252,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3500&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4275/4500",
+     "od": 1629,
+     "do": 1779,
+     "opis": "M-1629-1779",
+     "odpis": false,
+     "skany": 90,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=4500&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4275/5500",
+     "od": 1629,
+     "do": 1657,
+     "opis": "Z-1629-1657",
+     "odpis": false,
+     "skany": 7,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=5500&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3505",
+     "od": 1738,
+     "do": 1752,
+     "opis": "U-1738-1752",
+     "odpis": false,
+     "skany": 34,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3505&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3510",
+     "od": 1752,
+     "do": 1766,
+     "opis": "U-1752-1766",
+     "odpis": false,
+     "skany": 88,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3510&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3515",
+     "od": 1766,
+     "do": 1779,
+     "opis": "U-1766-1779",
+     "odpis": false,
+     "skany": 74,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3515&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4275/4505",
+     "od": 1780,
+     "do": 1793,
+     "opis": "M-1780-1793",
+     "odpis": false,
+     "skany": 22,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=4505&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4275/5505",
+     "od": 1780,
+     "do": 1793,
+     "opis": "Z-1780-1793",
+     "odpis": false,
+     "skany": 30,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=5505&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3520",
+     "od": 1781,
+     "do": 1793,
+     "opis": "U-1781-1793",
+     "odpis": false,
+     "skany": 68,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3520&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4275/4510",
+     "od": 1785,
+     "do": 1835,
+     "opis": "M-1785-1835",
+     "odpis": false,
+     "skany": 50,
+     "wpisy": 116,
+     "status": "czesciowo",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=4510&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4275/5510",
+     "od": 1785,
+     "do": 1824,
+     "opis": "Z-1785-1824",
+     "odpis": false,
+     "skany": 66,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=5510&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3525",
+     "od": 1793,
+     "do": 1807,
+     "opis": "U-1793-1807",
+     "odpis": false,
+     "skany": 58,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3525&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3530",
+     "od": 1798,
+     "do": 1821,
+     "opis": "U-1798-1821",
+     "odpis": false,
+     "skany": 52,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3530&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4275/4515",
+     "od": 1798,
+     "do": 1842,
+     "opis": "M-1798-1842",
+     "odpis": false,
+     "skany": 34,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=4515&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4275/5515",
+     "od": 1798,
+     "do": 1843,
+     "opis": "Z-1798-1843",
+     "odpis": false,
+     "skany": 42,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=5515&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3535",
+     "od": 1807,
+     "do": 1835,
+     "opis": "U-1807-1835",
+     "odpis": false,
+     "skany": 161,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3535&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U",
+      "M",
+      "Z"
+     ],
+     "sygn": "5321/1808",
+     "od": 1808,
+     "do": 1814,
+     "opis": "UMZ-1808-1814",
+     "odpis": true,
+     "skany": 40,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=5321&sy=1808&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U",
+      "M",
+      "Z"
+     ],
+     "sygn": "5321/1817",
+     "od": 1817,
+     "do": 1818,
+     "opis": "UMZ-1817-1818",
+     "odpis": true,
+     "skany": 13,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=5321&sy=1817&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U",
+      "M",
+      "Z"
+     ],
+     "sygn": "5321/1820",
+     "od": 1820,
+     "do": 1820,
+     "opis": "UMZ-1820",
+     "odpis": true,
+     "skany": 15,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=5321&sy=1820&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3540",
+     "od": 1821,
+     "do": 1838,
+     "opis": "U-1821-1838",
+     "odpis": false,
+     "skany": 50,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3540&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U",
+      "M",
+      "Z"
+     ],
+     "sygn": "5321/1822",
+     "od": 1822,
+     "do": 1825,
+     "opis": "UMZ-1822-1825",
+     "odpis": true,
+     "skany": 32,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=5321&sy=1822&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4275/5520",
+     "od": 1825,
+     "do": 1843,
+     "opis": "Z-1825-1843",
+     "odpis": false,
+     "skany": 24,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=5520&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U",
+      "M",
+      "Z"
+     ],
+     "sygn": "5321/1833",
+     "od": 1827,
+     "do": 1833,
+     "opis": "UMZ-1827-1833",
+     "odpis": true,
+     "skany": 58,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=5321&sy=1833&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U",
+      "M",
+      "Z"
+     ],
+     "sygn": "5321/1836",
+     "od": 1836,
+     "do": 1842,
+     "opis": "UMZ-1836-1842",
+     "odpis": true,
+     "skany": 81,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=5321&sy=1836&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3545",
+     "od": 1838,
+     "do": 1854,
+     "opis": "U-1838-1854",
+     "odpis": false,
+     "skany": 116,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3545&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4275/4520",
+     "od": 1843,
+     "do": 1861,
+     "opis": "M-1843-1861",
+     "odpis": false,
+     "skany": 44,
+     "wpisy": 131,
+     "status": "czesciowo",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=4520&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4275/5525",
+     "od": 1843,
+     "do": 1876,
+     "opis": "Z-1843-1876",
+     "odpis": false,
+     "skany": 119,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=5525&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U",
+      "M",
+      "Z"
+     ],
+     "sygn": "5321/1844",
+     "od": 1844,
+     "do": 1847,
+     "opis": "UMZ-1844-1847",
+     "odpis": true,
+     "skany": 50,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=5321&sy=1844&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U",
+      "M",
+      "Z"
+     ],
+     "sygn": "5321/1849",
+     "od": 1849,
+     "do": 1849,
+     "opis": "UMZ-1849",
+     "odpis": true,
+     "skany": 25,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=5321&sy=1849&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U",
+      "M",
+      "Z"
+     ],
+     "sygn": "5321/1851",
+     "od": 1851,
+     "do": 1852,
+     "opis": "UMZ-1851-1852",
+     "odpis": true,
+     "skany": 19,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=5321&sy=1851&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3550",
+     "od": 1854,
+     "do": 1889,
+     "opis": "U-1854-1889-Słopnice Królew.",
+     "odpis": false,
+     "skany": 243,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3550&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U",
+      "M",
+      "Z"
+     ],
+     "sygn": "5321/1855",
+     "od": 1855,
+     "do": 1861,
+     "opis": "UMZ-1855-1861",
+     "odpis": true,
+     "skany": 112,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=5321&sy=1855&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4275/4525",
+     "od": 1861,
+     "do": 1879,
+     "opis": "M-1861-1879",
+     "odpis": false,
+     "skany": 50,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=4525&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4275/5530",
+     "od": 1876,
+     "do": 1939,
+     "opis": "Z-1876-1939-Słopnice Królew.",
+     "odpis": false,
+     "skany": 145,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=5530&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4275/4530",
+     "od": 1880,
+     "do": 1923,
+     "opis": "M-1880-1923-Słopnice Królew.",
+     "odpis": false,
+     "skany": 98,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=4530&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3555",
+     "od": 1890,
+     "do": 1924,
+     "opis": "U-1890-1924-Słopnice Królew.",
+     "odpis": false,
+     "skany": 184,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3555&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "U"
+     ],
+     "sygn": "4275/3560",
+     "od": 1906,
+     "do": 1924,
+     "opis": "U-1906-1924-Słopnice Szlach",
+     "odpis": false,
+     "skany": 148,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=3560&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "Z"
+     ],
+     "sygn": "4275/5535",
+     "od": 1906,
+     "do": 1944,
+     "opis": "Z-1906-1944-Słopnice Szlach",
+     "odpis": false,
+     "skany": 133,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=5535&kt=1&plik=001.jpg"
+    },
+    {
+     "typy": [
+      "M"
+     ],
+     "sygn": "4275/4535",
+     "od": 1924,
+     "do": 1944,
+     "opis": "M-1924-1944",
+     "odpis": false,
+     "skany": 83,
+     "wpisy": 0,
+     "status": "nieodczytana",
+     "url": "https://metryki.genealodzy.pl/index.php?op=pg&id=4275&sy=4535&kt=1&plik=001.jpg"
     }
    ]
   }

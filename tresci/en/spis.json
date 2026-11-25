@@ -1,0 +1,518 @@
+{
+ "nazwa": "What the Registers Tell of Dobra and Jurków Parish",
+ "opis": "True stories of the people of Dobra and Jurków parish, read from the baptism, marriage, and burial registers of 1678–1926.",
+ "tematy": {
+  "zaraza": "Epidemics and Famine",
+  "zywioly": "Forces of Nature",
+  "dwor": "Manor and Rectory",
+  "daleko": "Far from Home",
+  "slowa": "Words and Registers",
+  "ludzie": "People and Families"
+ },
+ "historie": {
+  "ksiega-po-pozarze": {
+   "tytul": "The Register Begins with a Fire",
+   "zajawka": "The church burned down one night, and probably the older registers with it. Half a century later, a curate slipped away at night with several months of baptism records.",
+   "znacznik": "Dobra · 1678 and 1733 · from the publication “Trzy stulecia Jurkowa” (Three Centuries of Jurków)",
+   "lead": "The oldest register of the Dobra parish opens with a note about the burned church. Half a century later, a curate who left by night took several months of baptisms with him.",
+   "miejsce": "Dobra",
+   "rok_tekst": "1678"
+  },
+  "przysiolki": {
+   "tytul": "Hamlets Named for Families",
+   "zajawka": "Siciarze, Czerniki, Szerszenie, Krawce: parts of the village bear the names of families recorded in the registers in the 17th century.",
+   "znacznik": "Jurków · since 1679 · from the publication “Trzy stulecia Jurkowa” (Three Centuries of Jurków)",
+   "lead": "Siciarze, Czerniki, Szerszenie, Krawce, Trzopki. Parts of Jurków bear the names of families that the registers recorded as early as the 17th century.",
+   "miejsce": "Jurków",
+   "rok_tekst": "since 1679"
+  },
+  "slub-po-latach": {
+   "tytul": "Married Again Twenty Years Later",
+   "zajawka": "Tomasz and Agnieszka already had children when it came to light that they were related. The bishop ordered them to take their vows again.",
+   "znacznik": "Jurków · 1773–1915 · from the publication “Trzy stulecia Jurkowa” (Three Centuries of Jurków)",
+   "lead": "Tomasz and Agnieszka already had children when it came to light that they were related. The bishop ruled that they had married in good faith and ordered them to take their vows again.",
+   "miejsce": "Jurków",
+   "rok_tekst": "1774"
+  },
+  "marszalek": {
+   "tytul": "The Marshal, the Land, and the School",
+   "zajawka": "The school in Dobra was older than Marshal Małachowski’s reforms. In 1685 its rector stood godfather to children from all over the parish.",
+   "znacznik": "Dobra · 1678–1839 · from publications and the registers",
+   "lead": "Stanisław Małachowski, Marshal of the Four-Year Sejm, was lord of Dobra. He does not appear in the parish registers, but the school he rebuilt does.",
+   "miejsce": "Dobra",
+   "rok_tekst": "1678–1839"
+  },
+  "piorun": {
+   "tytul": "One Bolt of Lightning",
+   "zajawka": "In 1826 a single bolt of lightning killed a man and a child from two different houses. And in 1920 in Dobra, the priest recorded a death by lightning in February.",
+   "znacznik": "Jurków and Dobra · 1826, 1906, 1920 · from publications and the registers",
+   "lead": "On July 7, 1826, a storm passed over Jurków. A single bolt of lightning killed two people from two different houses.",
+   "miejsce": "Jurków, Dobra",
+   "rok_tekst": "1826–1920"
+  },
+  "hrabia-przy-chrzcielnicy": {
+   "tytul": "A Count at the Font",
+   "zajawka": "A child of my ancestors in Jurków had Count and Countess Małachowski as godparents. It is the only such baptism in the whole parish.",
+   "znacznik": "Jurków · house no. 5 · December 14, 1831 · from my book “Ród Podgórnich z Jurkowa” (The Podgórni Family of Jurków)",
+   "lead": "Peasant children were held at the font by their neighbors. In December 1831, a son of my ancestors in Jurków had a count and a countess as godparents.",
+   "miejsce": "Jurków, house no. 5",
+   "rok_tekst": "1831"
+  },
+  "polozne": {
+   "tytul": "Midwives without Schooling",
+   "zajawka": "Agnieszka Chalcarz delivered 739 children, Anna Rapacz more than 300. For decades the register noted beside their names: “non examinata.”",
+   "znacznik": "the whole parish · 1829–1923 · from publications and the registers",
+   "lead": "For most of the 19th century, children were delivered by neighbor women. The registers recorded their names and two words: non examinata, not examined.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1832–1907"
+  },
+  "lesniczy": {
+   "tytul": "The Forester of Dobra",
+   "zajawka": "My ancestor Józef Przybytek was the manor’s forester. For every log his neighbors cut, he was owed seven and a half kreuzers.",
+   "znacznik": "Dobra · November 20, 1838 · from my book “Ród Podgórnich z Jurkowa” (The Podgórni Family of Jurków)",
+   "lead": "In 1838 the manor’s forester married into my family. The marriage register describes him in words almost never found in the parish.",
+   "miejsce": "Dobra",
+   "rok_tekst": "1838"
+  },
+  "rok-glodu": {
+   "tytul": "The Year of Hunger",
+   "zajawka": "In Jurków 111 people died, in Chyszówki 118, and in Wilczyce nine times more than usual. Begging children from other places died in the fields.",
+   "znacznik": "the whole parish · 1847 · from the publications on Jurków and Chyszówki",
+   "lead": "After the crop failure of 1846, famine gripped all of Austrian Galicia. In the villages of the parish, five to nine times more people died than usual, and Wilczyce was hit hardest.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1847"
+  },
+  "rakamaz": {
+   "tytul": "Rakamaz, 1853",
+   "zajawka": "A landless laborer from Chyszówki died in Hungary, on the Tisza. The news took four months to reach home.",
+   "znacznik": "Chyszówki · house no. 51 · June 23, 1853 · from the publication “Chyszówki w księgach zmarłych” (Chyszówki in the Death Registers)",
+   "lead": "Błażej Smoleń of Chyszówki died in Hungary, on the Tisza River. The news of his death took four months to reach home.",
+   "miejsce": "Chyszówki, house no. 51",
+   "rok_tekst": "1853"
+  },
+  "wielkie-sniegi": {
+   "tytul": "The Great Snows",
+   "zajawka": "People smothered by snow, and the sick whom the priest could not reach through the drifts. A winter in the middle of the hunger years.",
+   "znacznik": "Dobra, Chyszówki, Półrzeczki, Jurków · winter of 1854/55 · a new story from the registers",
+   "lead": "The winter of 1854 came early and found people hungry. No other winter left so many traces in the death registers.",
+   "miejsce": "Dobra, Chyszówki, Półrzeczki, Jurków",
+   "rok_tekst": "1854/55"
+  },
+  "doktor-z-wiednia": {
+   "tytul": "The Doctor from Vienna",
+   "zajawka": "A physician sent to fight cholera died in Dobra at the age of 34. A single entry in the register is all that remains of him.",
+   "znacznik": "Dobra · house no. 99 · August 4, 1855 · a new story from the registers",
+   "lead": "In the summer of 1855, the authorities sent a doctor from Vienna to Dobra to fight cholera. A few words in the death register are all he left behind.",
+   "miejsce": "Dobra, house no. 99",
+   "rok_tekst": "1855"
+  },
+  "sasiedzi": {
+   "tytul": "Neighbors of the Mosaic Faith",
+   "zajawka": "The parish priest of Dobra also entered births in Jewish families in the baptism register, among them the children of the man who leased the liquor rights.",
+   "znacznik": "Dobra · 1860–1893 · a new story from the registers",
+   "lead": "From 1871 to 1877, the parish priest of Dobra also entered in the baptism register children he did not baptize: births in Jewish families.",
+   "miejsce": "Dobra",
+   "rok_tekst": "1860–1893"
+  },
+  "kolej": {
+   "tytul": "The Railroad and the Steam Saw",
+   "zajawka": "A stonemason from Belluno, an overseer from Tyrol, a builder from Bohemia, and architects as witnesses at a village wedding. That is how the railroad came to Dobra.",
+   "znacznik": "Dobra, Porąbka, Półrzeczki · 1883–1901 · a new story from the registers",
+   "lead": "Between 1882 and 1884 the Galician Transversal Railway was built through Dobra. People came to the parish from all over the monarchy, and the registers recorded their traces.",
+   "miejsce": "Dobra, Porąbka, Półrzeczki",
+   "rok_tekst": "1883–1901"
+  },
+  "ostrawa": {
+   "tytul": "To Ostrava and Overseas",
+   "zajawka": "Notes in the margins of the registers lead to Hungary, to the mines of Ostrava, to Prussia, and to Chicago. And a shoemaker came to Dobra from Normandy.",
+   "znacznik": "Dobra, Jurków, Półrzeczki, Chyszówki · 1873–1920 · a new story from the registers",
+   "lead": "Toward the end of the 19th century, people from the parish began leaving in search of work: for Hungary, Ostrava, and Prussia, and some went as far as America. Traces of these journeys remain in the margins of the registers.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1873–1920"
+  },
+  "sipka": {
+   "tytul": "Sipka",
+   "zajawka": "A dialect word the priest wrote next to children who died. In 1901 he himself explained what it meant.",
+   "znacznik": "Jurków and Chyszówki · 1901–1912 · from the publications on Jurków and Chyszówki",
+   "lead": "In the early 20th century, the priest wrote a word from the local dialect beside the names of children who died. Today it needs explaining.",
+   "miejsce": "Jurków, Chyszówki",
+   "rok_tekst": "1901–1912"
+  },
+  "cmentarz": {
+   "tytul": "A New Cemetery without the Parish Priest’s Consent",
+   "zajawka": "The curate from Jurków buried the dead of Chyszówki in an unconsecrated cemetery. In the Dobra register, a note about it runs across the whole page.",
+   "znacznik": "Chyszówki and Półrzeczki · 1916 · from the publication “Chyszówki w księgach zmarłych” (Chyszówki in the Death Registers)",
+   "lead": "In 1916 a priest from Jurków began burying the dead of Chyszówki in a new, unconsecrated cemetery. It left a protest in the register, complete with an exclamation mark.",
+   "miejsce": "Chyszówki, Półrzeczki, Jurków",
+   "rok_tekst": "1916"
+  },
+  "hiszpanka": {
+   "tytul": "The Spanish Flu",
+   "zajawka": "In the fall of 1918, influenza killed 18 people in Dobra, 15 in Półrzeczki, 10 in Chyszówki, and 9 in Porąbka. Those who died were mostly young adults.",
+   "znacznik": "six villages of the parish · October–December 1918 · a new story from the registers",
+   "lead": "In the fall of 1918, as the war was ending, the influenza the world came to call the Spanish flu reached the villages at the foot of Mogielica. In the six villages whose registers from those months we know, it killed 55 people.",
+   "miejsce": "six villages of the parish",
+   "rok_tekst": "1918"
+  },
+  "korzec": {
+   "tytul": "The Heaped Bushel",
+   "zajawka": "The parish priest had a larger measure made for collecting his grain dues. Peasants from the whole estate took the case to the bishop’s court in Kraków and brought back a bushel measure of their own.",
+   "znacznik": "Dobra and the whole Dobra estate · 1726–1732 · a new story from the registers and court records",
+   "lead": "For years the parish priest of Dobra collected his grain dues with a measure that held one and a half times as much grain as was due. Peasants from the whole Dobra estate took him to court and won, and the priest lost his parish.",
+   "miejsce": "Dobra and the whole Dobra estate",
+   "rok_tekst": "1726–1732"
+  },
+  "rzadca": {
+   "tytul": "Forty-One Charges",
+   "zajawka": "The steward of the Dobra estate beat the serfs and did not pay them for their work. In 1739 the peasants and the lord of the manor sued him together. Among those he wronged was my ancestor from Jurków.",
+   "znacznik": "The Dobra estate · 1734–1739 · a new story from the registers and court records",
+   "lead": "From 1734 to 1739 the Dobra estate was run by the nobleman Kazimierz Święcicki. When he left, the lord’s commissioner drew up 41 charges against him. One concerns the spoils taken after the capture of a famous brigand chief.",
+   "miejsce": "Dobra, Jurków, Chyszówki, Zadziele",
+   "rok_tekst": "1734–1739"
+  },
+  "zolnierze": {
+   "tytul": "The Emperor’s Soldiers",
+   "zajawka": "An uhlan of Archduke Charles’s regiment, a private of Regiment No. 57, a veteran with an invalid’s certificate, a man killed on the Nida River. Sons of the villages in the Austrian army and their traces in the registers.",
+   "znacznik": "the whole parish · 1799–1920 · a new story from the registers",
+   "lead": "From the end of the 18th century, peasants’ sons from the parish served in the Austrian emperor’s army. The death registers recorded those who came home sick, those whom death caught far from home, and soldiers from elsewhere who died while passing through Dobra.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1799–1920"
+  },
+  "tyton": {
+   "tytul": "Hungarian Tobacco",
+   "zajawka": "Twenty-one-year-old Franciszek from Półrzeczki would not hand over his Hungarian tobacco to the soldiers guarding the border. He was killed by a bullet and buried in Krościenko.",
+   "znacznik": "Półrzeczki, house no. 50 · 1842 · a new story from the registers",
+   "lead": "In January 1842, Franciszek Kucaj’s father brought the priest sad news from Krościenko. His son had been killed at the Hungarian border because he would not give up his tobacco.",
+   "miejsce": "Półrzeczki, house no. 50",
+   "rok_tekst": "1842"
+  },
+  "ospa": {
+   "tytul": "Smallpox and Vaccination",
+   "zajawka": "Below the baptism of Maciej from Chyszówki, someone added in German “Impfung pro 842,” vaccination for the year 1842. In April the boy died of smallpox, unvaccinated.",
+   "znacznik": "the whole parish · 1807–1885 · a new story from the registers",
+   "lead": "Smallpox returned every dozen years or so and killed mostly small children. From the 1830s on, the registers also show the other side of the story: vaccination.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1807–1885"
+  },
+  "las": {
+   "tytul": "People of the Forest",
+   "zajawka": "Men crushed by trees they were felling, boys who fell from trees, and foresters from Bohemia in the forest lodges. The forest in the parish registers.",
+   "znacznik": "Półrzeczki, Chyszówki, Jurków, Dobra · 1818–1925 · a new story from the registers",
+   "lead": "The forests on the slopes of Mogielica and Łopień gave the villages timber and work, but the work was dangerous. The registers recorded those killed by trees and the people who managed these forests.",
+   "miejsce": "Półrzeczki, Chyszówki, Jurków, Dobra",
+   "rok_tekst": "1818–1925"
+  },
+  "harnas": {
+   "tytul": "The Brigand Chief’s Last Revel",
+   "zajawka": "In the fall of 1735, the brigand chief Józef Baczyński was captured on the Dobra estate. In Jurków people say the inn stood at Szerszenie, a few dozen meters from today’s chapel.",
+   "znacznik": "Dobra and Jurków · 1735 · a new story from sources and local accounts",
+   "lead": "Józef Baczyński of Skawica was one of the most famous outlaws of the Beskids. His wanderings ended in late fall 1735 at a party on the Dobra estate. Historians and local memory disagree about exactly where.",
+   "miejsce": "Dobra and Jurków, Szerszenie",
+   "rok_tekst": "1735"
+  },
+  "kaplica": {
+   "tytul": "The Chapel at Szyrszenie",
+   "zajawka": "Across from my ancestors’ house stands a chapel from 1826. Tradition says it was built by a Podgórni father when his son became a priest. I searched the registers for that priest.",
+   "znacznik": "Jurków, Szyrszenie · 1826 · from my book “Ród Podgórnich z Jurkowa” (The Podgórni Family of Jurków)",
+   "lead": "At Szyrszenie in Jurków Dolny, across from house no. 5, stands the masonry Chapel of the Holy Family, built in 1826. In May 2026 the parish celebrated its bicentennial. Who built it?",
+   "miejsce": "Jurków, Szyrszenie",
+   "rok_tekst": "1826"
+  },
+  "bliznieta": {
+   "tytul": "Twins",
+   "zajawka": "Agnieszka and Sebastian, Piotr and Paweł, Tomasz and Wiktoria: twins were given the names of saints whose feast days fell side by side. More than one in three died in their first year.",
+   "znacznik": "the whole parish · 1703–1910 · a new story from the registers",
+   "lead": "Roughly one birth in sixty-five in the parish was a birth of twins. The registers tell what the twins were named and how many of them survived their first year.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1703–1910"
+  },
+  "imiona": {
+   "tytul": "Named by the Calendar",
+   "zajawka": "Nine out of ten Melchiors were born around the Feast of the Three Kings. Regina was once the most popular name for girls, but after 1900 the registers know only two.",
+   "znacznik": "the whole parish · 1678–1923 · a new story from the registers",
+   "lead": "More than 25,000 baptisms make it possible to see where children’s names came from and how fashions in names changed.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1678–1923"
+  },
+  "karczmy": {
+   "tytul": "Inns and Innkeepers",
+   "zajawka": "An innkeeper from Wilczyce complained to the lady of the manor because the parish priest had taken his oxen as payment for his mother’s funeral. Innkeepers in the parish registers, from Dobra peasants to newcomers from Moravia.",
+   "znacznik": "Dobra and Wilczyce · 1697–1902 · a new story from the registers and court records",
+   "lead": "The inn belonged to the manor, and the innkeeper was somebody in the village. The registers and court records show innkeepers from the reign of the Saxon kings to the early 20th century.",
+   "miejsce": "Dobra, Wilczyce",
+   "rok_tekst": "1697–1902"
+  },
+  "vanek": {
+   "tytul": "The Innkeeper’s Grandson",
+   "zajawka": "In 1895 a boy was born in the innkeeper’s house in Dobra who went on to become a Czechoslovak legionnaire, an intelligence officer, and envoy to Italy. A note added to the register says where he died.",
+   "znacznik": "Dobra, house no. 202 · 1895 · a new story from the registers and the Czech Foreign Ministry archives",
+   "lead": "Years later, someone added a wedding in Prague and a death in Rome to a baptism entry from June 1895. It is the trace of a life that began at the manor inn in Dobra.",
+   "miejsce": "Dobra, house no. 202",
+   "rok_tekst": "1895–1965"
+  },
+  "wesela": {
+   "tytul": "A Calendar of Weddings",
+   "zajawka": "More than a third of all weddings took place in February, while December saw only nine in 260 years. Almost no one married on a Friday.",
+   "znacznik": "the whole parish · 1682–1943 · a new story from the registers",
+   "lead": "More than 5,500 marriages in the parish registers show when weddings were held: in which month, on which day of the week, and at what age people stood before the altar.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1682–1943"
+  },
+  "cwierc-roli": {
+   "tytul": "A Quarter of a Farm",
+   "zajawka": "“¼ Cm.” next to a father’s name meant a quarter of an old full-size peasant farm. In the mid-19th century, more than half of all fathers were recorded this way. Only Porąbka still had farmers with full holdings.",
+   "znacznik": "the whole parish · 1820–1900 · a new story from the registers",
+   "lead": "The fractions next to names in the baptism registers tell how much land a father held. Together they show a village divided into quarters and eighths.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1820–1900"
+  },
+  "przydomki": {
+   "tytul": "Aliases",
+   "zajawka": "Wojciech Przybytek alias Wójt, Galas alias Fleszar, Węgrzyn recte Gąsior. People with two surnames in the parish registers.",
+   "znacznik": "the whole parish · 1690–1911 · a new story from the registers",
+   "lead": "“Alias,” “vel,” “recte”: with these words the priest added a second surname. Sometimes it was an office, sometimes a nickname, and sometimes the name of the homestead.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1690–1911"
+  },
+  "woda": {
+   "tytul": "Water",
+   "zajawka": "The flood of 1712 carried an icon away from Jurków, and in 1825 a flood took sixteen-year-old Anna from Chyszówki. Those who died in streams and wells were mostly children.",
+   "znacznik": "Dobra, Chyszówki, Półrzeczki, Jurków · 1712–1923 · a new story from the registers",
+   "lead": "The streams coming down from Mogielica and Łopień drove mills and sawmills. The registers also recorded the people the water took.",
+   "miejsce": "Dobra, Chyszówki, Półrzeczki, Jurków",
+   "rok_tekst": "1712–1923"
+  },
+  "czesi": {
+   "tytul": "Czechs and Moravians",
+   "zajawka": "A road foreman from Červený Kostelec, a gardener from Bohemia, a gamekeeper from Moravia, and an itinerant gelder who died on the road in Jurków.",
+   "znacznik": "Dobra, Jurków, Chyszówki · 1854–1904 · a new story from the registers",
+   "lead": "In the second half of the 19th century, people from Bohemia and Moravia came to the parish to work: officials, foresters, gardeners, railroad builders.",
+   "miejsce": "Dobra, Jurków, Chyszówki",
+   "rok_tekst": "1854–1904"
+  },
+  "najstarsi": {
+   "tytul": "A Hundred Years, Give or Take",
+   "zajawka": "According to the registers, Zofia Stokłosionka of Porąbka lived to 115, Stanisław Stokłosa to 113, and Katarzyna Gdowicz to 110. Her marriage record says otherwise.",
+   "znacznik": "the whole parish · 1779–1899 · a new story from the registers",
+   "lead": "The oldest people in the parish registers were over a hundred. But the ages of the dead were estimated by eye and often inflated.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1779–1899"
+  },
+  "romowie": {
+   "tytul": "The Roma in the Registers",
+   "zajawka": "In 1730 a priest baptized the son of a Roma couple, accepting their marriage on the word of another Roma man. The godfather was the estate administrator.",
+   "znacznik": "Dobra and Chyszówki · 1730–1922 · a new story from the registers",
+   "lead": "The parish registers also recorded Roma, both traveling and settled. The priest called them “Cingani” and “Cyganie” (Latin and Polish for “Gypsies”), and at the baptisms of their children both neighbors and people of the manor stood as godparents.",
+   "miejsce": "Dobra, Chyszówki",
+   "rok_tekst": "1730–1922"
+  },
+  "laskudowie": {
+   "tytul": "A Lawmaker and a Mayor from Jurków",
+   "zajawka": "Michał Łaskuda was mayor of Jurków and sat in three parliaments; his brother Szymon was the first mayor of the Dobra municipality. Szymon perished in Buchenwald in 1941.",
+   "znacznik": "Jurków, house no. 78 · 1873–1941 · a new story from the registers and archives",
+   "lead": "Two sons of Sebastian and Rozalia Łaskuda of house no. 78 in Jurków left their mark on the history of the whole area. One sat in the parliaments in Lviv and Warsaw; the other led the Dobra municipality in its hardest years.",
+   "miejsce": "Jurków, house no. 78",
+   "rok_tekst": "1873–1941"
+  },
+  "pierwszy-rok": {
+   "tytul": "The First Year of Life",
+   "zajawka": "One child in five never reached a first birthday. The first month was the most dangerous, and the priest most often wrote a single word: weakness.",
+   "znacznik": "four villages of the parish · 1840–1889 · a new story from the registers",
+   "lead": "More than 5,000 baptisms and 1,000 infant deaths in the registers of Dobra, Jurków, Chyszówki, and Półrzeczki show how many children died before the age of one, when the danger was greatest, and what the priest recorded as the cause.",
+   "miejsce": "four villages of the parish",
+   "rok_tekst": "1840–1889"
+  },
+  "narodziny": {
+   "tytul": "A Calendar of Births",
+   "zajawka": "Births peaked in January and February and were fewest in July and August. Until the mid-19th century, nearly every child was baptized on the day of birth or the day after.",
+   "znacznik": "the whole parish · 1678–1923 · a new story from the registers",
+   "lead": "More than 25,000 baptisms in the parish registers show in which months children were born and how quickly they were carried to the font.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1678–1923"
+  },
+  "mandatariusz": {
+   "tytul": "The Manor Official of Dobra",
+   "zajawka": "On March 1, 1846, during the Galician peasant revolt, an official of the Dobra manor was killed. The priest wrote only: on account of a crime. He was buried in Bochnia.",
+   "znacznik": "Dobra, the manor · 1829–1850 · a new story from the registers",
+   "lead": "The parish registers know the manor’s people by name: the leaseholder, his wife, and the successive mandataries, the officials who ran the estate. One of them was killed in the winter of 1846, when peasants in western Galicia were attacking manor houses.",
+   "miejsce": "Dobra, the manor",
+   "rok_tekst": "1829–1850"
+  },
+  "wdowy": {
+   "tytul": "Widows and Widowers",
+   "zajawka": "More than one wedding in three involved a widower or a widow. A widower sometimes remarried a week after the funeral; a widow had to wait, as the law required.",
+   "znacznik": "the whole parish · 1786–1899 · a new story from the registers",
+   "lead": "Death often broke marriages off halfway. The marriage registers show how quickly, and with whom, widowers and widows started new families.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1786–1899"
+  },
+  "ojciec-leon": {
+   "tytul": "Father Leon of Jurków",
+   "zajawka": "There was a priest in my family after all, only a hundred years after the chapel. Andrzej Podgórni of Jurków became a Dominican, and in 1944 he miraculously survived the attack on the monastery in Podkamień.",
+   "znacznik": "Jurków, house no. 108 · 1892–1953 · from my book “Ród Podgórnich z Jurkowa” (The Podgórni Family of Jurków)",
+   "lead": "Andrzej Podgórni of house no. 108 was a soldier of the Polish Legions, a Dominican, and a student in Belgium. The war found him in monasteries in the Kresy, the eastern borderlands of prewar Poland.",
+   "miejsce": "Jurków, house no. 108",
+   "rok_tekst": "1892–1953"
+  },
+  "ikona": {
+   "tytul": "The Icon from Jurków",
+   "zajawka": "In the altar of the old church in Dobra hangs a painting that, according to tradition, was brought by the water. It came from the Eastern-rite church of the Vlach shepherds at the foot of Mogielica.",
+   "znacznik": "Dobra and Jurków · 16th century – 1973 · a new story from the registers and historical studies",
+   "lead": "A small oval painting of the Transfiguration hangs in the high altar of the old church in Dobra. Its story links Vlach shepherds, a flood, and a parish priest who built it an altar of its own.",
+   "miejsce": "Dobra and Jurków",
+   "rok_tekst": "16th century – 1973"
+  },
+  "organisci": {
+   "tytul": "The Organists of Dobra",
+   "zajawka": "For more than two hundred years, the registers record the organists of Dobra. The one who played longest was Mateusz Rudnicki, organist and teacher, father of seventeen children, among them a priest.",
+   "znacznik": "Dobra · 1689–1929 · a new story from the registers",
+   "lead": "The organist played in church, led the singing, often taught the children, and stood as a witness at weddings. The registers know the organists of Dobra by name from the late 17th century on.",
+   "miejsce": "Dobra",
+   "rok_tekst": "1689–1929"
+  },
+  "porod": {
+   "tytul": "Death in Childbirth",
+   "zajawka": "Nearly one in five married women who died before the age of forty-five died in childbirth or shortly after. The priest wrote briefly: propter partum.",
+   "znacznik": "the whole parish · 1786–1896 · a new story from the registers",
+   "lead": "The death registers of the parish’s nine villages show how often childbirth ended in the mother’s death, and what then became of the child and the family.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1786–1896"
+  },
+  "granica": {
+   "tytul": "A Parish Boundary through Jurków",
+   "zajawka": "In 1913 Jurków got a priest of its own against the will of the parish priest of Dobra, who recorded burials in the death register as “without the parish priest’s consent.” The lower part of the village, Jurków Dolny, belongs to Dobra to this day.",
+   "znacznik": "Jurków · 1913–1925 · a new story from the registers and historical studies",
+   "lead": "For more than five hundred years, Jurków belonged to the parish of Dobra. When it began to break away in 1913, the parish priest fought over every funeral, and the boundary of the new parish cut the village in two.",
+   "miejsce": "Jurków",
+   "rok_tekst": "1913–1925"
+  },
+  "gruszowiec": {
+   "tytul": "Wolves in Gruszowiec",
+   "zajawka": "In 1789 wolves tore apart thirteen-year-old Marianna, and five days earlier seven-year-old Paweł had died the same way in neighboring Porąbka. The newly read registers of Gruszowiec also tell of hunger, a tree, and a bridge.",
+   "znacznik": "Gruszowiec · 1786–1924 · a new story from the registers",
+   "lead": "The registers of Gruszowiec were read in November 2026. The village’s oldest death register records a girl torn apart by wolves. Five days earlier the same fate befell a boy from neighboring Porąbka.",
+   "miejsce": "Gruszowiec",
+   "rok_tekst": "1786–1924"
+  },
+  "cystersi": {
+   "tytul": "The Monks of Szczyrzyc",
+   "zajawka": "A Cistercian was standing in for the parish priest as early as 1683. In the year of hunger and in the cholera summer, monks from Szczyrzyc buried the dead, and in 1871 the prior prepared the parish priest for death.",
+   "znacznik": "the whole parish · 1683–1927 · a new story from the registers",
+   "lead": "The Cistercian abbey of Szczyrzyc stands a dozen or so kilometers from Dobra. For more than two hundred years, its monks came to the parish when priests were lacking, when famine reigned, and when cholera came.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1683–1927"
+  },
+  "zgoda-pulku": {
+   "tytul": "With the Regiment’s Permission",
+   "zajawka": "A soldier from Półrzeczki had the army’s permission, his bride-to-be the manor’s. Marriage permits came from Lviv, from Hungary, from the district office in Limanowa, and after the war from the Polish recruiting command.",
+   "znacznik": "the whole parish · 1823–1925 · a new story from the registers",
+   "lead": "A soldier of the emperor could not marry whenever he wished. At weddings the priest noted whose permission was on file in the parish records: that of the regiment, the command in Lviv, the district office, or the recruiting command.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1823–1925"
+  },
+  "mlynarze": {
+   "tytul": "The Millers",
+   "zajawka": "The Stokłosa family were millers in Dobra, Jurków, and Gruszowiec. The miller Piotr Majchrzak signed his consent to his son’s marriage with a cross, and eighteen-month-old Agnieszka drowned in a millrace.",
+   "znacznik": "the whole parish · 1683–1917 · a new story from the registers",
+   "lead": "From Tomasz Młynarz in the 17th century to Jan Radziszewski in 1917, the registers recorded the parish’s millers, their wives, and their children.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1683–1917"
+  },
+  "numery-domow": {
+   "tytul": "What a House Number Tells",
+   "zajawka": "A number in the register is not an address but the order in which the houses were built. In 1845 the whole parish was renumbered, and in Jurków two different houses had the number 123.",
+   "znacznik": "the whole parish · 1779–1913 · a new story from the registers",
+   "lead": "From 1779 on, the priest recorded the house number at every baptism, wedding, and funeral. These numbers tell how the village grew, how cottages were divided, and what happened to a number when a house disappeared.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1779–1913"
+  },
+  "porabka": {
+   "tytul": "Porąbka, Another Lord’s Village",
+   "zajawka": "In Dobra, consent to marry came from the Dobra manor; in Porąbka it came from the manors in Szczyrzyc and Janowice. There were few quarter-holders here, but there were farmers with full holdings.",
+   "znacznik": "Porąbka · 1694–1868 · a new story from the registers and historical studies",
+   "lead": "Porąbka has belonged to the parish of Dobra for centuries, but it did not belong to the Dobra manor. The registers show this in marriage permits, in the fractions next to surnames, and in house no. 1.",
+   "miejsce": "Porąbka",
+   "rok_tekst": "1694–1868"
+  },
+  "ksiadz-rapacz": {
+   "tytul": "Father Józef Rapacz",
+   "zajawka": "A new curate began burying the dead at the end of the cholera summer of 1855. A few weeks earlier, a peasant’s son with the same first and last name had died of cholera.",
+   "znacznik": "the whole parish · 1855–1863 · a new story from the registers",
+   "lead": "For two and a half years, the curate Józef Rapacz baptized, married, and buried people in every village of the parish. The registers do not say where he came from, but it is known where he went.",
+   "miejsce": "the whole parish",
+   "rok_tekst": "1855–1863"
+  },
+  "zamarznieci": {
+   "tytul": "Frozen to Death",
+   "zajawka": "In January 1848, after the year of hunger, the frost killed three people in four days. Two of them were beggars whose names the priest did not know.",
+   "znacznik": "Dobra, Chyszówki, Wilczyce, Porąbka · 1845–1850 · a new story from the registers",
+   "lead": "In the winters of the hungry years, the priest several times entered the same cause of death: “ob nimium frigus,” from excessive cold. Those who died were most often people on the road.",
+   "miejsce": "Dobra, Chyszówki, Wilczyce, Porąbka",
+   "rok_tekst": "1845–1850"
+  },
+  "rok-1873": {
+   "tytul": "1873 in Zadziele",
+   "zajawka": "In the smallest village of the parish, fourteen people died in a single year. Smallpox took children, a mother died after giving birth, and in Dobra cholera killed three people in one house in three days.",
+   "znacznik": "Zadziele and the whole parish · 1873 · a new story from the registers",
+   "lead": "In an ordinary year Zadziele saw four or five funerals. In 1873 there were fourteen. That year smallpox, dysentery, and cholera came to the whole parish.",
+   "miejsce": "Zadziele and the whole parish",
+   "rok_tekst": "1873"
+  },
+  "peszt-chicago": {
+   "tytul": "To Pest and Chicago",
+   "zajawka": "In the neighboring parish of Mszana Dolna, nineteen men died in Hungary over twenty years, and more than twenty children were born in Budapest. After 1907, Chicago appears in the registers.",
+   "znacznik": "Mszana Dolna parish · 1892–1916 · a new story from the registers of a neighboring parish",
+   "lead": "In the 1890–1916 registers of the neighboring parish of Mszana Dolna, nearly seventy entries lead far from home. First to Budapest, then to Chicago.",
+   "miejsce": "the neighboring parish of Mszana Dolna",
+   "rok_tekst": "1892–1916"
+  },
+  "dom-25": {
+   "tytul": "Great-Grandmother from Number 25",
+   "zajawka": "A widow, four grown children, three weddings, and three funerals. Eleven years of one house in Mszana Górna, the house my great-grandmother came from.",
+   "znacznik": "Mszana Górna, Mszana Dolna parish · 1895–1906 · a story from my family",
+   "lead": "In the 1890s a widow with four grown children lived at number 25 in Mszana Górna. One of them was my great-grandmother Anna.",
+   "miejsce": "Mszana Górna, neighboring parish",
+   "rok_tekst": "1895–1906"
+  },
+  "las-trak-woda": {
+   "tytul": "Forest, Sawmill, and Water",
+   "zajawka": "“He was killed in the forest,” “killed in the sawmill,” “killed by a cow,” “snake bite.” From 1897 on, the priests in Mszana Dolna recorded causes of death in Polish.",
+   "znacznik": "Mszana Dolna parish · 1894–1912 · a new story from the registers of a neighboring parish",
+   "lead": "Of some 3,500 burials from 1897–1912, at least thirty-five were accidents: in the forest, in the sawmill, in the water, and by fire.",
+   "miejsce": "the neighboring parish of Mszana Dolna",
+   "rok_tekst": "1894–1912"
+  },
+  "szkarlatyna": {
+   "tytul": "Scarlet Fever, Dysentery, Measles",
+   "zajawka": "In the summer of 1892, children began to die in Kasinka Mała. Over twelve years, scarlet fever, dysentery, measles, diphtheria, and whooping cough swept through the villages of Mszana Dolna parish.",
+   "znacznik": "Mszana Dolna parish · 1892–1904 · a new story from the registers of a neighboring parish",
+   "lead": "In Mszana Dolna parish, about twenty people were buried in a typical month. In December 1898, fifty-nine were buried.",
+   "miejsce": "the neighboring parish of Mszana Dolna",
+   "rok_tekst": "1892–1904"
+  },
+  "wojna-sluby": {
+   "tytul": "The War in the Marriage Register",
+   "zajawka": "In February 1914, 23 couples married. In February 1915, not a single one. When the young men went off to war, those who stood at the altar were mostly widowers.",
+   "znacznik": "Mszana Dolna parish · 1914–1916 · a new story from the registers of a neighboring parish",
+   "lead": "Before the war, nearly fifty couples a year married in Mszana Dolna parish. In 1915 there were ten.",
+   "miejsce": "the neighboring parish of Mszana Dolna",
+   "rok_tekst": "1914–1916"
+  },
+  "hrabia-nr-1": {
+   "tytul": "The Count from Number 1",
+   "zajawka": "Five children of Count Krasiński, of house number 1, were baptized in Mszana Dolna. The youngest was held at the font by its own brothers and sisters, and the countess sometimes stood godmother to her neighbors’ children.",
+   "znacznik": "Mszana Dolna · 1899–1909 · a new story from the registers of a neighboring parish",
+   "lead": "The manor house stood at number 1 in Mszana Dolna. It left five long entries in the baptism register, with the titles “comes” and “principissa.”",
+   "miejsce": "Mszana Dolna, neighboring parish",
+   "rok_tekst": "1899–1909"
+  },
+  "dyrektor-cyrku": {
+   "tytul": "The Circus Director",
+   "zajawka": "On August 20, 1907, a thirty-six-year-old Hungarian died of a wound in Mszana Dolna. The priest wrote his occupation in Polish, in parentheses: “dyrektor cyrku,” circus director.",
+   "znacznik": "Mszana Dolna · 1907 · a new story from the registers of a neighboring parish",
+   "lead": "One entry in the Mszana Dolna death register is unlike any other. It concerns a man who came with a circus and stayed here forever.",
+   "miejsce": "Mszana Dolna, neighboring parish",
+   "rok_tekst": "1907"
+  }
+ }
+}

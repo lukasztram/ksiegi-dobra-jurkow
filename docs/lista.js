@@ -27,7 +27,7 @@
     if (pusto) pusto.hidden = widac > 0;
   }
 
-  var wszystkie = [{ id: 'wszystkie', nazwa: 'Wszystkie' }].concat(tematy);
+  var wszystkie = [{ id: 'wszystkie', nazwa: filtry.getAttribute('data-wszystkie') || 'Wszystkie' }].concat(tematy);
   filtry.innerHTML = wszystkie.map(function (t) {
     var ile = t.id === 'wszystkie' ? wiersze.length : wiersze.filter(function (w) { return ma(w, t.id); }).length;
     return '<li><button type="button" id="f-' + t.id + '" data-t="' + t.id + '" aria-pressed="false">' +

@@ -1,0 +1,518 @@
+{
+ "nazwa": "Was die Kirchenbücher der Pfarrei Dobra und Jurków erzählen",
+ "opis": "Wahre Geschichten von Menschen aus der Pfarrei Dobra und Jurków, entziffert aus den Tauf-, Trau- und Sterbebüchern der Jahre 1678–1926.",
+ "tematy": {
+  "zaraza": "Seuchen und Hunger",
+  "zywioly": "Naturgewalten",
+  "dwor": "Gutshof und Pfarrhaus",
+  "daleko": "Fern der Heimat",
+  "slowa": "Wörter und Bücher",
+  "ludzie": "Menschen und Familien"
+ },
+ "historie": {
+  "ksiega-po-pozarze": {
+   "tytul": "Das Buch beginnt mit einem Brand",
+   "zajawka": "Die Kirche brannte nachts ab und mit ihr vermutlich die älteren Kirchenbücher. Ein halbes Jahrhundert später nahm ein Kaplan bei Nacht die Taufeinträge mehrerer Monate mit.",
+   "znacznik": "Dobra · 1678 und 1733 · aus der Publikation „Trzy stulecia Jurkowa“ (Drei Jahrhunderte Jurków)",
+   "lead": "Das älteste Kirchenbuch der Pfarrei in Dobra beginnt mit einer Notiz über die abgebrannte Kirche. Ein halbes Jahrhundert später nahm ein Kaplan, der bei Nacht verschwand, die Taufeinträge mehrerer Monate mit.",
+   "miejsce": "Dobra",
+   "rok_tekst": "1678"
+  },
+  "przysiolki": {
+   "tytul": "Weiler mit Familiennamen",
+   "zajawka": "Siciarze, Czerniki, Szerszenie, Krawce: Teile des Dorfes tragen die Namen von Familien, die im 17. Jahrhundert in den Kirchenbüchern verzeichnet wurden.",
+   "znacznik": "Jurków · seit 1679 · aus der Publikation „Trzy stulecia Jurkowa“ (Drei Jahrhunderte Jurków)",
+   "lead": "Siciarze, Czerniki, Szerszenie, Krawce, Trzopki. Teile von Jurków tragen die Namen von Familien, die die Kirchenbücher schon im 17. Jahrhundert verzeichneten.",
+   "miejsce": "Jurków",
+   "rok_tekst": "seit 1679"
+  },
+  "slub-po-latach": {
+   "tytul": "Trauung nach zwanzig Jahren",
+   "zajawka": "Tomasz und Agnieszka hatten schon Kinder, als herauskam, dass sie miteinander verwandt waren. Der Bischof ließ sie einander noch einmal das Jawort geben.",
+   "znacznik": "Jurków · 1773–1915 · aus der Publikation „Trzy stulecia Jurkowa“ (Drei Jahrhunderte Jurków)",
+   "lead": "Tomasz und Agnieszka hatten schon Kinder, als herauskam, dass sie miteinander verwandt waren. Der Bischof erkannte an, dass sie in gutem Glauben geheiratet hatten, und ließ sie einander noch einmal das Jawort geben.",
+   "miejsce": "Jurków",
+   "rok_tekst": "1774"
+  },
+  "marszalek": {
+   "tytul": "Der Marschall, das Land und die Schule",
+   "zajawka": "Die Schule in Dobra war älter als die Reformen des Marschalls Małachowski. Ihr Rektor hob 1685 Kinder aus der ganzen Pfarrei aus der Taufe.",
+   "znacznik": "Dobra · 1678–1839 · aus Publikationen und Kirchenbüchern",
+   "lead": "Stanisław Małachowski, Marschall des Vierjährigen Sejms, war Grundherr von Dobra. In den Kirchenbüchern der Pfarrei kommt er nicht vor, wohl aber die Schule, die er wieder aufbaute.",
+   "miejsce": "Dobra",
+   "rok_tekst": "1678–1839"
+  },
+  "piorun": {
+   "tytul": "Ein einziger Blitz",
+   "zajawka": "Ein einziger Blitz tötete 1826 einen Mann und ein Kind aus zwei Häusern. Und 1920 vermerkte der Priester in Dobra einen Tod durch Blitzschlag im Februar.",
+   "znacznik": "Jurków und Dobra · 1826, 1906, 1920 · aus Publikationen und Kirchenbüchern",
+   "lead": "Am 7. Juli 1826 zog ein Gewitter über Jurków. Ein einziger Blitz tötete zwei Menschen aus zwei verschiedenen Häusern.",
+   "miejsce": "Jurków, Dobra",
+   "rok_tekst": "1826–1920"
+  },
+  "hrabia-przy-chrzcielnicy": {
+   "tytul": "Der Graf am Taufbecken",
+   "zajawka": "Ein Kind meiner Vorfahren aus Jurków hatte Graf und Gräfin Małachowski zu Paten. Die einzige Taufe dieser Art in der ganzen Pfarrei.",
+   "znacznik": "Jurków · Haus Nr. 5 · 14. Dezember 1831 · aus meinem Buch „Ród Podgórnich z Jurkowa“ (Die Familie Podgórni aus Jurków)",
+   "lead": "Bauernkinder wurden von Nachbarn aus der Taufe gehoben. Ein Sohn meiner Vorfahren aus Jurków hatte im Dezember 1831 einen Grafen und eine Gräfin zu Paten.",
+   "miejsce": "Jurków, Haus Nr. 5",
+   "rok_tekst": "1831"
+  },
+  "polozne": {
+   "tytul": "Hebammen ohne Ausbildung",
+   "zajawka": "Agnieszka Chalcarz holte 739 Kinder auf die Welt, Anna Rapacz über 300. Im Kirchenbuch stand neben ihren Namen jahrzehntelang: „non examinata“.",
+   "znacznik": "die ganze Pfarrei · 1829–1923 · aus Publikationen und Kirchenbüchern",
+   "lead": "Den größten Teil des 19. Jahrhunderts holten Nachbarinnen die Kinder auf die Welt. Die Kirchenbücher verzeichneten ihre Namen und zwei Wörter: non examinata, ungeprüft.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1832–1907"
+  },
+  "lesniczy": {
+   "tytul": "Der Förster aus Dobra",
+   "zajawka": "Mein Vorfahr Józef Przybytek war herrschaftlicher Förster. Von jedem Stamm, den die Nachbarn fällten, standen ihm siebeneinhalb Kreuzer zu.",
+   "znacznik": "Dobra · 20. November 1838 · aus meinem Buch „Ród Podgórnich z Jurkowa“ (Die Familie Podgórni aus Jurków)",
+   "lead": "1838 kam ein herrschaftlicher Förster in meine Familie. Im Traubuch wurde er mit Worten beschrieben, die in der Pfarrei sonst kaum vorkommen.",
+   "miejsce": "Dobra",
+   "rok_tekst": "1838"
+  },
+  "rok-glodu": {
+   "tytul": "Das Hungerjahr",
+   "zajawka": "In Jurków starben 111 Menschen, in Chyszówki 118 und in Wilczyce neunmal so viele wie sonst. Auf den Feldern starben fremde Kinder, die betteln gingen.",
+   "znacznik": "die ganze Pfarrei · 1847 · aus den Publikationen über Jurków und Chyszówki",
+   "lead": "Nach der Missernte von 1846 herrschte in ganz Galizien Hunger. In den Dörfern der Pfarrei starben fünf- bis neunmal so viele Menschen wie sonst, am schlimmsten traf es Wilczyce.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1847"
+  },
+  "rakamaz": {
+   "tytul": "Rakamaz, 1853",
+   "zajawka": "Ein landloser Einlieger aus Chyszówki starb in Ungarn an der Theiß. Die Nachricht brauchte vier Monate bis nach Hause.",
+   "znacznik": "Chyszówki · Haus Nr. 51 · 23. Juni 1853 · aus der Publikation „Chyszówki w księgach zmarłych“ (Chyszówki in den Sterbebüchern)",
+   "lead": "Błażej Smoleń aus Chyszówki starb in Ungarn, an der Theiß. Die Nachricht von seinem Tod brauchte vier Monate bis nach Hause.",
+   "miejsce": "Chyszówki, Haus Nr. 51",
+   "rok_tekst": "1853"
+  },
+  "wielkie-sniegi": {
+   "tytul": "Der große Schnee",
+   "zajawka": "Menschen, die im Schnee erstickten, und Kranke, zu denen der Priester durch die Schneewehen nicht gelangen konnte. Ein Winter mitten in den Hungerjahren.",
+   "znacznik": "Dobra, Chyszówki, Półrzeczki, Jurków · Winter 1854/55 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Der Winter 1854 kam früh und traf auf hungrige Menschen. Kein anderer Winter hat in den Sterbebüchern so viele Spuren hinterlassen.",
+   "miejsce": "Dobra, Chyszówki, Półrzeczki, Jurków",
+   "rok_tekst": "1854/55"
+  },
+  "doktor-z-wiednia": {
+   "tytul": "Der Doktor aus Wien",
+   "zajawka": "Ein Arzt, der zur Bekämpfung der Cholera geschickt worden war, starb in Dobra mit 34 Jahren. Von ihm blieb ein einziger Eintrag im Kirchenbuch.",
+   "znacznik": "Dobra · Haus Nr. 99 · 4. August 1855 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Im Sommer 1855 schickten die Behörden einen Arzt aus Wien nach Dobra, um die Cholera zu bekämpfen. Von ihm blieben ein paar Worte im Sterbebuch.",
+   "miejsce": "Dobra, Haus Nr. 99",
+   "rok_tekst": "1855"
+  },
+  "sasiedzi": {
+   "tytul": "Nachbarn mosaischen Glaubens",
+   "zajawka": "Der Pfarrer von Dobra trug ins Taufbuch auch die Geburten von Kindern jüdischer Familien ein, darunter die des Schankpächters.",
+   "znacznik": "Dobra · 1860–1893 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Von 1871 bis 1877 trug der Pfarrer von Dobra ins Taufbuch auch Kinder ein, die er nicht taufte: Geburten in jüdischen Familien.",
+   "miejsce": "Dobra",
+   "rok_tekst": "1860–1893"
+  },
+  "kolej": {
+   "tytul": "Die Bahn und die Dampfsäge",
+   "zajawka": "Ein Steinmetz aus Belluno, ein Aufseher aus Tirol, ein Baumeister aus Böhmen und Architekten als Trauzeugen bei einer Dorfhochzeit. So kam die Eisenbahn nach Dobra.",
+   "znacznik": "Dobra, Porąbka, Półrzeczki · 1883–1901 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "In den Jahren 1882–1884 wurde durch Dobra die Galizische Transversalbahn gebaut. In die Pfarrei kamen Menschen aus der ganzen Monarchie, und die Kirchenbücher hielten ihre Spuren fest.",
+   "miejsce": "Dobra, Porąbka, Półrzeczki",
+   "rok_tekst": "1883–1901"
+  },
+  "ostrawa": {
+   "tytul": "Nach Ostrau und nach Übersee",
+   "zajawka": "Randnotizen in den Kirchenbüchern führen nach Ungarn, in die Bergwerke von Ostrau, nach Preußen und nach Chicago. Und aus der Normandie kam ein Schuhmacher nach Dobra.",
+   "znacznik": "Dobra, Jurków, Półrzeczki, Chyszówki · 1873–1920 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Gegen Ende des 19. Jahrhunderts begannen Menschen aus der Pfarrei, der Arbeit nachzuziehen: nach Ungarn, nach Ostrau, nach Preußen und manche bis nach Amerika. Spuren dieser Reisen blieben an den Rändern der Kirchenbücher.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1873–1920"
+  },
+  "sipka": {
+   "tytul": "Sipka",
+   "zajawka": "Ein Mundartwort, das der Priester bei verstorbenen Kindern eintrug. 1901 erklärte er selbst, was es bedeutet.",
+   "znacznik": "Jurków und Chyszówki · 1901–1912 · aus den Publikationen über Jurków und Chyszówki",
+   "lead": "Zu Beginn des 20. Jahrhunderts trug der Priester bei verstorbenen Kindern ein Wort aus der örtlichen Mundart ein. Heute muss man es erklären.",
+   "miejsce": "Jurków, Chyszówki",
+   "rok_tekst": "1901–1912"
+  },
+  "cmentarz": {
+   "tytul": "Ein Friedhof ohne Zustimmung des Pfarrers",
+   "zajawka": "Der Kooperator aus Jurków begrub Tote aus Chyszówki auf einem ungeweihten Friedhof. Im Kirchenbuch von Dobra wurde das quer über eine ganze Seite vermerkt.",
+   "znacznik": "Chyszówki und Półrzeczki · 1916 · aus der Publikation „Chyszówki w księgach zmarłych“ (Chyszówki in den Sterbebüchern)",
+   "lead": "1916 begann der Priester aus Jurków, die Toten aus Chyszówki zu begraben, auf einem neuen, ungeweihten Friedhof. Im Kirchenbuch blieb davon ein Protest mit Ausrufezeichen.",
+   "miejsce": "Chyszówki, Półrzeczki, Jurków",
+   "rok_tekst": "1916"
+  },
+  "hiszpanka": {
+   "tytul": "Die Spanische Grippe",
+   "zajawka": "Im Herbst 1918 tötete die Grippe in Dobra 18 Menschen, in Półrzeczki 15, in Chyszówki 10 und in Porąbka 9. Es starben vor allem junge Erwachsene.",
+   "znacznik": "sechs Dörfer der Pfarrei · Oktober–Dezember 1918 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Im Herbst 1918, als der Krieg zu Ende ging, kam in die Dörfer an der Mogielica die Grippe, die die Welt Spanische Grippe nannte. In den sechs Dörfern, deren Kirchenbücher aus diesen Monaten wir kennen, tötete sie 55 Menschen.",
+   "miejsce": "sechs Dörfer der Pfarrei",
+   "rok_tekst": "1918"
+  },
+  "korzec": {
+   "tytul": "Der gehäufte Scheffel",
+   "zajawka": "Der Pfarrer ließ für das Messkorn, seine Getreideabgabe, ein größeres Maß anfertigen. Die Bauern der ganzen Herrschaft zogen damit vor das bischöfliche Gericht in Krakau und brachten von dort einen eigenen Scheffel mit.",
+   "znacznik": "Dobra und die ganze Herrschaft · 1726–1732 · neue Geschichte aus Kirchenbüchern und Gerichtsakten",
+   "lead": "Jahrelang nahm der Pfarrer von Dobra das Messkorn mit einem Maß ein, in das anderthalbmal so viel Getreide passte wie vorgesehen. Die Bauern der ganzen Herrschaft Dobra zogen damit vor Gericht und gewannen, und der Pfarrer verlor seine Pfarrei.",
+   "miejsce": "Dobra und die ganze Herrschaft",
+   "rok_tekst": "1726–1732"
+  },
+  "rzadca": {
+   "tytul": "Einundvierzig Vorwürfe",
+   "zajawka": "Der Verwalter der Herrschaft Dobra schlug die Untertanen und bezahlte ihre Arbeit nicht. 1739 verklagten ihn Bauern und Gutsherr gemeinsam. Unter den Geschädigten war mein Vorfahr aus Jurków.",
+   "znacznik": "Herrschaft Dobra · 1734–1739 · neue Geschichte aus Kirchenbüchern und Gerichtsakten",
+   "lead": "Von 1734 bis 1739 verwaltete der Adlige Kazimierz Święcicki die Herrschaft Dobra. Als er ging, schrieb der Kommissar des Gutsherrn 41 Vorwürfe gegen ihn nieder. Einer betrifft die Beute nach der Gefangennahme eines berühmten Räuberhauptmanns.",
+   "miejsce": "Dobra, Jurków, Chyszówki, Zadziele",
+   "rok_tekst": "1734–1739"
+  },
+  "zolnierze": {
+   "tytul": "Soldaten des Kaisers",
+   "zajawka": "Ein Ulan Erzherzog Karls, ein einfacher Soldat des Regiments Nr. 57, ein Invalide mit Patent, ein an der Nida Gefallener. Söhne der Dörfer in der österreichischen Armee und ihre Spuren in den Kirchenbüchern.",
+   "znacznik": "die ganze Pfarrei · 1799–1920 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Seit dem Ende des 18. Jahrhunderts dienten Bauernsöhne aus der Pfarrei in der Armee des österreichischen Kaisers. Die Sterbebücher verzeichneten die, die krank heimkehrten, die, die der Tod fern der Heimat ereilte, und fremde Soldaten, die auf dem Weg durch Dobra starben.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1799–1920"
+  },
+  "tyton": {
+   "tytul": "Ungarischer Tabak",
+   "zajawka": "Der einundzwanzigjährige Franciszek aus Półrzeczki wollte den Grenzsoldaten seinen ungarischen Tabak nicht herausgeben. Er starb durch eine Kugel und wurde in Krościenko begraben.",
+   "znacznik": "Półrzeczki, Haus Nr. 50 · 1842 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Im Januar 1842 brachte der Vater von Franciszek Kucaj dem Priester eine traurige Nachricht aus Krościenko. Sein Sohn war an der Grenze zu Ungarn ums Leben gekommen, weil er seinen Tabak nicht herausgeben wollte.",
+   "miejsce": "Półrzeczki, Haus Nr. 50",
+   "rok_tekst": "1842"
+  },
+  "ospa": {
+   "tytul": "Pocken und Impfungen",
+   "zajawka": "Unter den Taufeintrag von Maciej aus Chyszówki schrieb jemand auf Deutsch „Impfung pro 842“, also die Impfung für 1842. Im April starb der Junge ungeimpft an den Pocken.",
+   "znacznik": "die ganze Pfarrei · 1807–1885 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Die Pocken kehrten alle zehn, fünfzehn Jahre wieder und töteten vor allem kleine Kinder. Seit den 1830er-Jahren zeigen die Kirchenbücher auch die andere Seite dieser Geschichte: die Impfungen.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1807–1885"
+  },
+  "las": {
+   "tytul": "Menschen des Waldes",
+   "zajawka": "Beim Holzfällen von Bäumen Erschlagene, Jungen, die von Bäumen stürzten, und Förster aus Böhmen in den Forsthäusern. Der Wald in den Kirchenbüchern der Pfarrei.",
+   "znacznik": "Półrzeczki, Chyszówki, Jurków, Dobra · 1818–1925 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Die Wälder an der Mogielica und am Łopień gaben den Dörfern Holz und Verdienst, aber die Arbeit darin war gefährlich. Die Kirchenbücher verzeichneten die, die ein Baum erschlug, und die Menschen, die diese Wälder verwalteten.",
+   "miejsce": "Półrzeczki, Chyszówki, Jurków, Dobra",
+   "rok_tekst": "1818–1925"
+  },
+  "harnas": {
+   "tytul": "Das letzte Gelage des Räuberhauptmanns",
+   "zajawka": "Im Herbst 1735 wurde in der Herrschaft Dobra der Räuberhauptmann Józef Baczyński gefasst. In Jurków erzählt man, das Wirtshaus habe in Szerszenie gestanden, einige Dutzend Meter von der heutigen Kapelle.",
+   "znacznik": "Dobra und Jurków · 1735 · neue Geschichte aus Quellen und Überlieferungen der Bewohner",
+   "lead": "Józef Baczyński aus Skawica war einer der berühmtesten Räuber der Beskiden. Seine Wanderschaft endete im Spätherbst 1735 bei einem Fest in der Herrschaft Dobra. Wo genau, darüber sind sich die Fachliteratur und das Gedächtnis der Bewohner uneins.",
+   "miejsce": "Dobra und Jurków, Szerszenie",
+   "rok_tekst": "1735"
+  },
+  "kaplica": {
+   "tytul": "Die Kapelle in Szyrszenie",
+   "zajawka": "Gegenüber dem Haus meiner Vorfahren steht eine Kapelle von 1826. Der Überlieferung nach baute sie ein Vater aus der Familie Podgórni, als sein Sohn Priester wurde. Ich habe diesen Priester in den Kirchenbüchern gesucht.",
+   "znacznik": "Jurków, Szyrszenie · 1826 · aus meinem Buch „Ród Podgórnich z Jurkowa“ (Die Familie Podgórni aus Jurków)",
+   "lead": "In Szyrszenie in Jurków Dolny, gegenüber Haus Nr. 5, steht eine gemauerte Kapelle der Heiligen Familie aus dem Jahr 1826. Im Mai 2026 feierte die Pfarrei ihr zweihundertjähriges Bestehen. Wer hat sie gebaut?",
+   "miejsce": "Jurków, Szyrszenie",
+   "rok_tekst": "1826"
+  },
+  "bliznieta": {
+   "tytul": "Zwillinge",
+   "zajawka": "Agnieszka und Sebastian, Piotr und Paweł, Tomasz und Wiktoria: Zwillinge bekamen die Namen von Heiligen, die im Kalender nebeneinanderstehen. Im ersten Lebensjahr starb mehr als jeder dritte.",
+   "znacznik": "die ganze Pfarrei · 1703–1910 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Etwa jede fünfundsechzigste Geburt in der Pfarrei war eine Zwillingsgeburt. Die Kirchenbücher verraten, wie man die Zwillinge nannte und wie viele von ihnen das erste Jahr überlebten.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1703–1910"
+  },
+  "imiona": {
+   "tytul": "Der Name aus dem Kalender",
+   "zajawka": "Neun von zehn Jungen namens Melchior kamen um Dreikönig zur Welt. Regina war einst der beliebteste Mädchenname, nach 1900 kennen die Kirchenbücher nur noch zwei.",
+   "znacznik": "die ganze Pfarrei · 1678–1923 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Anhand von mehr als 25.000 Taufen lässt sich prüfen, woher man die Namen für die Kinder nahm und wie sich die Namensmoden änderten.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1678–1923"
+  },
+  "karczmy": {
+   "tytul": "Wirtshäuser und Wirte",
+   "zajawka": "Ein Wirt aus Wilczyce beschwerte sich bei der Gutsherrin, weil der Pfarrer ihm für das Begräbnis seiner Mutter die Ochsen genommen hatte. Wirte in den Kirchenbüchern der Pfarrei, von Bauern aus Dobra bis zu Zugezogenen aus Mähren.",
+   "znacznik": "Dobra und Wilczyce · 1697–1902 · neue Geschichte aus Kirchenbüchern und Gerichtsakten",
+   "lead": "Das Wirtshaus gehörte dem Gutshof, und der Wirt war im Dorf jemand. Kirchenbücher und Gerichtsakten zeigen die Wirte von der Zeit der Sachsenkönige bis zum Beginn des 20. Jahrhunderts.",
+   "miejsce": "Dobra, Wilczyce",
+   "rok_tekst": "1697–1902"
+  },
+  "vanek": {
+   "tytul": "Der Enkel des Wirts",
+   "zajawka": "Im Haus des Wirts in Dobra wurde 1895 ein Junge geboren, der tschechoslowakischer Legionär, Geheimdienstoffizier und Gesandter in Italien wurde. Im Kirchenbuch wurde nachgetragen, wo er starb.",
+   "znacznik": "Dobra, Haus Nr. 202 · 1895 · neue Geschichte aus Kirchenbüchern und dem Archiv des tschechischen Außenministeriums",
+   "lead": "Beim Taufeintrag vom Juni 1895 ergänzte jemand Jahre später eine Hochzeit in Prag und den Tod in Rom. Es ist die Spur eines Lebens, das beim herrschaftlichen Wirtshaus in Dobra begann.",
+   "miejsce": "Dobra, Haus Nr. 202",
+   "rok_tekst": "1895–1965"
+  },
+  "wesela": {
+   "tytul": "Der Hochzeitskalender",
+   "zajawka": "Mehr als ein Drittel der Hochzeiten fand im Februar statt, im Dezember in 260 Jahren nur neun. Freitags heiratete fast niemand.",
+   "znacznik": "die ganze Pfarrei · 1682–1943 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Über fünfeinhalbtausend Trauungen aus den Kirchenbüchern der Pfarrei zeigen, wann Hochzeit gefeiert wurde: in welchem Monat, an welchem Wochentag und in welchem Alter man vor den Altar trat.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1682–1943"
+  },
+  "cwierc-roli": {
+   "tytul": "Viertelbauern",
+   "zajawka": "„¼ Cm.“ beim Namen des Vaters bedeutete ein Viertel eines alten Vollbauernhofs. Mitte des 19. Jahrhunderts wurde so mehr als die Hälfte der Väter eingetragen. Nur Porąbka hatte noch Vollbauern.",
+   "znacznik": "die ganze Pfarrei · 1820–1900 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Die Brüche neben den Namen in den Taufbüchern verraten, wie viel Land der Vater besaß. Zusammen zeigen sie ein Dorf, das in Viertel und Achtel geteilt war.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1820–1900"
+  },
+  "przydomki": {
+   "tytul": "Beinamen",
+   "zajawka": "Wojciech Przybytek alias Wójt, Galas alias Fleszar, Węgrzyn recte Gąsior. Menschen mit zwei Nachnamen in den Kirchenbüchern der Pfarrei.",
+   "znacznik": "die ganze Pfarrei · 1690–1911 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "„Alias“, „vel“, „recte“: Mit diesen Wörtern fügte der Priester einen zweiten Namen hinzu. Mal war es ein Amt, mal ein Spitzname, mal der Name des Hauses.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1690–1911"
+  },
+  "woda": {
+   "tytul": "Wasser",
+   "zajawka": "Ein Hochwasser trug 1712 eine Ikone aus Jurków fort, ein anderes 1825 die sechzehnjährige Anna aus Chyszówki. In Bächen und Brunnen ertranken vor allem Kinder.",
+   "znacznik": "Dobra, Chyszówki, Półrzeczki, Jurków · 1712–1923 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Die Bäche von der Mogielica und vom Łopień trieben Mühlen und Sägewerke an. Die Kirchenbücher verzeichneten auch Menschen, die das Wasser mit sich riss.",
+   "miejsce": "Dobra, Chyszówki, Półrzeczki, Jurków",
+   "rok_tekst": "1712–1923"
+  },
+  "czesi": {
+   "tytul": "Aus Böhmen und Mähren",
+   "zajawka": "Ein Straßenmeister aus Červený Kostelec, ein Gärtner aus Böhmen, ein Heger aus Mähren und ein wandernder Viehschneider, der auf der Straße in Jurków starb.",
+   "znacznik": "Dobra, Jurków, Chyszówki · 1854–1904 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "In der zweiten Hälfte des 19. Jahrhunderts kamen Menschen aus Böhmen und Mähren zur Arbeit in die Pfarrei: Beamte, Förster, Gärtner, Eisenbahnbauer.",
+   "miejsce": "Dobra, Jurków, Chyszówki",
+   "rok_tekst": "1854–1904"
+  },
+  "najstarsi": {
+   "tytul": "Hundert Jahre nach Augenmaß",
+   "zajawka": "Laut den Kirchenbüchern wurde Zofia Stokłosionka aus Porąbka 115 Jahre alt, Stanisław Stokłosa 113 und Katarzyna Gdowicz 110. Ihr Traueintrag sagt etwas anderes.",
+   "znacznik": "die ganze Pfarrei · 1779–1899 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Die ältesten Menschen in den Kirchenbüchern der Pfarrei waren über hundert Jahre alt. Doch das Alter der Verstorbenen wurde nach Augenmaß eingetragen und oft zu hoch angesetzt.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1779–1899"
+  },
+  "romowie": {
+   "tytul": "Roma in den Kirchenbüchern",
+   "zajawka": "1730 taufte der Priester den Sohn eines Roma-Paares und erkannte ihre Ehe auf das Wort eines anderen Rom hin an. Pate war der Gutsverwalter.",
+   "znacznik": "Dobra und Chyszówki · 1730–1922 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Die Kirchenbücher der Pfarrei verzeichneten auch Roma, umherziehende und sesshafte. Der Priester nannte sie „Cingani“ und „Cyganie“, und bei der Taufe ihrer Kinder standen Nachbarn ebenso Pate wie Leute vom Gutshof.",
+   "miejsce": "Dobra, Chyszówki",
+   "rok_tekst": "1730–1922"
+  },
+  "laskudowie": {
+   "tytul": "Abgeordneter und Gemeindevorsteher aus Jurków",
+   "zajawka": "Michał Łaskuda war Gemeindevorsteher von Jurków und Abgeordneter in drei Parlamenten, sein Bruder Szymon der erste Vorsteher der Gemeinde Dobra. Szymon kam 1941 in Buchenwald ums Leben.",
+   "znacznik": "Jurków, Haus Nr. 78 · 1873–1941 · neue Geschichte aus Kirchenbüchern und Archiven",
+   "lead": "Zwei Söhne von Sebastian und Rozalia Łaskuda aus Haus Nr. 78 in Jurków gingen in die Geschichte der ganzen Gegend ein. Der eine saß in den Parlamenten in Lemberg und Warschau, der andere leitete die Gemeinde Dobra in den schwersten Jahren.",
+   "miejsce": "Jurków, Haus Nr. 78",
+   "rok_tekst": "1873–1941"
+  },
+  "pierwszy-rok": {
+   "tytul": "Das erste Lebensjahr",
+   "zajawka": "Jedes fünfte Kind erlebte seinen ersten Geburtstag nicht. Am gefährlichsten war der erste Monat, und der Priester schrieb meist ein einziges Wort: Schwäche.",
+   "znacznik": "vier Dörfer der Pfarrei · 1840–1889 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Über fünftausend Taufen und tausend Todesfälle von Säuglingen aus den Kirchenbüchern von Dobra, Jurków, Chyszówki und Półrzeczki zeigen, wie viele Kinder kein Jahr alt wurden, wann es am gefährlichsten war und was der Priester als Ursache eintrug.",
+   "miejsce": "vier Dörfer der Pfarrei",
+   "rok_tekst": "1840–1889"
+  },
+  "narodziny": {
+   "tytul": "Der Geburtenkalender",
+   "zajawka": "Die meisten Kinder kamen im Januar und Februar zur Welt, die wenigsten im Juli und August. Bis zur Mitte des 19. Jahrhunderts wurde fast jedes am Tag der Geburt oder am Tag danach getauft.",
+   "znacznik": "die ganze Pfarrei · 1678–1923 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Mehr als 25.000 Taufen aus den Kirchenbüchern der Pfarrei zeigen, in welchen Monaten die Kinder geboren wurden und wie schnell man sie zur Taufe trug.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1678–1923"
+  },
+  "mandatariusz": {
+   "tytul": "Der Mandatar von Dobra",
+   "zajawka": "Am 1. März 1846, in den Tagen des galizischen Bauernaufstands, kam ein Beamter des Gutshofs in Dobra ums Leben. Der Priester schrieb nur: wegen eines Verbrechens. Begraben wurde er in Bochnia.",
+   "znacznik": "Dobra, Gutshof · 1829–1850 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Die Kirchenbücher der Pfarrei kennen die Leute vom Gutshof mit Namen: den Gutspächter, seine Frau, die aufeinanderfolgenden Mandatare. Einer von ihnen kam im Winter 1846 ums Leben, als Bauern in Westgalizien die Gutshöfe überfielen.",
+   "miejsce": "Dobra, Gutshof",
+   "rok_tekst": "1829–1850"
+  },
+  "wdowy": {
+   "tytul": "Witwen und Witwer",
+   "zajawka": "Mehr als jede dritte Ehe schloss ein Witwer oder eine Witwe. Ein Witwer heiratete manchmal eine Woche nach der Beerdigung, eine Witwe musste warten, so wollte es das Gesetz.",
+   "znacznik": "die ganze Pfarrei · 1786–1899 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Der Tod beendete Ehen oft auf halbem Weg. Die Traubücher zeigen, wie schnell und mit wem Witwer und Witwen neue Familien gründeten.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1786–1899"
+  },
+  "ojciec-leon": {
+   "tytul": "Pater Leon aus Jurków",
+   "zajawka": "Einen Priester gab es in meiner Familie doch, nur hundert Jahre nach der Kapelle. Andrzej Podgórni aus Jurków wurde Dominikaner und überlebte 1944 wie durch ein Wunder den Überfall auf das Kloster in Podkamień.",
+   "znacznik": "Jurków, Haus Nr. 108 · 1892–1953 · aus meinem Buch „Ród Podgórnich z Jurkowa“ (Die Familie Podgórni aus Jurków)",
+   "lead": "Andrzej Podgórni aus Haus Nr. 108 war Legionär, Dominikaner und Student in Belgien. Den Krieg erlebte er in Klöstern im damaligen Osten Polens.",
+   "miejsce": "Jurków, Haus Nr. 108",
+   "rok_tekst": "1892–1953"
+  },
+  "ikona": {
+   "tytul": "Die Ikone aus Jurków",
+   "zajawka": "Im Altar der alten Kirche in Dobra hängt ein Bild, das der Überlieferung nach das Wasser brachte. Es stammte aus der Kirche walachischer Hirten an der Mogielica.",
+   "znacznik": "Dobra und Jurków · 16. Jahrhundert – 1973 · neue Geschichte aus Kirchenbüchern und Fachliteratur",
+   "lead": "Ein kleines ovales Bild der Verklärung Christi hängt im Hochaltar der alten Kirche in Dobra. Seine Geschichte verbindet walachische Hirten, ein Hochwasser und einen Pfarrer, der ihm einen eigenen Altar errichtete.",
+   "miejsce": "Dobra und Jurków",
+   "rok_tekst": "16. Jahrhundert – 1973"
+  },
+  "organisci": {
+   "tytul": "Die Organisten von Dobra",
+   "zajawka": "Über zweihundert Jahre lang verzeichnen die Kirchenbücher die Organisten von Dobra. Am längsten spielte Mateusz Rudnicki, Organist und Lehrer, Vater von siebzehn Kindern, darunter ein Priester.",
+   "znacznik": "Dobra · 1689–1929 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Der Organist spielte in der Kirche, leitete den Gesang, unterrichtete oft die Kinder und war Trauzeuge bei Hochzeiten. Die Kirchenbücher kennen die Organisten von Dobra seit dem Ende des 17. Jahrhunderts mit Namen.",
+   "miejsce": "Dobra",
+   "rok_tekst": "1689–1929"
+  },
+  "porod": {
+   "tytul": "Tod im Kindbett",
+   "zajawka": "Fast jede fünfte verheiratete Frau, die vor ihrem 45. Geburtstag starb, starb bei der Geburt oder kurz danach. Der Priester schrieb knapp: propter partum.",
+   "znacznik": "die ganze Pfarrei · 1786–1896 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Die Sterbebücher der neun Dörfer der Pfarrei zeigen, wie oft eine Geburt mit dem Tod der Mutter endete und was danach mit dem Kind und der Familie geschah.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1786–1896"
+  },
+  "granica": {
+   "tytul": "Eine Pfarrgrenze mitten durch Jurków",
+   "zajawka": "1913 bekam Jurków einen eigenen Priester, gegen den Willen des Pfarrers von Dobra, der im Sterbebuch Begräbnisse „ohne Zustimmung des Pfarrers“ vermerkte. Jurków Dolny gehört bis heute zu Dobra.",
+   "znacznik": "Jurków · 1913–1925 · neue Geschichte aus Kirchenbüchern und Fachliteratur",
+   "lead": "Über fünfhundert Jahre lang gehörte Jurków zur Pfarrei Dobra. Als es sich 1913 von ihr zu lösen begann, kämpfte der Pfarrer um jedes Begräbnis, und die Grenze der neuen Pfarrei zerschnitt das Dorf.",
+   "miejsce": "Jurków",
+   "rok_tekst": "1913–1925"
+  },
+  "gruszowiec": {
+   "tytul": "Wölfe in Gruszowiec",
+   "zajawka": "1789 zerrissen Wölfe die dreizehnjährige Marianna, und fünf Tage zuvor war im benachbarten Porąbka der siebenjährige Paweł auf dieselbe Weise umgekommen. Die frisch transkribierten Kirchenbücher von Gruszowiec erzählen auch von Hunger, einem Baum und einer Brücke.",
+   "znacznik": "Gruszowiec · 1786–1924 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Die Kirchenbücher von Gruszowiec wurden im November 2026 transkribiert. Das älteste Sterbebuch des Dorfes verzeichnet ein Mädchen, das von Wölfen zerrissen wurde. Fünf Tage zuvor war einem Jungen aus dem benachbarten Porąbka dasselbe widerfahren.",
+   "miejsce": "Gruszowiec",
+   "rok_tekst": "1786–1924"
+  },
+  "cystersi": {
+   "tytul": "Die Mönche von Szczyrzyc",
+   "zajawka": "Schon 1683 vertrat ein Zisterzienser den Pfarrer. Im Hungerjahr und im Cholerasommer begruben Mönche aus Szczyrzyc die Toten, und 1871 bereitete der Prior den Pfarrer auf den Tod vor.",
+   "znacznik": "die ganze Pfarrei · 1683–1927 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Ein gutes Dutzend Kilometer von Dobra entfernt steht die Zisterzienserabtei Szczyrzyc. Über zweihundert Jahre lang kamen ihre Mönche in die Pfarrei, wenn Priester fehlten, wenn Hunger herrschte und wenn die Cholera kam.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1683–1927"
+  },
+  "zgoda-pulku": {
+   "tytul": "Mit Erlaubnis des Regiments",
+   "zajawka": "Ein Soldat aus Półrzeczki hatte die Erlaubnis des Militärs, seine Braut die des Gutshofs. Heiratserlaubnisse kamen aus Lemberg, aus Ungarn, von der Bezirkshauptmannschaft in Limanowa und nach dem Krieg vom polnischen Ergänzungskommando.",
+   "znacznik": "die ganze Pfarrei · 1823–1925 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Ein Soldat des Kaisers konnte nicht heiraten, wann er wollte. Bei Trauungen vermerkte der Priester, wessen Erlaubnis in den Pfarrakten lag: die des Regiments, des Kommandos in Lemberg, der Bezirkshauptmannschaft oder des Ergänzungskommandos.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1823–1925"
+  },
+  "mlynarze": {
+   "tytul": "Die Müller",
+   "zajawka": "Die Familie Stokłosa stellte Müller in Dobra, Jurków und Gruszowiec. Der Müller Piotr Majchrzak unterschrieb die Heiratserlaubnis für seinen Sohn mit einem Kreuz, und die anderthalbjährige Agnieszka ertrank im Mühlgraben.",
+   "znacznik": "die ganze Pfarrei · 1683–1917 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Von Tomasz Młynarz im 17. Jahrhundert bis Jan Radziszewski im Jahr 1917 verzeichneten die Kirchenbücher die Müller der Pfarrei, ihre Frauen und Kinder.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1683–1917"
+  },
+  "numery-domow": {
+   "tytul": "Was die Hausnummer verrät",
+   "zajawka": "Die Nummer im Kirchenbuch ist keine Adresse, sondern die Reihenfolge, in der die Häuser gebaut wurden. 1845 bekam die ganze Pfarrei neue Nummern, und die Nummer 123 in Jurków trugen zwei verschiedene Häuser.",
+   "znacznik": "die ganze Pfarrei · 1779–1913 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Seit 1779 schrieb der Priester bei jeder Taufe, Trauung und Beerdigung die Hausnummer auf. Diese Nummern erzählen, wie das Dorf wuchs, wie Häuser geteilt wurden und was mit einer Nummer geschah, wenn ein Haus verschwand.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1779–1913"
+  },
+  "porabka": {
+   "tytul": "Porąbka, Dorf einer anderen Herrschaft",
+   "zajawka": "Während in Dobra der Gutshof von Dobra die Heiratserlaubnis gab, taten das in Porąbka die Gutshöfe in Szczyrzyc und Janowice. Viertelbauern gab es hier nur wenige, dafür Vollbauern mit einem ganzen Hof.",
+   "znacznik": "Porąbka · 1694–1868 · neue Geschichte aus Kirchenbüchern und Fachliteratur",
+   "lead": "Porąbka gehört seit Jahrhunderten zur Pfarrei Dobra, gehörte aber nicht zum Gutshof in Dobra. Die Kirchenbücher zeigen das an den Heiratserlaubnissen, an den Brüchen neben den Namen und an Haus Nr. 1.",
+   "miejsce": "Porąbka",
+   "rok_tekst": "1694–1868"
+  },
+  "ksiadz-rapacz": {
+   "tytul": "Kaplan Józef Rapacz",
+   "zajawka": "Der neue Kaplan begann gegen Ende des Cholerasommers 1855, die Toten zu begraben. Wenige Wochen zuvor war ein Bauernsohn mit demselben Vor- und Nachnamen an der Cholera gestorben.",
+   "znacznik": "die ganze Pfarrei · 1855–1863 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "Zweieinhalb Jahre lang taufte, traute und begrub Kaplan Józef Rapacz in allen Dörfern der Pfarrei. Woher er kam, sagen die Kirchenbücher nicht, aber wohin er ging, ist bekannt.",
+   "miejsce": "die ganze Pfarrei",
+   "rok_tekst": "1855–1863"
+  },
+  "zamarznieci": {
+   "tytul": "Erfroren",
+   "zajawka": "Im Januar 1848, nach dem Hungerjahr, tötete der Frost innerhalb von vier Tagen drei Menschen. Zwei von ihnen waren Bettler, deren Namen der Priester nicht kannte.",
+   "znacznik": "Dobra, Chyszówki, Wilczyce, Porąbka · 1845–1850 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "In den Wintern der Hungerjahre trug der Priester bei Verstorbenen mehrmals dieselbe Ursache ein: „ob nimium frigus“, wegen allzu großer Kälte. Am häufigsten starben die, die unterwegs waren.",
+   "miejsce": "Dobra, Chyszówki, Wilczyce, Porąbka",
+   "rok_tekst": "1845–1850"
+  },
+  "rok-1873": {
+   "tytul": "Das Jahr 1873 in Zadziele",
+   "zajawka": "Im kleinsten Dorf der Pfarrei starben in einem Jahr vierzehn Menschen. Die Pocken rafften Kinder dahin, eine Mutter starb nach der Geburt, und in Dobra tötete die Cholera in einem Haus drei Menschen in drei Tagen.",
+   "znacznik": "Zadziele und die ganze Pfarrei · 1873 · neue Geschichte aus den Kirchenbüchern",
+   "lead": "In einem gewöhnlichen Jahr gab es in Zadziele vier, fünf Begräbnisse. 1873 waren es vierzehn. Pocken, Ruhr und Cholera kamen in diesem Jahr in die ganze Pfarrei.",
+   "miejsce": "Zadziele und die ganze Pfarrei",
+   "rok_tekst": "1873"
+  },
+  "peszt-chicago": {
+   "tytul": "Nach Pest und nach Chicago",
+   "zajawka": "Bei den Nachbarn, in der Pfarrei Mszana Dolna, starben innerhalb von zwanzig Jahren neunzehn Männer in Ungarn, und über zwanzig Kinder kamen in Budapest zur Welt. Nach 1907 taucht in den Kirchenbüchern Chicago auf.",
+   "znacznik": "Pfarrei Mszana Dolna · 1892–1916 · neue Geschichte aus den Kirchenbüchern der Nachbarpfarrei",
+   "lead": "In den Kirchenbüchern der Nachbarpfarrei Mszana Dolna aus den Jahren 1890–1916 führen fast siebzig Einträge weit fort von zu Hause. Zuerst nach Budapest, dann nach Chicago.",
+   "miejsce": "Nachbarpfarrei Mszana Dolna",
+   "rok_tekst": "1892–1916"
+  },
+  "dom-25": {
+   "tytul": "Die Urgroßmutter aus Haus Nr. 25",
+   "zajawka": "Eine Witwe, vier erwachsene Kinder, drei Hochzeiten und drei Begräbnisse. Elf Jahre eines Hauses in Mszana Górna, aus dem meine Urgroßmutter stammte.",
+   "znacznik": "Mszana Górna, Pfarrei Mszana Dolna · 1895–1906 · Geschichte meiner Familie",
+   "lead": "Unter der Nummer 25 in Mszana Górna lebte in den 1890er-Jahren eine Witwe mit vier erwachsenen Kindern. Eines davon war meine Urgroßmutter Anna.",
+   "miejsce": "Mszana Górna, Nachbarpfarrei",
+   "rok_tekst": "1895–1906"
+  },
+  "las-trak-woda": {
+   "tytul": "Wald, Säge und Wasser",
+   "zajawka": "„Im Wald erschlagen“, „im Sägegatter getötet“, „von einer Kuh getötet“, „Schlangenbiss“. Ab 1897 schrieben die Priester in Mszana Dolna die Todesursachen auf Polnisch auf.",
+   "znacznik": "Pfarrei Mszana Dolna · 1894–1912 · neue Geschichte aus den Kirchenbüchern der Nachbarpfarrei",
+   "lead": "Von dreieinhalbtausend Begräbnissen der Jahre 1897–1912 waren mindestens fünfunddreißig Unfälle: im Wald, im Sägewerk, im Wasser und durch Feuer.",
+   "miejsce": "Nachbarpfarrei Mszana Dolna",
+   "rok_tekst": "1894–1912"
+  },
+  "szkarlatyna": {
+   "tytul": "Scharlach, Ruhr, Masern",
+   "zajawka": "Im Sommer 1892 begannen in Kasinka Mała Kinder zu sterben. Zwölf Jahre lang zogen Scharlach, Ruhr, Masern, Diphtherie und Keuchhusten durch die Dörfer der Pfarrei Mszana Dolna.",
+   "znacznik": "Pfarrei Mszana Dolna · 1892–1904 · neue Geschichte aus den Kirchenbüchern der Nachbarpfarrei",
+   "lead": "In der Pfarrei Mszana Dolna wurden gewöhnlich zwanzig Menschen im Monat begraben. Im Dezember 1898 waren es neunundfünfzig.",
+   "miejsce": "Nachbarpfarrei Mszana Dolna",
+   "rok_tekst": "1892–1904"
+  },
+  "wojna-sluby": {
+   "tytul": "Der Krieg im Traubuch",
+   "zajawka": "Im Februar 1914 heirateten 23 Paare. Im Februar 1915 kein einziges. Als die jungen Männer in den Krieg zogen, standen vor allem Witwer vor dem Altar.",
+   "znacznik": "Pfarrei Mszana Dolna · 1914–1916 · neue Geschichte aus den Kirchenbüchern der Nachbarpfarrei",
+   "lead": "Vor dem Krieg heirateten in der Pfarrei Mszana Dolna fast fünfzig Paare im Jahr. 1915 waren es zehn.",
+   "miejsce": "Nachbarpfarrei Mszana Dolna",
+   "rok_tekst": "1914–1916"
+  },
+  "hrabia-nr-1": {
+   "tytul": "Der Graf aus Haus Nr. 1",
+   "zajawka": "Fünf Kinder des Grafen Krasiński wurden in Mszana Dolna unter der Hausnummer 1 getauft. Das jüngste hoben seine eigenen Geschwister aus der Taufe, und die Gräfin war mitunter Patin von Nachbarskindern.",
+   "znacznik": "Mszana Dolna · 1899–1909 · neue Geschichte aus den Kirchenbüchern der Nachbarpfarrei",
+   "lead": "Unter der Nummer 1 in Mszana Dolna stand der Gutshof. Im Taufbuch hinterließ er fünf lange Einträge mit den Titeln „comes“ und „principissa“.",
+   "miejsce": "Mszana Dolna, Nachbarpfarrei",
+   "rok_tekst": "1899–1909"
+  },
+  "dyrektor-cyrku": {
+   "tytul": "Der Zirkusdirektor",
+   "zajawka": "Am 20. August 1907 starb in Mszana Dolna ein sechsunddreißigjähriger Ungar an einer Wunde. Seinen Beruf schrieb der Priester auf Polnisch in Klammern dazu: „dyrektor cyrku“, Zirkusdirektor.",
+   "znacznik": "Mszana Dolna · 1907 · neue Geschichte aus den Kirchenbüchern der Nachbarpfarrei",
+   "lead": "Ein Eintrag im Sterbebuch von Mszana Dolna gleicht keinem anderen. Er betrifft einen Mann, der mit dem Zirkus kam und für immer hier blieb.",
+   "miejsce": "Mszana Dolna, Nachbarpfarrei",
+   "rok_tekst": "1907"
+  }
+ }
+}

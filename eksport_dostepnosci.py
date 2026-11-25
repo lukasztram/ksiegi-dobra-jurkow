@@ -2,7 +2,8 @@
 """Spisuje, jakie księgi metrykalne parafii Dobra są w serwisie Metryki PTG i ile z nich jest już odczytane.
 
 Czyta bazę Fototeki TYLKO DO ODCZYTU i zapisuje tresci/dostepnosc.json, z którego buduj.py
-rysuje na stronie osie czasu „Jakie księgi się zachowały”. Uruchamiać, gdy przybędzie odczytów.
+rysuje na stronie osie czasu „Jakie księgi się zachowały” (zakładka Księgi),
+razem z księgami sąsiednich parafii (Mszana Dolna, Niedźwiedź, Słopnice) pobranymi do bazy. Uruchamiać, gdy przybędzie odczytów.
 
 Użycie:  python3 eksport_dostepnosci.py [ścieżka do baza.db]
 """
@@ -19,6 +20,10 @@ WSIE = [('dobra', 'Dobra'), ('jurkow', 'Jurków'), ('chyszowki', 'Chyszówki'), 
         ('gruszowiec', 'Gruszowiec'), ('porabka', 'Porąbka'), ('wilczyce', 'Wilczyce'),
         ('zadziele', 'Zadziele'), ('lostowka', 'Łostówka')]
 WSPOLNE_DLA = {'zadzielelostowka': ('zadziele', 'lostowka')}   # jedna księga dla dwóch wsi
+# sąsiednie parafie: tylko księgi pobrane do bazy (w serwisie PTG może być ich więcej)
+SASIEDNIE = [('mszana', 'Mszana Dolna', (2582, 4888)), ('niedzwiedz', 'Niedźwiedź', (4889,)),
+             ('slopnice', 'Słopnice', (4275, 5321))]
+ODPISY = {3402, 2582, 4888, 4889, 5321}   # duplikaty i roczne odpisy akt
 TYP = {'U': 'chrzty', 'M': 'śluby', 'Z': 'zgony'}
 
 
@@ -29,9 +34,8 @@ def status(skany, z_wpisami):
     return 'odczytana' if z_wpisami / skany >= 0.6 else 'czesciowo'
 
 
-def main():
-    c = sqlite3.connect(f'file:{BAZA}?mode=ro', uri=True, timeout=30)
-    jednostki = c.execute(f"""
+def jednostki(c, zespoly):
+    return c.execute(f"""
         select j.id, j.zespol_id, j.sy, j.opis, j.rok_od, j.rok_do, j.wies_klucz,
                (select group_concat(distinct k.rodzaj) from metryki_katalogi k where k.jednostka_id=j.id),
                (select count(*) from metryki_katalogi k join metryki_skany s on s.katalog_id=k.id
@@ -42,16 +46,24 @@ def main():
                  join metryki_wpisy w on w.skan_id=s.id where k.jednostka_id=j.id),
                (select s.url from metryki_katalogi k join metryki_skany s on s.katalog_id=k.id
                  where k.jednostka_id=j.id order by k.kt, s.plik limit 1)
-        from metryki_jednostki j where j.zespol_id in ({','.join(map(str, ZESPOLY))})
+        from metryki_jednostki j where j.zespol_id in ({','.join(map(str, zespoly))})
         order by j.rok_od, j.zespol_id, j.sy""").fetchall()
-    wspolne, wsie = [], {k: [] for k, _ in WSIE}
-    for (_id, zesp, sy, opis, od, do, wies, rodz, skany, z_wp, wpisy, url) in jednostki:
+
+
+def ksiegi(wiersze):
+    for (_id, zesp, sy, opis, od, do, wies, rodz, skany, z_wp, wpisy, url) in wiersze:
         typy = [t for t in (rodz or '').split(',') if t in TYP]
         if not typy or od is None:
             continue
-        ksiega = {'typy': typy, 'sygn': f'{zesp}/{sy}', 'od': od, 'do': do or od, 'opis': opis,
-                  'odpis': zesp == 3402, 'skany': skany, 'wpisy': wpisy,
-                  'status': status(skany, z_wp), 'url': url or ''}
+        yield wies, {'typy': typy, 'sygn': f'{zesp}/{sy}', 'od': od, 'do': do or od, 'opis': opis,
+                     'odpis': zesp in ODPISY, 'skany': skany, 'wpisy': wpisy,
+                     'status': status(skany, z_wp), 'url': url or ''}
+
+
+def main():
+    c = sqlite3.connect(f'file:{BAZA}?mode=ro', uri=True, timeout=30)
+    wspolne, wsie = [], {k: [] for k, _ in WSIE}
+    for wies, ksiega in ksiegi(jednostki(c, ZESPOLY)):
         if wies in wsie:
             wsie[wies].append(ksiega)
         elif wies in WSPOLNE_DLA:
@@ -70,10 +82,16 @@ def main():
         'stan_na': date.today().isoformat(),
         'wspolne': wspolne,
         'wsie': [{'klucz': k, 'nazwa': n, 'wpisy': ile.get(k, 0), 'ksiegi': wsie[k]} for k, n in WSIE],
+        'sasiednie': [],
     }
+    for klucz, nazwa, zespoly in SASIEDNIE:
+        lista = [k for _, k in ksiegi(jednostki(c, zespoly))]
+        wynik['sasiednie'].append({'klucz': klucz, 'nazwa': nazwa, 'zespoly': list(zespoly),
+                                   'wpisy': sum(k['wpisy'] for k in lista), 'ksiegi': lista})
     WYNIK.write_text(json.dumps(wynik, ensure_ascii=False, indent=1), encoding='utf-8')
     print(f'Zapisano {WYNIK}: {len(wspolne)} ksiąg wspólnych, '
-          + ', '.join(f'{n} {len(wsie[k])}' for k, n in WSIE))
+          + ', '.join(f'{n} {len(wsie[k])}' for k, n in WSIE) + '; sąsiednie parafie: '
+          + ', '.join(f'{p["nazwa"]} {len(p["ksiegi"])} ksiąg, {p["wpisy"]} wpisów' for p in wynik['sasiednie']))
 
 
 if __name__ == '__main__':

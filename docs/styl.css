@@ -270,3 +270,37 @@ a.row:hover .ttl{color:var(--spruce)}
 .ilustracja.portret img{max-width:min(100%, 300px)}
 .ilustracja figcaption{font-size:.86rem; line-height:1.5; color:var(--ink-2); margin-top:9px}
 .ilustracja figcaption a{color:inherit}
+
+/* przełącznik języków nad nagłówkiem */
+.jezyki-pas{display:flex; justify-content:flex-end; padding-top:10px; margin-bottom:-8px}
+.jezyki{display:flex; flex-wrap:wrap; justify-content:flex-end; gap:4px 14px; font-family:var(--f-mono); font-size:.7rem; letter-spacing:.08em}
+.jezyki a{color:var(--ink-2); text-decoration:none; padding:2px 0}
+.jezyki a:hover{color:var(--spruce)}
+.jezyki a[aria-current]{color:var(--spruce); text-decoration:underline; text-underline-offset:4px}
+
+/* odsyłacz do zakładki Księgi na stronie głównej */
+.odsylacz{font-family:var(--f-mono); font-size:.76rem; line-height:1.6; color:var(--ink-2); margin:14px 0 0}
+
+/* zakładka Księgi */
+.ks-strona{padding-block:30px 20px}
+.ks-strona .eyebrow{margin-top:28px}
+.ks-strona h1{font-family:var(--f-display); font-weight:500; font-size:clamp(2.3rem, 7vw, 3.7rem); line-height:1.04; letter-spacing:-.01em; margin:0 0 18px; text-wrap:balance}
+.ks-strona h1:focus{outline:none}
+.ks-h2{font-family:var(--f-display); font-weight:500; font-size:1.6rem; margin:34px 0 10px}
+.ks-p{max-width:46rem; color:var(--ink-2); margin:0 0 14px}
+
+/* numer do BLIK-a: jedno kliknięcie zaznacza cały numer */
+.tel{color:var(--ink); font-weight:500; white-space:nowrap; user-select:all}
+
+/* nota o tłumaczeniu pod wstępem historii */
+.tl-nota{font-family:var(--f-mono); font-size:.72rem; line-height:1.6; color:var(--ink-2); margin:-12px 0 24px}
+
+/* tłumaczenia: dzielenie wyrazów; po chińsku bez kursywy i z szeryfowym krojem CJK z systemu czytelnika */
+html:lang(en) .czyt, html:lang(de) .czyt, html:lang(fr) .czyt, html:lang(es) .czyt{hyphens:auto}
+html:lang(zh){
+  --f-body:"Source Serif 4","Noto Serif CJK SC","Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif;
+  --f-display:"Bodoni Moda","Noto Serif CJK SC","Noto Serif SC","Source Han Serif SC","Songti SC","STSong",serif;
+}
+:lang(zh) .lead, :lang(zh) .hero h1 em, :lang(zh) em, :lang(zh) i{font-style:normal}
+:lang(zh) .czyt p, :lang(zh) .row .tsr{line-height:1.8}
+html:lang(zh) .dek{max-width:24em}
