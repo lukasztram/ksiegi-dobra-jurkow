@@ -958,6 +958,104 @@
       "znacznik": "Parafia Mszana Dolna · 1892–1916 · nowa historia z ksiąg sąsiedniej parafii",
       "lead": "W księgach sąsiedniej parafii Mszana Dolna z lat 1890–1916 blisko siedemdziesiąt wpisów prowadzi daleko od domu. Najpierw do Budapesztu, potem do Chicago.",
       "cytat_obrazek": "Bolisęga Josephus uxoratus operarius · ex alto cecidit · Budapestini"
+    },
+    {
+      "id": "dom-25",
+      "rok": 1895,
+      "rok_tekst": "1895–1906",
+      "miejsce": "Mszana Górna, sąsiednia parafia",
+      "tytul": "Prababka spod numeru 25",
+      "zajawka": "Wdowa, czworo dorosłych dzieci, trzy śluby i trzy pogrzeby. Jedenaście lat jednego domu w Mszanie Górnej, z którego wyszła moja prababka.",
+      "tematy": [
+        "ludzie"
+      ],
+      "zrodlo": "rodzina",
+      "gotowa": true,
+      "znacznik": "Mszana Górna, parafia Mszana Dolna · 1895–1906 · historia mojej rodziny",
+      "lead": "Pod numerem 25 w Mszanie Górnej mieszkała w latach 90. XIX wieku wdowa z czworgiem dorosłych dzieci. Jednym z nich była moja prababka Anna.",
+      "cytat_obrazek": "Anna Węglarz filia Adalberti et Victoriae natae Kosmal"
+    },
+    {
+      "id": "las-trak-woda",
+      "rok": 1894,
+      "rok_tekst": "1894–1912",
+      "miejsce": "sąsiednia parafia Mszana Dolna",
+      "tytul": "Las, trak i woda",
+      "zajawka": "„W lesie go zabito”, „zabity w traku”, „zabity przez krowę”, „ukąszenie od węża”. Od 1897 roku księża w Mszanie Dolnej zapisywali przyczyny śmierci po polsku.",
+      "tematy": [
+        "zywioly",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Parafia Mszana Dolna · 1894–1912 · nowa historia z ksiąg sąsiedniej parafii",
+      "lead": "Na trzy i pół tysiąca pogrzebów z lat 1897–1912 co najmniej trzydzieści pięć to wypadki: w lesie, w tartaku, w wodzie i przy ogniu.",
+      "cytat_obrazek": "w lesie go zabito"
+    },
+    {
+      "id": "szkarlatyna",
+      "rok": 1892,
+      "rok_tekst": "1892–1904",
+      "miejsce": "sąsiednia parafia Mszana Dolna",
+      "tytul": "Szkarlatyna, czerwonka, odra",
+      "zajawka": "Latem 1892 roku w Kasince Małej zaczęły umierać dzieci. Przez dwanaście lat przez wsie parafii Mszana Dolna przeszły szkarlatyna, czerwonka, odra, błonica i koklusz.",
+      "tematy": [
+        "zaraza"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Parafia Mszana Dolna · 1892–1904 · nowa historia z ksiąg sąsiedniej parafii",
+      "lead": "W parafii Mszana Dolna chowano zwykle dwadzieścia osób w miesiącu. W grudniu 1898 roku pochowano pięćdziesiąt dziewięć.",
+      "cytat_obrazek": "Andreas Dudzik maritus Victoriae · 38 · scarlatina fulminans"
+    },
+    {
+      "id": "wojna-sluby",
+      "rok": 1914,
+      "rok_tekst": "1914–1916",
+      "miejsce": "sąsiednia parafia Mszana Dolna",
+      "tytul": "Wojna w księdze ślubów",
+      "zajawka": "W lutym 1914 roku pobrały się 23 pary. W lutym 1915 ani jedna. Kiedy młodzi poszli na wojnę, przed ołtarzem stawali głównie wdowcy.",
+      "tematy": [
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Parafia Mszana Dolna · 1914–1916 · nowa historia z ksiąg sąsiedniej parafii",
+      "lead": "Przed wojną w parafii Mszana Dolna brało ślub blisko pięćdziesiąt par rocznie. W 1915 roku było ich dziesięć.",
+      "cytat_obrazek": "urgente bello impossibilis evaserit"
+    },
+    {
+      "id": "hrabia-nr-1",
+      "rok": 1899,
+      "rok_tekst": "1899–1909",
+      "miejsce": "Mszana Dolna, sąsiednia parafia",
+      "tytul": "Hrabia spod numeru 1",
+      "zajawka": "Pięcioro dzieci hrabiego Krasińskiego ochrzczono w Mszanie Dolnej pod numerem 1. Najmłodsze trzymało do chrztu jego własne rodzeństwo, a hrabina bywała chrzestną dzieci sąsiadów.",
+      "tematy": [
+        "dwor"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Mszana Dolna · 1899–1909 · nowa historia z ksiąg sąsiedniej parafii",
+      "lead": "Pod numerem 1 w Mszanie Dolnej stał dwór. W księdze chrztów zostawił pięć długich wpisów z tytułami „comes” i „principissa”.",
+      "cytat_obrazek": "Petrus Sigismundus Henricus comes Krasiński"
+    },
+    {
+      "id": "dyrektor-cyrku",
+      "rok": 1907,
+      "rok_tekst": "1907",
+      "miejsce": "Mszana Dolna, sąsiednia parafia",
+      "tytul": "Dyrektor cyrku",
+      "zajawka": "20 sierpnia 1907 roku w Mszanie Dolnej zmarł od rany trzydziestosześcioletni Węgier. Ksiądz zapisał jego zawód po polsku, w nawiasie: dyrektor cyrku.",
+      "tematy": [
+        "daleko",
+        "ludzie"
+      ],
+      "zrodlo": "nowa",
+      "gotowa": true,
+      "znacznik": "Mszana Dolna · 1907 · nowa historia z ksiąg sąsiedniej parafii",
+      "lead": "Jeden wpis w księdze zmarłych Mszany Dolnej nie pasuje do żadnego innego. Dotyczy człowieka, który przyjechał z cyrkiem i został tu na zawsze.",
+      "cytat_obrazek": "Gustavus Farkas (dyrektor cyrku) · 36 an."
     }
   ]
 }

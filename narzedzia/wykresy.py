@@ -165,6 +165,25 @@ def main():
             'Najedź na słupek albo go dotknij, żeby zobaczyć wartość.',
             ['Lata', 'Najwyższy numer'], podpisz=(5, 6, 12), os_x=[str(d) for d in dek],
             pokaz_x={0, 2, 4, 6, 8, 10, 12})
+    # UWAGA (25.11.2026): sześć starszych wykresów (cwierc-roli, narodziny-miesiace, porod-sto-kobiet, wdowy-pary,
+    # wesela-miesiace, wiek-na-oko) przeliczono 20.11.2026 bezpośrednio w plikach tresci/wykresy/*.html; liczby
+    # powyżej są sprzed przeliczenia. Po uruchomieniu skryptu przywróć te pliki: git checkout -- tresci/wykresy/<plik>.
+    # Parafia Mszana Dolna (odpisy, zespół 2582), policzone z odczytów, stan na listopad 2026.
+    # Zgony 1890–1909: wszystkie wsie parafii (od 1910 roku w odpisach brakuje Kasinki Małej).
+    lata_m = [str(r) for r in range(1890, 1910)]
+    zg_m = [242, 238, 300, 251, 259, 257, 232, 215, 264, 227, 309, 202, 263, 261, 246, 211, 186, 195, 209, 223]
+    kolumny('mszana-zgony', 'Pogrzeby w parafii Mszana Dolna, 1890–1909', lata_m, zg_m, [0, 80, 160, 240, 320],
+            'Liczba pogrzebów w każdym roku, z odpisów ksiąg zmarłych całej parafii (4790 zgonów). '
+            'Najedź na słupek albo go dotknij, żeby zobaczyć liczbę.',
+            ['Rok', 'Pogrzeby'], podpisz=(2, 10), pokaz_x={0, 5, 10, 15})
+    # Śluby 1890–1916 bez Kasinki Małej (jej śluby z lat 1910–1916 nie zachowały się w odpisach).
+    lata_s = [str(r) for r in range(1890, 1917)]
+    sl_m = [44, 47, 53, 51, 50, 69, 54, 45, 55, 39, 54, 53, 58, 40, 48, 51, 43, 48, 42, 37, 38, 49, 59, 45, 41,
+            10, 19]
+    kolumny('mszana-sluby', 'Śluby w parafii Mszana Dolna, 1890–1916', lata_s, sl_m, [0, 20, 40, 60, 80],
+            'Liczba ślubów w każdym roku, bez Kasinki Małej, której odpisów z lat 1910–1916 brakuje '
+            '(1242 śluby). Najedź na słupek albo go dotknij, żeby zobaczyć liczbę.',
+            ['Rok', 'Śluby'], podpisz=(5, 25), pokaz_x={0, 5, 10, 15, 20, 25})
     print('Zapisano wykresy w', WYJ)
 
 
